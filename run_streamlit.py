@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import base64
 
+col = st.columns([0.19, 0.62, 0.19])[1]
+
 # Load and prepare data
 df_items = pd.read_csv(r'data/items.csv')
 df_priorities = pd.read_csv(r'data/players_priorities.csv')
@@ -46,8 +48,8 @@ df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'i
 
 
 # Title and text box
-st.title('Divide BiS')
-st.text_input('Enter player, boss, item name or item ID', key='query')
+col.title('Divide BiS')
+col.text_input('Enter player, boss, item name or item ID', key='query')
 
 
 # Add background image
@@ -95,7 +97,7 @@ def display_df(mask, how='standard'):
     columns_rename = {'source': 'Source', 'item_id': 'Item ID', 'item_name': 'Item name',
                       'ilvl': 'ilvl', 'player': 'Player', 'rank_in_queue': 'Obtained in'}
     to_display.columns = [columns_rename[c] for c in to_display.columns]
-    st.dataframe(to_display)
+    col.dataframe(to_display)
 
 
 # Manage query
