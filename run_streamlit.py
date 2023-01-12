@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import base64
 
+st.set_page_config(layout="wide")
 col = st.columns([0.19, 0.62, 0.19])[1]
 
 # Load and prepare data
@@ -97,6 +98,7 @@ def display_df(mask, how='standard'):
     columns_rename = {'source': 'Source', 'item_id': 'Item ID', 'item_name': 'Item name',
                       'ilvl': 'ilvl', 'player': 'Player', 'rank_in_queue': 'Obtained in'}
     to_display.columns = [columns_rename[c] for c in to_display.columns]
+
     col.dataframe(to_display)
 
 
@@ -129,3 +131,6 @@ else:
 
     elif mask_source.sum() > 0: # source
         display_df(mask)
+
+# todo: item image column
+# todo: hide index
