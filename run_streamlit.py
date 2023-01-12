@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 import base64
 
-st.set_page_config(layout="wide")
-col = st.columns([0.19, 0.62, 0.19])[1]
-
 # Load and prepare data
 df_items = pd.read_csv(r'data/items.csv')
 df_priorities = pd.read_csv(r'data/players_priorities.csv')
@@ -49,6 +46,8 @@ df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'i
 
 
 # Title and text box
+st.set_page_config(layout="wide")
+col = st.columns([0.22, 0.56, 0.22])[1]
 col.title('Divide BiS')
 col.text_input('Enter player, boss, item name or item ID', key='query')
 
