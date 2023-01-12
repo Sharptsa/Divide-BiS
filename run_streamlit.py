@@ -78,22 +78,22 @@ def display_df(mask, how='standard'):
         to_display = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl',
                                                 'item_name', 'item_id']) \
                      .loc[mask & (df_priorities.rank_in_queue == 1),
-                          ['source', 'item_id', 'item_name', 'ilvl', 'player', 'rank_in_queue']]
+                          ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue']]
 
     elif how == 'player':
         to_display = df_priorities.sort_values(['lootable', 'rank_in_queue', 'ilvl',
                                                 'boss', 'raid_size', 'hm'],
                                                ascending=[False, True, False,
                                                           True, True, True]) \
-                     .loc[mask, ['player', 'item_id', 'item_name', 'ilvl',
+                     .loc[mask, ['player', 'item_name', 'ilvl',
                                               'source', 'rank_in_queue']]
 
     elif how == 'item':
         to_display = df_priorities.sort_values(['lootable', 'boss', 'raid_size', 'hm', 'ilvl',
-                                                'item_name', 'item_id', 'rank_in_queue', 'player'],
+                                                'item_name', 'rank_in_queue', 'player'],
                                                ascending=[False, True, True, True, True,
                                                           True, True, True, True]) \
-                     .loc[mask, ['source', 'item_id', 'item_name', 'ilvl', 'player', 'rank_in_queue']]
+                     .loc[mask, ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue']]
 
     columns_rename = {'source': 'Source', 'item_id': 'Item ID', 'item_name': 'Item name',
                       'ilvl': 'ilvl', 'player': 'Player', 'rank_in_queue': 'Obtained in'}
