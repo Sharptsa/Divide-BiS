@@ -1,0 +1,95 @@
+import pandas as pd
+import numpy as np
+import itertools
+
+df_bis = pd.read_csv(r'data/players_bis.csv')
+df_items = pd.read_csv(r'data/items.csv')
+df_items['weight'] = (1. + (df_items.slot == 'Weapon 2H')) \
+                     * (1. + (df_items.ilvl - 225) / (252 - 225)) \
+                     / (df_items.drops_per_id / 0.2)
+
+
+def evaluate_prios(df):
+    # Prepare dataframe
+    df = df.copy()
+    df = pd.merge(df, df_items[['item_id', 'weight']], how='inner', on='item_id')
+
+    # Compute penalities
+    penalizing = df.groupby('item_id').cumcount(ascending=False)
+    df['penality'] = penalizing * df.weight
+    player_penalities = df.groupby('player').penality.sum()
+    loss = np.var(player_penalities)
+
+    return loss
+
+
+def optimize_prios(df_source, fixed=None, epochs=80, target_temp=0.1):
+    # Prepare dataframe
+    df = df_source.copy()
+    df = df.loc[df.item_id.isin(df_items.item_id), :] # only keep lootable items
+    df = df.sample(df.shape[0]).sort_values('item_id') # shuffle
+
+    # Create group items and probas
+    groups = df.groupby('item_id').item_name.groups
+    groups = {k: list(groups[k]) for k in groups}
+    if fixed is not None:
+        groups = {k: [i for i in groups[k] if k not in fixed or i not in fixed[k]] for k in groups}
+    group_probas = {k: int(len(groups[k]) * (len(groups[k]) - 1) / 2) for k in groups}
+    total_links = sum(group_probas.values())
+    group_probas = {k: group_probas[k] / sum(group_probas.values()) for k in group_probas}
+
+    # Loop over modifications
+    old_loss = evaluate_prios(df)
+    min_loss = old_loss
+    best_df = df
+    temp = 100.
+    lbda = np.exp(np.log(target_temp / temp) / (epochs * total_links))
+    temps = []
+    losses = []
+    for step in range(epochs * total_links):
+        if step % total_links == 0:
+            print(f'Epoch {int(step / total_links) + 1}/{epochs}...')
+
+        # Modify priorities
+        item_id = np.random.choice(list(group_probas.keys()), p=list(group_probas.values()))
+        first_id, second_id = np.random.choice(len(groups[item_id]), replace=False, size=2)
+        groups[item_id][first_id], groups[item_id][second_id] = groups[item_id][second_id], \
+                                                                groups[item_id][first_id]
+
+        # Evaluate
+        groups_with_fixed = {k: fixed[k] + groups[k] if fixed is not None and k in fixed
+                                                     else groups[k]
+                                                     for k in groups}
+        loss = evaluate_prios(df.loc[list(itertools.chain.from_iterable(groups_with_fixed.values()))])
+        if np.random.random() > np.exp((old_loss - loss) / temp): # not accepted
+            groups[item_id][first_id], groups[item_id][second_id] = groups[item_id][second_id], \
+                                                                    groups[item_id][first_id]
+            loss = old_loss
+        old_loss = loss
+        temp *= lbda
+        temps.append(temp)
+        losses.append(loss)
+
+        if loss < min_loss:
+            best_df = df.loc[list(itertools.chain.from_iterable(groups_with_fixed.values()))]
+            min_loss = loss
+
+    # Add non lootable items
+    best_df['rank_in_queue'] = best_df.groupby('item_id').cumcount() + 1
+    non_lootable = df_source.copy().loc[~df_source.item_id.isin(df_items.item_id), :]
+    best_df = pd.concat([best_df, non_lootable.sort_values('item_id')])
+    non_lootable_sources = {'Emblems of Conquest': [45825],
+                            'Craft': [45564, 45553],
+                            'P1': [40207, 40321, 40713, 40342, 37111, 40705, 40432,
+                                   40255, 40267, 40709, 42987, 44253],
+                            'PvP': [42853, 42608],
+                            'Legendary': [46017]}
+    non_lootable_sources = {v: k for k in non_lootable_sources for v in non_lootable_sources[k]}
+    best_df.rank_in_queue = best_df.apply(lambda row: str(int(row.rank_in_queue))
+                                          if pd.notna(row.rank_in_queue)
+                                          else non_lootable_sources[row.item_id],
+                                          axis=1)
+
+    best_df.to_csv(r'data/players_priorities.csv', index=False)
+
+    return best_df, np.array(temps), np.array(losses)

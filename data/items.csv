@@ -1,0 +1,121 @@
+item_id,item_name,boss,raid_size,hm,slot,ilvl,drops_per_id
+45300,Mantle of Fiery Vengeance,Flame Leviathan,10,True,Shoulder,239,0.2
+45296,Twirling Blades,Flame Leviathan,10,True,Ranged,245,0.2
+45111,Mimiron's Inferno Couplings,Flame Leviathan,25,False,Wrist,232,0.2
+45112,The Leviathan's Coil,Flame Leviathan,25,False,Finger,232,0.2
+45133,Pendant of Fiery Havoc,Flame Leviathan,25,True,Neck,252,0.2
+45134,Plated Leggings of Ruination,Flame Leviathan,25,True,Legs,252,0.2
+45135,Boots of Fiery Resolution,Flame Leviathan,25,True,Feet,252,0.2
+45132,Golden Saronite Dragon,Flame Leviathan,25,True,Weapon 1H,252,0.2
+45314,Igniter Rod,Ignis the Furnace Master,10,False,Weapon 1H,225,0.2
+45158,Heart of Iron,Ignis the Furnace Master,25,False,Trinket,232,0.2
+45170,Scepter of Creation,Ignis the Furnace Master,25,False,Ranged,238,0.2
+45137,Veranus' Bane,Razorscale,10,False,Ranged,225,0.2
+45151,Belt of the Fallen Wyrm,Razorscale,25,False,Waist,232,0.2
+45139,Dragonslayer's Brace,Razorscale,25,False,Waist,232,0.2
+45148,Living Flame,Razorscale,25,False,Trinket,232,0.2
+45144,Sigil of Deflection,Razorscale,25,False,Ranged,232,0.2
+45867,Breastplate of the Stoneshaper,XT-002 Deconstructor,10,True,Chest,239,0.2
+45869,Fluxing Energy Coils,XT-002 Deconstructor,10,True,Wrist,239,0.2
+45871,Seal of Ulduar,XT-002 Deconstructor,10,True,Finger,239,0.2
+45250,Crazed Construct Ring,XT-002 Deconstructor,25,False,Finger,232,0.2
+45247,Signet of the Earthshaker,XT-002 Deconstructor,25,False,Finger,232,0.2
+45254,Sigil of the Vengeful Heart,XT-002 Deconstructor,25,False,Ranged,232,0.2
+45443,Charm of Meticulous Timing,XT-002 Deconstructor,25,True,Neck,252,0.2
+45445,Breastplate of the Devoted,XT-002 Deconstructor,25,True,Chest,252,0.2
+45446,Grasps of Reason,XT-002 Deconstructor,25,True,Wrist,252,0.2
+45444,Gloves of the Steady Hand,XT-002 Deconstructor,25,True,Hands,252,0.2
+45442,"Sorthalis, Hammer of the Watchers",XT-002 Deconstructor,25,True,Weapon 1H,252,0.2
+45456,Loop of the Agile,Assembly of Iron,10,True,Finger,239,0.2
+45232,Runed Ironhide Boots,Assembly of Iron,25,False,Feet,232,0.2
+45243,Sapphire Amulet of Renewal,Assembly of Iron,25,True,Neck,252,0.2
+45245,Shoulderpads of the Intruder,Assembly of Iron,25,True,Shoulder,252,0.2
+45242,Drape of Mortal Downfall,Assembly of Iron,25,True,Back,252,0.2
+45241,Belt of Colossal Rage,Assembly of Iron,25,True,Waist,252,0.2
+45244,Greaves of Swift Vengeance,Assembly of Iron,25,True,Feet,252,0.2
+45703,Spark of Hope,Kologarn,10,False,Trinket,225,0.2
+45271,Ironmender,Kologarn,25,False,Weapon 1H,232,0.2
+45632,Breastplate of the Wayward Conqueror,Hodir,25,False,Chest,232,0.66
+45633,Breastplate of the Wayward Protector,Hodir,25,False,Chest,232,0.2
+45634,Breastplate of the Wayward Vanquisher,Hodir,25,False,Chest,232,0.2
+45459,Frigid Strength of Hodir,Hodir,25,True,Neck,252,0.2
+45461,Drape of Icy Intent,Hodir,25,True,Back,252,0.2
+45460,Bindings of Winter Gale,Hodir,25,True,Wrist,252,0.2
+45933,Pendant of the Shallow Grave,Thorim,10,True,Neck,239,0.2
+45931,Mjolnir Runestone,Thorim,10,True,Trinket,239,0.2
+45638,Crown of the Wayward Conqueror,Thorim,25,False,Head,232,0.66
+45639,Crown of the Wayward Protector,Thorim,25,False,Head,232,0.2
+45640,Crown of the Wayward Vanquisher,Thorim,25,False,Head,232,0.2
+45467,Belt of the Betrayed,Thorim,25,False,Waist,232,0.2
+45466,Scale of Fates,Thorim,25,False,Trinket,232,0.2
+45472,Warhelm of the Champion,Thorim,25,True,Head,252,0.2
+45473,Embrace of the Gladiator,Thorim,25,True,Chest,252,0.2
+45471,Fate's Clutch,Thorim,25,True,Finger,252,0.2
+45470,Wisdom's Hold,Thorim,25,True,Weapon 1H,252,0.2
+45570,Skyforge Crossbow,Thorim / Algalon,25,True,Ranged,252,0.2
+45294,Petrified Ivy Sprig,Freya,10,True,Ranged,245,0.2
+45653,Legplates of the Wayward Conqueror,Freya,25,False,Legs,232,0.66
+45481,Gauntlets of Ruthless Reprisal,Freya,25,False,Hands,232,0.2
+45654,Legplates of the Wayward Protector,Freya,25,False,Legs,232,0.2
+45655,Legplates of the Wayward Vanquisher,Freya,25,False,Legs,232,0.2
+45485,Bronze Pendant of the Vanir,Freya,25,True,Neck,252,0.2
+45486,Drape of the Sullen Goddess,Freya,25,True,Back,252,0.2
+45487,Handguards of Revitalization,Freya,25,True,Hands,252,0.2
+45488,Leggings of the Enslaved Idol,Freya,25,True,Legs,252,0.2
+45484,Bladetwister,Freya,25,True,Weapon 1H,252,0.2
+45613,Dreambinder,Freya / Algalon,25,True,Weapon 2H,252,0.2
+45993,Mimiron's Flight Goggles,Mimiron,10,True,Head,239,0.2
+45988,Greaves of the Iron Army,Mimiron,10,True,Feet,239,0.2
+45989,Tempered Mercury Greaves,Mimiron,10,True,Feet,239,0.2
+45641,Gauntlets of the Wayward Conqueror,Mimiron,25,False,Hands,232,0.66
+45642,Gauntlets of the Wayward Protector,Mimiron,25,False,Hands,232,0.2
+45643,Gauntlets of the Wayward Vanquisher,Mimiron,25,False,Hands,232,0.2
+45497,Crown of Luminescence,Mimiron,25,True,Head,252,0.2
+45496,Titanskin Cloak,Mimiron,25,True,Back,252,0.2
+45663,Armbands of Bedlam,Mimiron,25,True,Wrist,252,0.2
+45495,Conductive Seal,Mimiron,25,True,Finger,252,0.2
+45620,Starshard Edge,Mimiron / Algalon,25,True,Weapon 1H,252,0.2
+46032,Drape of the Faceless General,General Vezax,10,True,Back,239,0.2
+45509,Idol of the Corruptor,General Vezax,25,False,Ranged,232,0.2
+45145,Libram of the Sacred Shield,General Vezax,25,False,Ranged,232,0.2
+45517,Pendulum of Infinity,General Vezax,25,True,Neck,252,0.2
+45519,Vestments of the Blind Denizen,General Vezax,25,True,Chest,252,0.2
+45520,Handwraps of the Vigilant,General Vezax,25,True,Hands,252,0.2
+45518,Flare of the Heavens,General Vezax,25,True,Trinket,252,0.2
+45516,"Voldrethar, Dark Blade of Oblivion",General Vezax,25,True,Weapon 2H,252,0.2
+46021,Royal Seal of King Llane,Yogg-Saron,10,False,Trinket,225,0.2
+46068,Amice of Inconceivable Horror,Yogg-Saron,10,True,Shoulder,239,0.2
+46095,Soul-Devouring Cinch,Yogg-Saron,10,True,Waist,239,0.2
+46096,Signet of Soft Lament,Yogg-Saron,10,True,Finger,239,0.2
+46097,Caress of Insanity,Yogg-Saron,10,True,Weapon 1H,245,0.2
+45656,Mantle of the Wayward Conqueror,Yogg-Saron,25,False,Shoulder,232,0.66
+45657,Mantle of the Wayward Protector,Yogg-Saron,25,False,Shoulder,232,0.2
+45658,Mantle of the Wayward Vanquisher,Yogg-Saron,25,False,Shoulder,232,0.2
+45536,Legguards of Cunning Deception,Yogg-Saron,25,True,Legs,252,0.2
+45537,Treads of the False Oracle,Yogg-Saron,25,True,Feet,252,0.2
+45534,Seal of the Betrayed King,Yogg-Saron,25,True,Finger,252,0.2
+45535,Show of Faith,Yogg-Saron,25,True,Trinket,252,0.2
+45533,Dark Edge of Depravity,Yogg-Saron,25,True,Weapon 2H,252,0.2
+46052,Reply-Code Alpha,Algalon the Observer,10,True,Other,239,1.0
+46040,Strength of the Heavens,Algalon the Observer,10,True,Neck,239,0.2
+46037,Shoulderplates of the Celestial Watch,Algalon the Observer,10,True,Shoulder,239,0.2
+46039,Breastplate of the Timeless,Algalon the Observer,10,True,Chest,239,0.2
+46043,Gloves of the Endless Dark,Algalon the Observer,10,True,Hands,239,0.2
+46050,Starlight Treads,Algalon the Observer,10,True,Feet,239,0.2
+46048,Band of Lights,Algalon the Observer,10,True,Finger,239,0.2
+46046,Nebula Band,Algalon the Observer,10,True,Finger,239,0.2
+46038,Dark Matter,Algalon the Observer,10,True,Trinket,239,0.2
+46051,Meteorite Crystal,Algalon the Observer,10,True,Trinket,239,0.2
+46053,Reply-Code Alpha,Algalon the Observer,25,True,Other,252,1.0
+45610,Boundless Gaze,Algalon the Observer,25,True,Head,252,0.2
+45611,Solar Bindings,Algalon the Observer,25,True,Wrist,252,0.2
+45665,Pharos Gloves,Algalon the Observer,25,True,Hands,252,0.2
+45616,Star-beaded Clutch,Algalon the Observer,25,True,Waist,252,0.2
+45619,Starwatcher's Binding,Algalon the Observer,25,True,Waist,252,0.2
+45594,Legplates of the Endless Void,Algalon the Observer,25,True,Legs,252,0.2
+45615,Planewalker Treads,Algalon the Observer,25,True,Feet,252,0.2
+45599,Sabatons of Lifeless Night,Algalon the Observer,25,True,Feet,252,0.2
+45609,Comet's Trail,Algalon the Observer,25,True,Trinket,252,0.2
+45587,Bulwark of Algalon,Algalon the Observer,25,True,Weapon 1H,252,0.2
+45612,Constellus,Algalon the Observer,25,True,Weapon 1H,252,0.2
+45617,Cosmos,Algalon the Observer,25,True,Weapon 1H,252,0.2
