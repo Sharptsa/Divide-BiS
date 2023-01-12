@@ -1,7 +1,7 @@
 45497 Crown of Luminescence
 45133 Pendant of Fiery Havoc
 45656 Mantle of the Wayward Conqueror
-45618 Sunglimmer Cloak
+46053 Reply-Code Alpha
 45632 Breastplate of the Wayward Conqueror
 45446 Grasps of Reason
 45665 Pharos Gloves

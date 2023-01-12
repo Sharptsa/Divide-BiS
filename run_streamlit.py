@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import base64
+from IPython.core.display import HTML
 
 # Load and prepare data
 df_items = pd.read_csv(r'data/items.csv')
@@ -21,7 +22,7 @@ df_priorities.raid_size = df_priorities.raid_size.fillna(-1).apply(int)
 df_priorities.boss.fillna('', inplace=True)
 df_priorities.slot.fillna('', inplace=True)
 non_lootable_ilvls = {258: [46017],
-                      238: [42853, 42608,],
+                      238: [42853, 42608],
                       232: [45825, 45564, 45553],
                       213: [40207, 40321, 40342, 40432, 40255, 40267],
                       200: [40713, 40705, 40709, 42987, 44253],
@@ -31,11 +32,32 @@ df_priorities.ilvl = df_priorities.apply(lambda row: int(row.ilvl)
                                          if pd.notna(row.ilvl)
                                          else non_lootable_ilvls[row.item_id],
                                          axis=1)
+non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_misc_orb_03.jpg',
+                      40207: 'https://wow.zamimg.com/images/wow/icons/large/inv_shield_56.jpg',
+                      40255: 'https://wow.zamimg.com/images/wow/icons/large/inv_trinket_naxxramas03.jpg',
+                      40267: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_diseasecleansingtotem.jpg',
+                      40321: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_idolofrejuvenation.jpg',
+                      40342: 'https://wow.zamimg.com/images/wow/icons/large/inv_misc_thegoldencheep.jpg',
+                      40432: 'https://wow.zamimg.com/images/wow/icons/large/inv_offhand_hyjal_d_01.jpg',
+                      40705: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_libramofgrace.jpg',
+                      40709: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_totemoflife.jpg',
+                      40713: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_idolofferocity.jpg',
+                      42608: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_slowingtotem.jpg',
+                      42853: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_libramofhope.jpg',
+                      42987: 'https://wow.zamimg.com/images/wow/icons/large/inv_inscription_tarotgreatness.jpg',
+                      44253: 'https://wow.zamimg.com/images/wow/icons/large/inv_inscription_tarotgreatness.jpg',
+                      45553: 'https://wow.zamimg.com/images/wow/icons/large/inv_belt_13.jpg',
+                      45564: 'https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather01.jpg',
+                      45825: 'https://wow.zamimg.com/images/wow/icons/large/inv_belt_48a.jpg',
+                      46017: 'https://wow.zamimg.com/images/wow/icons/large/inv_mace_99.jpg'}
+df_priorities.icon = df_priorities.apply(lambda row: row.icon
+                                         if pd.notna(row.icon)
+                                         else non_lootable_icons[row.item_id],
+                                         axis=1)
 df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                             .reset_index()
-
 
 # def style_df(row):
 #     style = np.array([''] * len(row), dtype='<U32')
@@ -47,7 +69,7 @@ df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'i
 
 # Title and text box
 st.set_page_config(layout="wide")
-col = st.columns([0.22, 0.56, 0.22])[1]
+col = st.columns([0.16, 0.68, 0.16])[1]
 col.title('Divide BiS')
 col.text_input('Enter player, boss, item name or item ID', key='query')
 
@@ -71,13 +93,14 @@ def add_background():
 
 add_background()
 
+
 # Display dataframe
 def display_df(mask, how='standard'):
     if how == 'standard':
         to_display = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl',
                                                 'item_name', 'item_id']) \
                      .loc[mask & (df_priorities.rank_in_queue == 1),
-                          ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue']]
+                          ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue', 'icon']]
 
     elif how == 'player':
         to_display = df_priorities.sort_values(['lootable', 'rank_in_queue', 'ilvl',
@@ -85,20 +108,26 @@ def display_df(mask, how='standard'):
                                                ascending=[False, True, False,
                                                           True, True, True]) \
                      .loc[mask, ['player', 'item_name', 'ilvl',
-                                              'source', 'rank_in_queue']]
+                                              'source', 'rank_in_queue', 'icon']]
 
     elif how == 'item':
         to_display = df_priorities.sort_values(['lootable', 'boss', 'raid_size', 'hm', 'ilvl',
                                                 'item_name', 'rank_in_queue', 'player'],
                                                ascending=[False, True, True, True, True,
                                                           True, True, True, True]) \
-                     .loc[mask, ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue']]
+                     .loc[mask, ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue', 'icon']]
 
-    columns_rename = {'source': 'Source', 'item_id': 'Item ID', 'item_name': 'Item name',
+    to_display.item_name = to_display.icon.apply(lambda x: '<img src="' + x + '" width="22" > ') \
+                                                                        + to_display.item_name
+    to_display.drop('icon', axis=1, inplace=True)
+    columns_rename = {'source': 'Source', 'item_id': 'Item ID', 'item_name': 'Item',
                       'ilvl': 'ilvl', 'player': 'Player', 'rank_in_queue': 'Obtained in'}
     to_display.columns = [columns_rename[c] for c in to_display.columns]
 
-    col.dataframe(to_display)
+    col.markdown(to_display.to_html(escape=False, index=False) \
+                .replace('<tr>','<tr style = "background-color: rgba(40, 40, 40, 1.0)">')
+                .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0)">')
+                , unsafe_allow_html=True)
 
 
 # Manage query
@@ -131,5 +160,6 @@ else:
     elif mask_source.sum() > 0: # source
         display_df(mask)
 
-# todo: item image column
-# todo: hide index
+# todo: french mode
+# todo: insert new player priorities
+# todo: update after loots
