@@ -68,7 +68,7 @@ df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'i
 
 # Title and text box
 st.set_page_config(layout="wide")
-col = st.columns([0.16, 0.68, 0.16])[1]
+col = st.columns([0.15, 0.70, 0.15])[1]
 col.title('Divide BiS')
 col.text_input('Enter player, boss, item name or item ID', key='query')
 
