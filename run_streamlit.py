@@ -113,7 +113,7 @@ def display_df(mask, how='standard'):
         to_display = df_priorities.sort_values(['lootable', 'boss', 'raid_size', 'hm', 'ilvl',
                                                 'item_name', 'rank_in_queue', 'player'],
                                                ascending=[False, True, True, True, True,
-                                                          True, True, True, True]) \
+                                                          True, True, True]) \
                      .loc[mask, ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue', 'icon']]
 
     to_display.item_name = to_display.icon.apply(lambda x: '<img src="' + x + '" width="22" > ') \
