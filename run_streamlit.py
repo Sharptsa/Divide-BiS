@@ -3,10 +3,22 @@ import pandas as pd
 import numpy as np
 import base64
 
+# Title and text box
+st.set_page_config(layout="wide")
+col = st.columns([0.13, 0.74, 0.13])[1]
+col.title('Divide BiS')
+col.checkbox('Mode français', key='fr')
+col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
+               else "Joueur, boss, nom d'item ou ID d'item", key='query')
+
 # Load and prepare data
 df_items = pd.read_csv(r'data/items.csv')
+if st.session_state.fr:
+    df_items.item_name = df_items.item_name_fr
+    df_items.boss = df_items.boss_fr
+
 df_priorities = pd.read_csv(r'data/players_priorities.csv')
-df_priorities = pd.merge(df_priorities, df_items.drop(['item_name', 'drops_per_id'], axis=1),
+df_priorities = pd.merge(df_priorities.drop('item_name', axis=1), df_items.drop('drops_per_id', axis=1),
                          how='left', on='item_id')
 df_priorities['source'] = df_priorities.apply(lambda row: row.rank_in_queue if pd.isna(row.boss)
                           else ''.join([row.boss, ' ' + str(int(row.raid_size)),
@@ -57,20 +69,6 @@ df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                             .reset_index()
-
-# def style_df(row):
-#     style = np.array([''] * len(row), dtype='<U32')
-#     if row.rank_in_queue == 1:
-#         style[row.index == 'rank_in_queue'] = 'background-color: green'
-#     return list(style)
-# df_priorities.style.apply(lambda row: style_df(row), axis = 1)
-
-
-# Title and text box
-st.set_page_config(layout="wide")
-col = st.columns([0.15, 0.70, 0.15])[1]
-col.title('Divide BiS')
-col.text_input('Enter player, boss, item name or item ID', key='query')
 
 
 # Add background image
