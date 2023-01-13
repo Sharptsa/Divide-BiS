@@ -6,7 +6,7 @@ import pandas as pd
 import os
 
 
-def get_items_from_eightyupgrades(url):
+def get_items_from_eightyupgrades(url, player=None):
     driver = webdriver.Chrome()
     driver.get(url)
     time.sleep(10)
@@ -83,6 +83,10 @@ def get_items_from_eightyupgrades(url):
                                                                     'Starshine Signet']:
             ids[i], names[i] = 46052, 'Reply-Code Alpha'
 
+    if player is not None:
+        with open(rf'data/players/{player}.txt', 'w') as f:
+            f.write('\n'.join([' '.join([str(i), n]) for i, n in zip(ids, names)]))
+
     return ids, names
 
 
@@ -90,6 +94,7 @@ def get_items_from_text(txt):
     ids = np.array([int(line.split()[0]) for line in txt.split('\n')])
     names = np.array([' '.join(line.split()[1:]) for line in txt.split('\n')],
                                                                 dtype='<U50')
+    assert len(ids) in [16, 17]
 
     return ids, names
 
@@ -99,7 +104,7 @@ def get_items(player):
         content = f.read()
 
     if 'eightyupgrades' in content:
-        return get_items_from_eightyupgrades(content)
+        return get_items_from_eightyupgrades(content, player=player)
 
     return get_items_from_text(content)
 

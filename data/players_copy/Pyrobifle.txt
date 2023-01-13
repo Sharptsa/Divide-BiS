@@ -6,12 +6,12 @@
 45446 Grasps of Reason
 45620 Starshard Edge
 45617 Cosmos
+45294 Petrified Ivy Sprig
 45665 Pharos Gloves
 45619 Starwatcher's Binding
 45655 Legplates of the Wayward Vanquisher
 45537 Treads of the False Oracle
-46046 Nebula Band
 45495 Conductive Seal
+46046 Nebula Band
 45466 Scale of Fates
 45518 Flare of the Heavens
-45294 Petrified Ivy Sprig
