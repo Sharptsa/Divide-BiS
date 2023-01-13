@@ -153,8 +153,8 @@ def display_df(mask, how='standard'):
     to_display.columns = [columns_rename[c] for c in to_display.columns]
 
     col.markdown(to_display.to_html(escape=False, index=False) \
-                .replace('<tr>','<tr style = "background-color: rgba(40, 40, 40, 1.0)">')
-                .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0); text-align: center">')
+                .replace('<tr>','<tr style = "background-color: rgba(40, 40, 40, 1.0); color: white">')
+                .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0); color: white; text-align: center">')
                 , unsafe_allow_html=True)
 
 
