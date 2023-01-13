@@ -189,9 +189,9 @@ else:
         display_df(mask)
 
 # Add footer
-footer_txt = 'Want to join us ? Contact Gosseyn on our' \
+footer_txt = 'Want to join us ? Contact us on our' \
              if not st.session_state.fr \
-             else 'Vous voulez nous rejoindre ? Contactez gosseyn sur notre'
+             else 'Vous voulez nous rejoindre ? Contactez-nous sur notre'
 footer_link_txt = 'discord server' \
                   if not st.session_state.fr \
                   else 'serveur discord'
@@ -220,11 +220,10 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>""" + footer_txt + """ <a style='text-align: center;' href="https://discord.gg/WkPu3G8bmp" target="_blank">""" + footer_link_txt + """</a></p>
+<p>""" + footer_txt + """ <a style='text-align: center;' href="https://discord.gg/WkPu3G8bmp" target="_blank">""" + footer_link_txt + """</a> !</p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
 
-# todo: highlight 1
 # todo: insert new player priorities
 # todo: update after loots
