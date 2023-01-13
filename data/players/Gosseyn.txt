@@ -1,16 +1,17 @@
 45640 Crown of the Wayward Vanquisher
-45485 Bronze Pendant of the Vanir
+45459 Frigid Strength of Hodir
 45658 Mantle of the Wayward Vanquisher
-45496 Titanskin Cloak
+46032 Drape of the Faceless General
 45634 Breastplate of the Wayward Vanquisher
-45111 Mimiron's Inferno Couplings
-45533 Dark Edge of Depravity
+45663 Armbands of Bedlam
+46097 Caress of Insanity
+46097 Caress of Insanity
 45643 Gauntlets of the Wayward Vanquisher
-45551 Indestructible Plate Girdle
-45594 Legplates of the Endless Void
-45988 Greaves of the Iron Army
-45471 Fate's Clutch
-45871 Seal of Ulduar
-45158 Heart of Iron
-46021 Royal Seal of King Llane
-45144 Sigil of Deflection
+45241 Belt of Colossal Rage
+45134 Plated Leggings of Ruination
+45599 Sabatons of Lifeless Night
+45534 Seal of the Betrayed King
+46053 Reply-Code Alpha
+45931 Mjolnir Runestone
+42987 Darkmoon Card: Greatness
+40207 Sigil of Awareness
