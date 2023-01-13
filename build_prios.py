@@ -12,7 +12,7 @@ df_items['weight'] = (1. + (df_items.slot == 'Weapon 2H')) \
 iids = []
 for iid in df_bis.item_id.unique():
     if iid not in df_items.item_id.unique():
-        if iid not in [45551, 45825, 45564, 40713, 40342]:
+        if iid not in [45551, 45825, 45564, 40713, 40342, 42987,40207]:
             iids.append(iid)
 if iids:
     print(f'Found new items: {iids}')
