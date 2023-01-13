@@ -3,6 +3,7 @@ import re
 import time
 import numpy as np
 import pandas as pd
+import os
 
 
 def get_items_from_eightyupgrades(url):
@@ -111,3 +112,7 @@ def build_bis(players):
                                for i, p in enumerate(players)]
     df = pd.concat(player_dfs)
     df.to_csv(r'data/players_bis.csv', index=False)
+
+
+players = [os.path.splitext(f)[0] for f in os.listdir(r'data/players')]
+build_bis(players)

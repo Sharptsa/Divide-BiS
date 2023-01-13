@@ -9,10 +9,13 @@ df_items['weight'] = (1. + (df_items.slot == 'Weapon 2H')) \
                      / (df_items.drops_per_id / 0.2)
 
 # Assert items are known
-print('Known non-lootables:')
+iids = []
 for iid in df_bis.item_id.unique():
     if iid not in df_items.item_id.unique():
-        print(df_bis.loc[df_bis.item_id == iid].item_name.iloc[0])
+        if iid not in [45551, 45825, 45564, 40713, 40342]:
+            iids.append(iid)
+if iids:
+    print(f'Found new items: {iids}')
 
 
 def add_item(row):
@@ -110,3 +113,6 @@ def optimize_prios(df_source, fixed=None, epochs=80, target_temp=0.1):
     best_df.to_csv(r'data/players_priorities.csv', index=False)
 
     return best_df, np.array(temps), np.array(losses)
+
+
+df_priorities, temps, losses = optimize_prios(df_bis)

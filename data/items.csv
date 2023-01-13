@@ -121,3 +121,5 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 45617,Cosmos,Cosmos,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_ulduarraid_d_03.jpg
 45326,Platinum Band of the Aesir,Bague des Ases en platine,Auriaya,Auriaya,25,False,Finger,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_50naxxramas.jpg
 45947,"Serilas, Blood Blade of Invar One-Arm","Serilas, Lame-sang d'Invar le Manchot",Freya,Freya,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_133.jpg
+45886,Icecore Staff,Bâton au coeur de glace,Hodir,Hodir,10,True,Weapon 2H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_staff_94.jpg
+45946,Fire Orchid Signet,Chevalière de l'orchidée de feu,Freya,Freya,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_65.jpg
