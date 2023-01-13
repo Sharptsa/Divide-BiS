@@ -8,6 +8,23 @@ df_items['weight'] = (1. + (df_items.slot == 'Weapon 2H')) \
                      * (1. + (df_items.ilvl - 225) / (252 - 225)) \
                      / (df_items.drops_per_id / 0.2)
 
+# Assert items are known
+print('Known non-lootables:')
+for iid in df_bis.item_id.unique():
+    if iid not in df_items.item_id.unique():
+        print(df_bis.loc[df_bis.item_id == iid].item_name.iloc[0])
+
+
+def add_item(row):
+    if 'weight' in df_items.columns:
+        df_items.drop('weight', axis=1, inplace=True)
+    df_items.loc[df_items.shape[0], :] = row
+    df_items.item_id = df_items.item_id.apply(int)
+    df_items.raid_size = df_items.raid_size.apply(int)
+    df_items.ilvl = df_items.ilvl.apply(int)
+    df_items.hm = df_items.hm == True
+    df_items.to_csv(r'data/items.csv', index=False)
+
 
 def evaluate_prios(df):
     # Prepare dataframe
@@ -79,7 +96,7 @@ def optimize_prios(df_source, fixed=None, epochs=80, target_temp=0.1):
     non_lootable = df_source.copy().loc[~df_source.item_id.isin(df_items.item_id), :]
     best_df = pd.concat([best_df, non_lootable.sort_values('item_id')])
     non_lootable_sources = {'Emblems of Conquest': [45825],
-                            'Craft': [45564, 45553],
+                            'Craft': [45564, 45553, 45551],
                             'P1': [40207, 40321, 40713, 40342, 37111, 40705, 40432,
                                    40255, 40267, 40709, 42987, 44253],
                             'PvP': [42853, 42608],

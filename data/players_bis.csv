@@ -1,436 +1,135 @@
 player,item_id,item_name
-wowtbc_deathknight_blood,45640,Crown of the Wayward Vanquisher
-wowtbc_deathknight_blood,45485,Bronze Pendant of the Vanir
-wowtbc_deathknight_blood,45658,Mantle of the Wayward Vanquisher
-wowtbc_deathknight_blood,45496,Titanskin Cloak
-wowtbc_deathknight_blood,46039,Breastplate of the Timeless
-wowtbc_deathknight_blood,45111,Mimiron's Inferno Couplings
-wowtbc_deathknight_blood,45533,Dark Edge of Depravity
-wowtbc_deathknight_blood,45487,Handguards of Revitalization
-wowtbc_deathknight_blood,45825,Shieldwarder Girdle
-wowtbc_deathknight_blood,45594,Legplates of the Endless Void
-wowtbc_deathknight_blood,45988,Greaves of the Iron Army
-wowtbc_deathknight_blood,45471,Fate's Clutch
-wowtbc_deathknight_blood,45871,Seal of Ulduar
-wowtbc_deathknight_blood,45158,Heart of Iron
-wowtbc_deathknight_blood,46021,Royal Seal of King Llane
-wowtbc_deathknight_blood,45144,Sigil of Deflection
-wowtbc_deathknight_frost,45472,Warhelm of the Champion
-wowtbc_deathknight_frost,45459,Frigid Strength of Hodir
-wowtbc_deathknight_frost,46037,Shoulderplates of the Celestial Watch
-wowtbc_deathknight_frost,46032,Drape of the Faceless General
-wowtbc_deathknight_frost,45634,Breastplate of the Wayward Vanquisher
-wowtbc_deathknight_frost,45663,Armbands of Bedlam
-wowtbc_deathknight_frost,46097,Caress of Insanity
-wowtbc_deathknight_frost,46097,Caress of Insanity
-wowtbc_deathknight_frost,45643,Gauntlets of the Wayward Vanquisher
-wowtbc_deathknight_frost,45241,Belt of Colossal Rage
-wowtbc_deathknight_frost,45134,Plated Leggings of Ruination
-wowtbc_deathknight_frost,45599,Sabatons of Lifeless Night
-wowtbc_deathknight_frost,45534,Seal of the Betrayed King
-wowtbc_deathknight_frost,46053,Reply-Code Alpha
-wowtbc_deathknight_frost,42987,Darkmoon Card: Greatness
-wowtbc_deathknight_frost,45931,Mjolnir Runestone
-wowtbc_deathknight_frost,40207,Sigil of Awareness
-wowtbc_deathknight_unholy,45472,Warhelm of the Champion
-wowtbc_deathknight_unholy,46040,Strength of the Heavens
-wowtbc_deathknight_unholy,45658,Mantle of the Wayward Vanquisher
-wowtbc_deathknight_unholy,46053,Reply-Code Alpha
-wowtbc_deathknight_unholy,45634,Breastplate of the Wayward Vanquisher
-wowtbc_deathknight_unholy,45663,Armbands of Bedlam
-wowtbc_deathknight_unholy,46097,Caress of Insanity
-wowtbc_deathknight_unholy,46097,Caress of Insanity
-wowtbc_deathknight_unholy,45481,Gauntlets of Ruthless Reprisal
-wowtbc_deathknight_unholy,45241,Belt of Colossal Rage
-wowtbc_deathknight_unholy,45134,Plated Leggings of Ruination
-wowtbc_deathknight_unholy,45599,Sabatons of Lifeless Night
-wowtbc_deathknight_unholy,45534,Seal of the Betrayed King
-wowtbc_deathknight_unholy,45250,Crazed Construct Ring
-wowtbc_deathknight_unholy,45609,Comet's Trail
-wowtbc_deathknight_unholy,42987,Darkmoon Card: Greatness
-wowtbc_deathknight_unholy,45254,Sigil of the Vengeful Heart
-wowtbc_druid_balance,45497,Crown of Luminescence
-wowtbc_druid_balance,45133,Pendant of Fiery Havoc
-wowtbc_druid_balance,45658,Mantle of the Wayward Vanquisher
-wowtbc_druid_balance,45242,Drape of Mortal Downfall
-wowtbc_druid_balance,45519,Vestments of the Blind Denizen
-wowtbc_druid_balance,45446,Grasps of Reason
-wowtbc_druid_balance,45620,Starshard Edge
-wowtbc_druid_balance,45617,Cosmos
-wowtbc_druid_balance,45665,Pharos Gloves
-wowtbc_druid_balance,45619,Starwatcher's Binding
-wowtbc_druid_balance,45655,Legplates of the Wayward Vanquisher
-wowtbc_druid_balance,45537,Treads of the False Oracle
-wowtbc_druid_balance,45495,Conductive Seal
-wowtbc_druid_balance,46046,Nebula Band
-wowtbc_druid_balance,45466,Scale of Fates
-wowtbc_druid_balance,45518,Flare of the Heavens
-wowtbc_druid_balance,40321,Idol of the Shooting Star
-wowtbc_druid_feraldps,45640,Crown of the Wayward Vanquisher
-wowtbc_druid_feraldps,45517,Pendulum of Infinity
-wowtbc_druid_feraldps,45245,Shoulderpads of the Intruder
-wowtbc_druid_feraldps,46032,Drape of the Faceless General
-wowtbc_druid_feraldps,45473,Embrace of the Gladiator
-wowtbc_druid_feraldps,45869,Fluxing Energy Coils
-wowtbc_druid_feraldps,45613,Dreambinder
-wowtbc_druid_feraldps,45643,Gauntlets of the Wayward Vanquisher
-wowtbc_druid_feraldps,46095,Soul-Devouring Cinch
-wowtbc_druid_feraldps,45536,Legguards of Cunning Deception
-wowtbc_druid_feraldps,45564,Footpads of Silence
-wowtbc_druid_feraldps,46053,Reply-Code Alpha
-wowtbc_druid_feraldps,46048,Band of Lights
-wowtbc_druid_feraldps,45609,Comet's Trail
-wowtbc_druid_feraldps,45931,Mjolnir Runestone
-wowtbc_druid_feraldps,40713,Idol of the Ravenous Beast
-wowtbc_druid_feraltank,45993,Mimiron's Flight Goggles
-wowtbc_druid_feraltank,45517,Pendulum of Infinity
-wowtbc_druid_feraltank,45245,Shoulderpads of the Intruder
-wowtbc_druid_feraltank,45461,Drape of Icy Intent
-wowtbc_druid_feraltank,45473,Embrace of the Gladiator
-wowtbc_druid_feraltank,45611,Solar Bindings
-wowtbc_druid_feraltank,45533,Dark Edge of Depravity
-wowtbc_druid_feraltank,46043,Gloves of the Endless Dark
-wowtbc_druid_feraltank,46095,Soul-Devouring Cinch
-wowtbc_druid_feraltank,45536,Legguards of Cunning Deception
-wowtbc_druid_feraltank,45232,Runed Ironhide Boots
-wowtbc_druid_feraltank,45471,Fate's Clutch
-wowtbc_druid_feraltank,45112,The Leviathan's Coil
-wowtbc_druid_feraltank,45158,Heart of Iron
-wowtbc_druid_feraltank,46021,Royal Seal of King Llane
-wowtbc_druid_feraltank,45509,Idol of the Corruptor
-wowtbc_druid_restoration,45640,Crown of the Wayward Vanquisher
-wowtbc_druid_restoration,45243,Sapphire Amulet of Renewal
-wowtbc_druid_restoration,45658,Mantle of the Wayward Vanquisher
-wowtbc_druid_restoration,46053,Reply-Code Alpha
-wowtbc_druid_restoration,45519,Vestments of the Blind Denizen
-wowtbc_druid_restoration,45446,Grasps of Reason
-wowtbc_druid_restoration,46017,"Val'anyr, Hammer of Ancient Kings"
-wowtbc_druid_restoration,45271,Ironmender
-wowtbc_druid_restoration,45643,Gauntlets of the Wayward Vanquisher
-wowtbc_druid_restoration,45616,Star-beaded Clutch
-wowtbc_druid_restoration,45655,Legplates of the Wayward Vanquisher
-wowtbc_druid_restoration,45135,Boots of Fiery Resolution
-wowtbc_druid_restoration,45495,Conductive Seal
-wowtbc_druid_restoration,46053,Reply-Code Alpha
-wowtbc_druid_restoration,45535,Show of Faith
-wowtbc_druid_restoration,45703,Spark of Hope
-wowtbc_druid_restoration,40342,Idol of Awakening
-wowtbc_hunter_marksmanship,45610,Boundless Gaze
-wowtbc_hunter_marksmanship,45517,Pendulum of Infinity
-wowtbc_hunter_marksmanship,45300,Mantle of Fiery Vengeance
-wowtbc_hunter_marksmanship,46032,Drape of the Faceless General
-wowtbc_hunter_marksmanship,45473,Embrace of the Gladiator
-wowtbc_hunter_marksmanship,45869,Fluxing Energy Coils
-wowtbc_hunter_marksmanship,45613,Dreambinder
-wowtbc_hunter_marksmanship,45444,Gloves of the Steady Hand
-wowtbc_hunter_marksmanship,45467,Belt of the Betrayed
-wowtbc_hunter_marksmanship,45536,Legguards of Cunning Deception
-wowtbc_hunter_marksmanship,45244,Greaves of Swift Vengeance
-wowtbc_hunter_marksmanship,46052,Reply-Code Alpha
-wowtbc_hunter_marksmanship,46053,Reply-Code Alpha
-wowtbc_hunter_marksmanship,46038,Dark Matter
-wowtbc_hunter_marksmanship,45931,Mjolnir Runestone
-wowtbc_hunter_marksmanship,45570,Skyforge Crossbow
-wowtbc_hunter_survival,45610,Boundless Gaze
-wowtbc_hunter_survival,45517,Pendulum of Infinity
-wowtbc_hunter_survival,45300,Mantle of Fiery Vengeance
-wowtbc_hunter_survival,46032,Drape of the Faceless General
-wowtbc_hunter_survival,45473,Embrace of the Gladiator
-wowtbc_hunter_survival,45869,Fluxing Energy Coils
-wowtbc_hunter_survival,45613,Dreambinder
-wowtbc_hunter_survival,45444,Gloves of the Steady Hand
-wowtbc_hunter_survival,46095,Soul-Devouring Cinch
-wowtbc_hunter_survival,45536,Legguards of Cunning Deception
-wowtbc_hunter_survival,45244,Greaves of Swift Vengeance
-wowtbc_hunter_survival,46052,Reply-Code Alpha
-wowtbc_hunter_survival,46053,Reply-Code Alpha
-wowtbc_hunter_survival,44253,Darkmoon Card: Greatness
-wowtbc_hunter_survival,46038,Dark Matter
-wowtbc_hunter_survival,45570,Skyforge Crossbow
-wowtbc_mage_arcane,45497,Crown of Luminescence
-wowtbc_mage_arcane,45243,Sapphire Amulet of Renewal
-wowtbc_mage_arcane,45658,Mantle of the Wayward Vanquisher
-wowtbc_mage_arcane,46053,Reply-Code Alpha
-wowtbc_mage_arcane,45634,Breastplate of the Wayward Vanquisher
-wowtbc_mage_arcane,45446,Grasps of Reason
-wowtbc_mage_arcane,45620,Starshard Edge
-wowtbc_mage_arcane,45617,Cosmos
-wowtbc_mage_arcane,45665,Pharos Gloves
-wowtbc_mage_arcane,45619,Starwatcher's Binding
-wowtbc_mage_arcane,45488,Leggings of the Enslaved Idol
-wowtbc_mage_arcane,45135,Boots of Fiery Resolution
-wowtbc_mage_arcane,45495,Conductive Seal
-wowtbc_mage_arcane,46046,Nebula Band
-wowtbc_mage_arcane,45518,Flare of the Heavens
-wowtbc_mage_arcane,45466,Scale of Fates
-wowtbc_mage_arcane,45294,Petrified Ivy Sprig
-wowtbc_mage_fire,45640,Crown of the Wayward Vanquisher
-wowtbc_mage_fire,45133,Pendant of Fiery Havoc
-wowtbc_mage_fire,45658,Mantle of the Wayward Vanquisher
-wowtbc_mage_fire,45242,Drape of Mortal Downfall
-wowtbc_mage_fire,45634,Breastplate of the Wayward Vanquisher
-wowtbc_mage_fire,45446,Grasps of Reason
-wowtbc_mage_fire,45620,Starshard Edge
-wowtbc_mage_fire,45617,Cosmos
-wowtbc_mage_fire,45665,Pharos Gloves
-wowtbc_mage_fire,45619,Starwatcher's Binding
-wowtbc_mage_fire,45655,Legplates of the Wayward Vanquisher
-wowtbc_mage_fire,45537,Treads of the False Oracle
-wowtbc_mage_fire,45495,Conductive Seal
-wowtbc_mage_fire,46046,Nebula Band
-wowtbc_mage_fire,45518,Flare of the Heavens
-wowtbc_mage_fire,45466,Scale of Fates
-wowtbc_mage_fire,45294,Petrified Ivy Sprig
-wowtbc_paladin_holy,45638,Crown of the Wayward Conqueror
-wowtbc_paladin_holy,45443,Charm of Meticulous Timing
-wowtbc_paladin_holy,45656,Mantle of the Wayward Conqueror
-wowtbc_paladin_holy,45486,Drape of the Sullen Goddess
-wowtbc_paladin_holy,45445,Breastplate of the Devoted
-wowtbc_paladin_holy,45460,Bindings of Winter Gale
-wowtbc_paladin_holy,46017,"Val'anyr, Hammer of Ancient Kings"
-wowtbc_paladin_holy,45470,Wisdom's Hold
-wowtbc_paladin_holy,45641,Gauntlets of the Wayward Conqueror
-wowtbc_paladin_holy,45151,Belt of the Fallen Wyrm
-wowtbc_paladin_holy,45653,Legplates of the Wayward Conqueror
-wowtbc_paladin_holy,45615,Planewalker Treads
-wowtbc_paladin_holy,46053,Reply-Code Alpha
-wowtbc_paladin_holy,46046,Nebula Band
-wowtbc_paladin_holy,46051,Meteorite Crystal
-wowtbc_paladin_holy,37111,Soul Preserver
-wowtbc_paladin_holy,40705,Libram of Renewal
-wowtbc_paladin_protection,45638,Crown of the Wayward Conqueror
-wowtbc_paladin_protection,45485,Bronze Pendant of the Vanir
-wowtbc_paladin_protection,45656,Mantle of the Wayward Conqueror
-wowtbc_paladin_protection,45496,Titanskin Cloak
-wowtbc_paladin_protection,46039,Breastplate of the Timeless
-wowtbc_paladin_protection,45111,Mimiron's Inferno Couplings
-wowtbc_paladin_protection,46097,Caress of Insanity
-wowtbc_paladin_protection,45587,Bulwark of Algalon
-wowtbc_paladin_protection,45487,Handguards of Revitalization
-wowtbc_paladin_protection,45825,Shieldwarder Girdle
-wowtbc_paladin_protection,45594,Legplates of the Endless Void
-wowtbc_paladin_protection,45988,Greaves of the Iron Army
-wowtbc_paladin_protection,45471,Fate's Clutch
-wowtbc_paladin_protection,45871,Seal of Ulduar
-wowtbc_paladin_protection,45158,Heart of Iron
-wowtbc_paladin_protection,46021,Royal Seal of King Llane
-wowtbc_paladin_protection,45145,Libram of the Sacred Shield
-wowtbc_paladin_retribution,45472,Warhelm of the Champion
-wowtbc_paladin_retribution,45459,Frigid Strength of Hodir
-wowtbc_paladin_retribution,45245,Shoulderpads of the Intruder
-wowtbc_paladin_retribution,46032,Drape of the Faceless General
-wowtbc_paladin_retribution,45473,Embrace of the Gladiator
-wowtbc_paladin_retribution,45663,Armbands of Bedlam
-wowtbc_paladin_retribution,45516,"Voldrethar, Dark Blade of Oblivion"
-wowtbc_paladin_retribution,45444,Gloves of the Steady Hand
-wowtbc_paladin_retribution,46095,Soul-Devouring Cinch
-wowtbc_paladin_retribution,45134,Plated Leggings of Ruination
-wowtbc_paladin_retribution,45599,Sabatons of Lifeless Night
-wowtbc_paladin_retribution,45534,Seal of the Betrayed King
-wowtbc_paladin_retribution,46053,Reply-Code Alpha
-wowtbc_paladin_retribution,42987,Darkmoon Card: Greatness
-wowtbc_paladin_retribution,45609,Comet's Trail
-wowtbc_paladin_retribution,42853,Furious Gladiator's Libram of Fortitude
-wowtbc_priest_discipline,45638,Crown of the Wayward Conqueror
-wowtbc_priest_discipline,45443,Charm of Meticulous Timing
-wowtbc_priest_discipline,45656,Mantle of the Wayward Conqueror
-wowtbc_priest_discipline,45486,Drape of the Sullen Goddess
-wowtbc_priest_discipline,45632,Breastplate of the Wayward Conqueror
-wowtbc_priest_discipline,45446,Grasps of Reason
-wowtbc_priest_discipline,45612,Constellus
-wowtbc_priest_discipline,45314,Igniter Rod
-wowtbc_priest_discipline,45520,Handwraps of the Vigilant
-wowtbc_priest_discipline,45619,Starwatcher's Binding
-wowtbc_priest_discipline,45653,Legplates of the Wayward Conqueror
-wowtbc_priest_discipline,46050,Starlight Treads
-wowtbc_priest_discipline,46096,Signet of Soft Lament
-wowtbc_priest_discipline,46053,Reply-Code Alpha
-wowtbc_priest_discipline,45535,Show of Faith
-wowtbc_priest_discipline,40432,Illustration of the Dragon Soul
-wowtbc_priest_discipline,45170,Scepter of Creation
-wowtbc_priest_shadow,45638,Crown of the Wayward Conqueror
-wowtbc_priest_shadow,45133,Pendant of Fiery Havoc
-wowtbc_priest_shadow,45656,Mantle of the Wayward Conqueror
-wowtbc_priest_shadow,46053,Reply-Code Alpha
-wowtbc_priest_shadow,45632,Breastplate of the Wayward Conqueror
-wowtbc_priest_shadow,45446,Grasps of Reason
-wowtbc_priest_shadow,45620,Starshard Edge
-wowtbc_priest_shadow,45617,Cosmos
-wowtbc_priest_shadow,45665,Pharos Gloves
-wowtbc_priest_shadow,45619,Starwatcher's Binding
-wowtbc_priest_shadow,45653,Legplates of the Wayward Conqueror
-wowtbc_priest_shadow,45135,Boots of Fiery Resolution
-wowtbc_priest_shadow,45495,Conductive Seal
-wowtbc_priest_shadow,46046,Nebula Band
-wowtbc_priest_shadow,45518,Flare of the Heavens
-wowtbc_priest_shadow,45466,Scale of Fates
-wowtbc_priest_shadow,45294,Petrified Ivy Sprig
-wowtbc_rogue_assassination,45640,Crown of the Wayward Vanquisher
-wowtbc_rogue_assassination,45517,Pendulum of Infinity
-wowtbc_rogue_assassination,45245,Shoulderpads of the Intruder
-wowtbc_rogue_assassination,45461,Drape of Icy Intent
-wowtbc_rogue_assassination,45473,Embrace of the Gladiator
-wowtbc_rogue_assassination,45611,Solar Bindings
-wowtbc_rogue_assassination,45484,Bladetwister
-wowtbc_rogue_assassination,45484,Bladetwister
-wowtbc_rogue_assassination,45643,Gauntlets of the Wayward Vanquisher
-wowtbc_rogue_assassination,46095,Soul-Devouring Cinch
-wowtbc_rogue_assassination,45536,Legguards of Cunning Deception
-wowtbc_rogue_assassination,45564,Footpads of Silence
-wowtbc_rogue_assassination,46048,Band of Lights
-wowtbc_rogue_assassination,46053,Reply-Code Alpha
-wowtbc_rogue_assassination,45609,Comet's Trail
-wowtbc_rogue_assassination,46038,Dark Matter
-wowtbc_rogue_assassination,45570,Skyforge Crossbow
-wowtbc_rogue_combat,45993,Mimiron's Flight Goggles
-wowtbc_rogue_combat,45517,Pendulum of Infinity
-wowtbc_rogue_combat,45245,Shoulderpads of the Intruder
-wowtbc_rogue_combat,45461,Drape of Icy Intent
-wowtbc_rogue_combat,45473,Embrace of the Gladiator
-wowtbc_rogue_combat,45869,Fluxing Energy Coils
-wowtbc_rogue_combat,45132,Golden Saronite Dragon
-wowtbc_rogue_combat,45484,Bladetwister
-wowtbc_rogue_combat,46043,Gloves of the Endless Dark
-wowtbc_rogue_combat,46095,Soul-Devouring Cinch
-wowtbc_rogue_combat,45536,Legguards of Cunning Deception
-wowtbc_rogue_combat,45564,Footpads of Silence
-wowtbc_rogue_combat,46048,Band of Lights
-wowtbc_rogue_combat,46053,Reply-Code Alpha
-wowtbc_rogue_combat,45609,Comet's Trail
-wowtbc_rogue_combat,46038,Dark Matter
-wowtbc_rogue_combat,45296,Twirling Blades
-wowtbc_shaman_elemental,45639,Crown of the Wayward Protector
-wowtbc_shaman_elemental,45933,Pendant of the Shallow Grave
-wowtbc_shaman_elemental,45657,Mantle of the Wayward Protector
-wowtbc_shaman_elemental,45242,Drape of Mortal Downfall
-wowtbc_shaman_elemental,45633,Breastplate of the Wayward Protector
-wowtbc_shaman_elemental,45460,Bindings of Winter Gale
-wowtbc_shaman_elemental,45612,Constellus
-wowtbc_shaman_elemental,45470,Wisdom's Hold
-wowtbc_shaman_elemental,45665,Pharos Gloves
-wowtbc_shaman_elemental,45616,Star-beaded Clutch
-wowtbc_shaman_elemental,45654,Legplates of the Wayward Protector
-wowtbc_shaman_elemental,45537,Treads of the False Oracle
-wowtbc_shaman_elemental,45495,Conductive Seal
-wowtbc_shaman_elemental,46046,Nebula Band
-wowtbc_shaman_elemental,45518,Flare of the Heavens
-wowtbc_shaman_elemental,40255,Dying Curse
-wowtbc_shaman_elemental,40267,Totem of Hex
-wowtbc_shaman_enhancement,45610,Boundless Gaze
-wowtbc_shaman_enhancement,45517,Pendulum of Infinity
-wowtbc_shaman_enhancement,45657,Mantle of the Wayward Protector
-wowtbc_shaman_enhancement,45461,Drape of Icy Intent
-wowtbc_shaman_enhancement,45633,Breastplate of the Wayward Protector
-wowtbc_shaman_enhancement,45460,Bindings of Winter Gale
-wowtbc_shaman_enhancement,45132,Golden Saronite Dragon
-wowtbc_shaman_enhancement,46097,Caress of Insanity
-wowtbc_shaman_enhancement,45642,Gauntlets of the Wayward Protector
-wowtbc_shaman_enhancement,45553,Belt of Dragons
-wowtbc_shaman_enhancement,45654,Legplates of the Wayward Protector
-wowtbc_shaman_enhancement,45989,Tempered Mercury Greaves
-wowtbc_shaman_enhancement,45456,Loop of the Agile
-wowtbc_shaman_enhancement,46053,Reply-Code Alpha
-wowtbc_shaman_enhancement,45609,Comet's Trail
-wowtbc_shaman_enhancement,46038,Dark Matter
-wowtbc_shaman_enhancement,42608,Furious Gladiator's Totem of Indomitability
-wowtbc_shaman_restoration,45639,Crown of the Wayward Protector
-wowtbc_shaman_restoration,45443,Charm of Meticulous Timing
-wowtbc_shaman_restoration,45657,Mantle of the Wayward Protector
-wowtbc_shaman_restoration,45486,Drape of the Sullen Goddess
-wowtbc_shaman_restoration,45867,Breastplate of the Stoneshaper
-wowtbc_shaman_restoration,45460,Bindings of Winter Gale
-wowtbc_shaman_restoration,46017,"Val'anyr, Hammer of Ancient Kings"
-wowtbc_shaman_restoration,45470,Wisdom's Hold
-wowtbc_shaman_restoration,45642,Gauntlets of the Wayward Protector
-wowtbc_shaman_restoration,45151,Belt of the Fallen Wyrm
-wowtbc_shaman_restoration,45654,Legplates of the Wayward Protector
-wowtbc_shaman_restoration,45615,Planewalker Treads
-wowtbc_shaman_restoration,46046,Nebula Band
-wowtbc_shaman_restoration,46053,Reply-Code Alpha
-wowtbc_shaman_restoration,45535,Show of Faith
-wowtbc_shaman_restoration,37111,Soul Preserver
-wowtbc_shaman_restoration,40709,Totem of Forest Growth
-wowtbc_warlock_affliction,45497,Crown of Luminescence
-wowtbc_warlock_affliction,45133,Pendant of Fiery Havoc
-wowtbc_warlock_affliction,46068,Amice of Inconceivable Horror
-wowtbc_warlock_affliction,46053,Reply-Code Alpha
-wowtbc_warlock_affliction,45632,Breastplate of the Wayward Conqueror
-wowtbc_warlock_affliction,45446,Grasps of Reason
-wowtbc_warlock_affliction,45620,Starshard Edge
-wowtbc_warlock_affliction,45617,Cosmos
-wowtbc_warlock_affliction,45665,Pharos Gloves
-wowtbc_warlock_affliction,45619,Starwatcher's Binding
-wowtbc_warlock_affliction,45653,Legplates of the Wayward Conqueror
-wowtbc_warlock_affliction,45135,Boots of Fiery Resolution
-wowtbc_warlock_affliction,45495,Conductive Seal
-wowtbc_warlock_affliction,46046,Nebula Band
-wowtbc_warlock_affliction,45518,Flare of the Heavens
-wowtbc_warlock_affliction,45466,Scale of Fates
-wowtbc_warlock_affliction,45294,Petrified Ivy Sprig
-wowtbc_warlock_demonology,45497,Crown of Luminescence
-wowtbc_warlock_demonology,45133,Pendant of Fiery Havoc
-wowtbc_warlock_demonology,46068,Amice of Inconceivable Horror
-wowtbc_warlock_demonology,46053,Reply-Code Alpha
-wowtbc_warlock_demonology,45632,Breastplate of the Wayward Conqueror
-wowtbc_warlock_demonology,45446,Grasps of Reason
-wowtbc_warlock_demonology,45620,Starshard Edge
-wowtbc_warlock_demonology,45617,Cosmos
-wowtbc_warlock_demonology,45665,Pharos Gloves
-wowtbc_warlock_demonology,45619,Starwatcher's Binding
-wowtbc_warlock_demonology,45653,Legplates of the Wayward Conqueror
-wowtbc_warlock_demonology,45135,Boots of Fiery Resolution
-wowtbc_warlock_demonology,45495,Conductive Seal
-wowtbc_warlock_demonology,46046,Nebula Band
-wowtbc_warlock_demonology,45518,Flare of the Heavens
-wowtbc_warlock_demonology,45148,Living Flame
-wowtbc_warlock_demonology,45294,Petrified Ivy Sprig
-wowtbc_warrior_arms,45639,Crown of the Wayward Protector
-wowtbc_warrior_arms,45459,Frigid Strength of Hodir
-wowtbc_warrior_arms,46037,Shoulderplates of the Celestial Watch
-wowtbc_warrior_arms,46032,Drape of the Faceless General
-wowtbc_warrior_arms,45633,Breastplate of the Wayward Protector
-wowtbc_warrior_arms,45663,Armbands of Bedlam
-wowtbc_warrior_arms,45533,Dark Edge of Depravity
-wowtbc_warrior_arms,45444,Gloves of the Steady Hand
-wowtbc_warrior_arms,45241,Belt of Colossal Rage
-wowtbc_warrior_arms,45536,Legguards of Cunning Deception
-wowtbc_warrior_arms,45599,Sabatons of Lifeless Night
-wowtbc_warrior_arms,46052,Reply-Code Alpha
-wowtbc_warrior_arms,46053,Reply-Code Alpha
-wowtbc_warrior_arms,46038,Dark Matter
-wowtbc_warrior_arms,45931,Mjolnir Runestone
-wowtbc_warrior_arms,45296,Twirling Blades
-wowtbc_warrior_fury,45639,Crown of the Wayward Protector
-wowtbc_warrior_fury,45459,Frigid Strength of Hodir
-wowtbc_warrior_fury,45657,Mantle of the Wayward Protector
-wowtbc_warrior_fury,46032,Drape of the Faceless General
-wowtbc_warrior_fury,45633,Breastplate of the Wayward Protector
-wowtbc_warrior_fury,45611,Solar Bindings
-wowtbc_warrior_fury,45516,"Voldrethar, Dark Blade of Oblivion"
-wowtbc_warrior_fury,45516,"Voldrethar, Dark Blade of Oblivion"
-wowtbc_warrior_fury,45642,Gauntlets of the Wayward Protector
-wowtbc_warrior_fury,46095,Soul-Devouring Cinch
-wowtbc_warrior_fury,45536,Legguards of Cunning Deception
-wowtbc_warrior_fury,45599,Sabatons of Lifeless Night
-wowtbc_warrior_fury,46052,Reply-Code Alpha
-wowtbc_warrior_fury,46053,Reply-Code Alpha
-wowtbc_warrior_fury,45609,Comet's Trail
-wowtbc_warrior_fury,45931,Mjolnir Runestone
-wowtbc_warrior_fury,45296,Twirling Blades
-wowtbc_warrior_protection,45639,Crown of the Wayward Protector
-wowtbc_warrior_protection,45485,Bronze Pendant of the Vanir
-wowtbc_warrior_protection,45657,Mantle of the Wayward Protector
-wowtbc_warrior_protection,45496,Titanskin Cloak
-wowtbc_warrior_protection,46039,Breastplate of the Timeless
-wowtbc_warrior_protection,45111,Mimiron's Inferno Couplings
-wowtbc_warrior_protection,45442,"Sorthalis, Hammer of the Watchers"
-wowtbc_warrior_protection,45587,Bulwark of Algalon
-wowtbc_warrior_protection,45487,Handguards of Revitalization
-wowtbc_warrior_protection,45139,Dragonslayer's Brace
-wowtbc_warrior_protection,45594,Legplates of the Endless Void
-wowtbc_warrior_protection,45988,Greaves of the Iron Army
-wowtbc_warrior_protection,45471,Fate's Clutch
-wowtbc_warrior_protection,45247,Signet of the Earthshaker
-wowtbc_warrior_protection,45158,Heart of Iron
-wowtbc_warrior_protection,46021,Royal Seal of King Llane
-wowtbc_warrior_protection,45137,Veranus' Bane
+Gosseyn,45640,Crown of the Wayward Vanquisher
+Gosseyn,45485,Bronze Pendant of the Vanir
+Gosseyn,45658,Mantle of the Wayward Vanquisher
+Gosseyn,45496,Titanskin Cloak
+Gosseyn,45634,Breastplate of the Wayward Vanquisher
+Gosseyn,45111,Mimiron's Inferno Couplings
+Gosseyn,45533,Dark Edge of Depravity
+Gosseyn,45643,Gauntlets of the Wayward Vanquisher
+Gosseyn,45551,Indestructible Plate Girdle
+Gosseyn,45594,Legplates of the Endless Void
+Gosseyn,45988,Greaves of the Iron Army
+Gosseyn,45471,Fate's Clutch
+Gosseyn,45871,Seal of Ulduar
+Gosseyn,45158,Heart of Iron
+Gosseyn,46021,Royal Seal of King Llane
+Gosseyn,45144,Sigil of Deflection
+Ninnah,45638,Crown of the Wayward Conqueror
+Ninnah,45485,Bronze Pendant of the Vanir
+Ninnah,45656,Mantle of the Wayward Conqueror
+Ninnah,45496,Titanskin Cloak
+Ninnah,46039,Breastplate of the Timeless
+Ninnah,45111,Mimiron's Inferno Couplings
+Ninnah,45947,"Serilas, Blood Blade of Invar One-Arm"
+Ninnah,45587,Bulwark of Algalon
+Ninnah,45487,Handguards of Revitalization
+Ninnah,45825,Shieldwarder Girdle
+Ninnah,45594,Legplates of the Endless Void
+Ninnah,45988,Greaves of the Iron Army
+Ninnah,45471,Fate's Clutch
+Ninnah,45326,Platinum Band of the Aesir
+Ninnah,45158,Heart of Iron
+Ninnah,46021,Royal Seal of King Llane
+Ninnah,45145,Libram of the Sacred Shield
+Nweysa,45640,Crown of the Wayward Vanquisher
+Nweysa,45517,Pendulum of Infinity
+Nweysa,45245,Shoulderpads of the Intruder
+Nweysa,46032,Drape of the Faceless General
+Nweysa,45473,Embrace of the Gladiator
+Nweysa,45869,Fluxing Energy Coils
+Nweysa,45613,Dreambinder
+Nweysa,45643,Gauntlets of the Wayward Vanquisher
+Nweysa,46095,Soul-Devouring Cinch
+Nweysa,45536,Legguards of Cunning Deception
+Nweysa,45564,Footpads of Silence
+Nweysa,46048,Band of Lights
+Nweysa,46053,Reply-Code Alpha
+Nweysa,45931,Mjolnir Runestone
+Nweysa,45609,Comet's Trail
+Nweysa,40713,Idol of the Ravenous Beast
+Pamage,45640,Crown of the Wayward Vanquisher
+Pamage,45133,Pendant of Fiery Havoc
+Pamage,45658,Mantle of the Wayward Vanquisher
+Pamage,45242,Drape of Mortal Downfall
+Pamage,45634,Breastplate of the Wayward Vanquisher
+Pamage,45446,Grasps of Reason
+Pamage,45620,Starshard Edge
+Pamage,45617,Cosmos
+Pamage,45665,Pharos Gloves
+Pamage,45619,Starwatcher's Binding
+Pamage,45655,Legplates of the Wayward Vanquisher
+Pamage,45537,Treads of the False Oracle
+Pamage,46046,Nebula Band
+Pamage,45495,Conductive Seal
+Pamage,45466,Scale of Fates
+Pamage,45518,Flare of the Heavens
+Pamage,45294,Petrified Ivy Sprig
+Pyrobifle,45640,Crown of the Wayward Vanquisher
+Pyrobifle,45133,Pendant of Fiery Havoc
+Pyrobifle,45658,Mantle of the Wayward Vanquisher
+Pyrobifle,45242,Drape of Mortal Downfall
+Pyrobifle,45634,Breastplate of the Wayward Vanquisher
+Pyrobifle,45446,Grasps of Reason
+Pyrobifle,45620,Starshard Edge
+Pyrobifle,45617,Cosmos
+Pyrobifle,45294,Petrified Ivy Sprig
+Pyrobifle,45665,Pharos Gloves
+Pyrobifle,45619,Starwatcher's Binding
+Pyrobifle,45655,Legplates of the Wayward Vanquisher
+Pyrobifle,45537,Treads of the False Oracle
+Pyrobifle,45495,Conductive Seal
+Pyrobifle,46046,Nebula Band
+Pyrobifle,45466,Scale of Fates
+Pyrobifle,45518,Flare of the Heavens
+Queriss,45639,Crown of the Wayward Protector
+Queriss,45485,Bronze Pendant of the Vanir
+Queriss,45657,Mantle of the Wayward Protector
+Queriss,45496,Titanskin Cloak
+Queriss,46039,Breastplate of the Timeless
+Queriss,45111,Mimiron's Inferno Couplings
+Queriss,45442,"Sorthalis, Hammer of the Watchers"
+Queriss,45587,Bulwark of Algalon
+Queriss,45487,Handguards of Revitalization
+Queriss,45139,Dragonslayer's Brace
+Queriss,45594,Legplates of the Endless Void
+Queriss,45988,Greaves of the Iron Army
+Queriss,45471,Fate's Clutch
+Queriss,45247,Signet of the Earthshaker
+Queriss,45158,Heart of Iron
+Queriss,46021,Royal Seal of King Llane
+Queriss,45137,Veranus' Bane
+Warloquë,45497,Crown of Luminescence
+Warloquë,45133,Pendant of Fiery Havoc
+Warloquë,45656,Mantle of the Wayward Conqueror
+Warloquë,46053,Reply-Code Alpha
+Warloquë,45632,Breastplate of the Wayward Conqueror
+Warloquë,45446,Grasps of Reason
+Warloquë,45665,Pharos Gloves
+Warloquë,45619,Starwatcher's Binding
+Warloquë,45488,Leggings of the Enslaved Idol
+Warloquë,45135,Boots of Fiery Resolution
+Warloquë,45495,Conductive Seal
+Warloquë,46046,Nebula Band
+Warloquë,45518,Flare of the Heavens
+Warloquë,45466,Scale of Fates
+Warloquë,45620,Starshard Edge
+Warloquë,45617,Cosmos
+Warloquë,45294,Petrified Ivy Sprig
+Ørly,45640,Crown of the Wayward Vanquisher
+Ørly,45133,Pendant of Fiery Havoc
+Ørly,45658,Mantle of the Wayward Vanquisher
+Ørly,45242,Drape of Mortal Downfall
+Ørly,45634,Breastplate of the Wayward Vanquisher
+Ørly,45446,Grasps of Reason
+Ørly,45620,Starshard Edge
+Ørly,45617,Cosmos
+Ørly,45665,Pharos Gloves
+Ørly,45619,Starwatcher's Binding
+Ørly,45655,Legplates of the Wayward Vanquisher
+Ørly,45537,Treads of the False Oracle
+Ørly,46046,Nebula Band
+Ørly,45495,Conductive Seal
+Ørly,45518,Flare of the Heavens
+Ørly,45466,Scale of Fates
+Ørly,45294,Petrified Ivy Sprig

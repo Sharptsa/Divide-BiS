@@ -119,3 +119,5 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 45587,Bulwark of Algalon,Rempart d'Algalon,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_67.jpg
 45612,Constellus,Constellus,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_92.jpg
 45617,Cosmos,Cosmos,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_ulduarraid_d_03.jpg
+45326,Platinum Band of the Aesir,Bague des Ases en platine,Auriaya,Auriaya,25,False,Finger,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_50naxxramas.jpg
+45947,"Serilas, Blood Blade of Invar One-Arm","Serilas, Lame-sang d'Invar le Manchot",Freya,Freya,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_133.jpg

@@ -5,7 +5,7 @@ import base64
 
 # Title and text box
 st.set_page_config(layout="wide")
-col = st.columns([0.13, 0.74, 0.13])[1]
+col = st.columns([0.18, 0.64, 0.18])[1]
 col.title('Divide BiS')
 col.checkbox('Mode français', key='fr')
 col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
@@ -37,7 +37,7 @@ df_priorities.boss.fillna('', inplace=True)
 df_priorities.slot.fillna('', inplace=True)
 non_lootable_ilvls = {258: [46017],
                       238: [42853, 42608],
-                      232: [45825, 45564, 45553],
+                      232: [45825, 45564, 45553, 45551],
                       213: [40207, 40321, 40342, 40432, 40255, 40267],
                       200: [40713, 40705, 40709, 42987, 44253],
                       187: [37111]}
@@ -63,7 +63,8 @@ non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_
                       45553: 'https://wow.zamimg.com/images/wow/icons/large/inv_belt_13.jpg',
                       45564: 'https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather01.jpg',
                       45825: 'https://wow.zamimg.com/images/wow/icons/large/inv_belt_48a.jpg',
-                      46017: 'https://wow.zamimg.com/images/wow/icons/large/inv_mace_99.jpg'}
+                      46017: 'https://wow.zamimg.com/images/wow/icons/large/inv_mace_99.jpg',
+                      45551: 'https://wow.zamimg.com/images/wow/icons/large/inv_belt_45a.jpg'}
 df_priorities.icon = df_priorities.apply(lambda row: row.icon
                                          if pd.notna(row.icon)
                                          else non_lootable_icons[row.item_id],
@@ -86,7 +87,8 @@ if st.session_state.fr:
                              45553: 'Ceinture des dragons',
                              45564: 'Souliers de silence',
                              45825: 'Ceinturon garde-écu',
-                             46017: "Val'anyr, le marteau des anciens rois"}
+                             46017: "Val'anyr, le marteau des anciens rois",
+                             45551: 'Ceinturon indestructible en plaques'}
     df_priorities.item_name = df_priorities.apply(lambda row: row.item_name
                                                   if pd.notna(row.item_name)
                                                   else non_lootable_names_fr[row.item_id],
