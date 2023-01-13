@@ -18,7 +18,10 @@ if st.session_state.fr:
     df_items.boss = df_items.boss_fr
 
 df_priorities = pd.read_csv(r'data/players_priorities.csv')
-df_priorities = pd.merge(df_priorities.drop('item_name', axis=1), df_items.drop('drops_per_id', axis=1),
+left, right = (df_priorities, df_items.drop(['item_name', 'drops_per_id'], axis=1)) \
+              if not st.session_state.fr \
+              else (df_priorities.drop('item_name', axis=1), df_items.drop('drops_per_id', axis=1))
+df_priorities = pd.merge(left, right,
                          how='left', on='item_id')
 df_priorities['source'] = df_priorities.apply(lambda row: row.rank_in_queue if pd.isna(row.boss)
                           else ''.join([row.boss, ' ' + str(int(row.raid_size)),
@@ -65,6 +68,29 @@ df_priorities.icon = df_priorities.apply(lambda row: row.icon
                                          if pd.notna(row.icon)
                                          else non_lootable_icons[row.item_id],
                                          axis=1)
+if st.session_state.fr:
+    non_lootable_names_fr = {37111: "Protecteur d'âme",
+                             40207: 'Cachet de vigilance',
+                             40255: 'Malédiction du mourant',
+                             40267: 'Totem de maléfice',
+                             40321: "Idole de l'étoile filante",
+                             40342: "Idole d'éveil",
+                             40432: "Représentation de l'Âme des dragons",
+                             40705: 'Libram de renouveau',
+                             40709: 'Totem de croissance forestière',
+                             40713: 'Idole de la bête vorace',
+                             42608: "Totem d'indomptabilité du gladiateur furieux",
+                             42853: 'Libram de robustesse du gladiateur furieux',
+                             42987: 'Carte de Sombrelune : Grandeur',
+                             44253: 'Carte de Sombrelune : Grandeur',
+                             45553: 'Ceinture des dragons',
+                             45564: 'Souliers de silence',
+                             45825: 'Ceinturon garde-écu',
+                             46017: "Val'anyr, le marteau des anciens rois"}
+    df_priorities.item_name = df_priorities.apply(lambda row: row.item_name
+                                                  if pd.notna(row.item_name)
+                                                  else non_lootable_names_fr[row.item_id],
+                                                  axis=1)
 df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
@@ -119,11 +145,14 @@ def display_df(mask, how='standard'):
     to_display.drop('icon', axis=1, inplace=True)
     columns_rename = {'source': 'Source', 'item_id': 'Item ID', 'item_name': 'Item',
                       'ilvl': 'ilvl', 'player': 'Player', 'rank_in_queue': 'Obtained in'}
+    if st.session_state.fr:
+        columns_rename = {'source': 'Source', 'item_id': "ID d'item'", 'item_name': 'Item',
+                          'ilvl': 'ilvl', 'player': 'Joueur', 'rank_in_queue': 'Obtenu dans'}
     to_display.columns = [columns_rename[c] for c in to_display.columns]
 
     col.markdown(to_display.to_html(escape=False, index=False) \
                 .replace('<tr>','<tr style = "background-color: rgba(40, 40, 40, 1.0)">')
-                .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0)">')
+                .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0); text-align: center">')
                 , unsafe_allow_html=True)
 
 
@@ -157,6 +186,43 @@ else:
     elif mask_source.sum() > 0: # source
         display_df(mask)
 
-# todo: french mode
+# Add footer
+footer_txt = 'Want to join us ? Contact Gosseyn on our' \
+             if not st.session_state.fr \
+             else 'Vous voulez nous rejoindre ? Contactez gosseyn sur notre'
+footer_link_txt = 'discord server' \
+                  if not st.session_state.fr \
+                  else 'serveur discord'
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 4%;
+background-color: rgba(200, 200, 200, 1.0);
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>""" + footer_txt + """ <a style='text-align: center;' href="https://discord.gg/WkPu3G8bmp" target="_blank">""" + footer_link_txt + """</a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
+
+# todo: highlight 1
 # todo: insert new player priorities
 # todo: update after loots
