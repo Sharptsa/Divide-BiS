@@ -1,19 +1,20 @@
 player,item_id,item_name,rank_in_queue
-Ninnah,45111,Mimiron's Inferno Couplings,1
-Queriss,45111,Mimiron's Inferno Couplings,2
-Warloquë,45133,Pendant of Fiery Havoc,1
-Ørly,45133,Pendant of Fiery Havoc,2
-Pamage,45133,Pendant of Fiery Havoc,3
-Pyrobifle,45133,Pendant of Fiery Havoc,4
-Gosseyn,45134,Plated Leggings of Ruination,1
-Iryastra,45134,Plated Leggings of Ruination,2
+Queriss,45111,Mimiron's Inferno Couplings,1
+Ninnah,45111,Mimiron's Inferno Couplings,2
+Aelvå,45132,Golden Saronite Dragon,1
+Pyrobifle,45133,Pendant of Fiery Havoc,1
+Warloquë,45133,Pendant of Fiery Havoc,2
+Ørly,45133,Pendant of Fiery Havoc,3
+Pamage,45133,Pendant of Fiery Havoc,4
+Iryastra,45134,Plated Leggings of Ruination,1
+Gosseyn,45134,Plated Leggings of Ruination,2
 Skotia,45135,Boots of Fiery Resolution,1
 Warloquë,45135,Boots of Fiery Resolution,2
 Queriss,45137,Veranus' Bane,1
 Queriss,45139,Dragonslayer's Brace,1
 Ninnah,45145,Libram of the Sacred Shield,1
-Queriss,45158,Heart of Iron,1
-Ninnah,45158,Heart of Iron,2
+Ninnah,45158,Heart of Iron,1
+Queriss,45158,Heart of Iron,2
 Iryastra,45241,Belt of Colossal Rage,1
 Gosseyn,45241,Belt of Colossal Rage,2
 Pyrobifle,45242,Drape of Mortal Downfall,1
@@ -25,82 +26,90 @@ Queriss,45247,Signet of the Earthshaker,1
 Iryastra,45250,Crazed Construct Ring,1
 Pyrobifle,45294,Petrified Ivy Sprig,1
 Warloquë,45294,Petrified Ivy Sprig,2
-Ørly,45294,Petrified Ivy Sprig,3
-Pamage,45294,Petrified Ivy Sprig,4
+Pamage,45294,Petrified Ivy Sprig,3
+Ørly,45294,Petrified Ivy Sprig,4
 Ninnah,45326,Platinum Band of the Aesir,1
 Queriss,45442,"Sorthalis, Hammer of the Watchers",1
 Iryastra,45442,"Sorthalis, Hammer of the Watchers",2
 Iryastra,45442,"Sorthalis, Hammer of the Watchers",3
 Skotia,45446,Grasps of Reason,1
-Pyrobifle,45446,Grasps of Reason,2
+Ørly,45446,Grasps of Reason,2
 Warloquë,45446,Grasps of Reason,3
-Ørly,45446,Grasps of Reason,4
-Pamage,45446,Grasps of Reason,5
-Iryastra,45459,Frigid Strength of Hodir,1
-Gosseyn,45459,Frigid Strength of Hodir,2
-Warloquë,45466,Scale of Fates,1
-Ørly,45466,Scale of Fates,2
-Pamage,45466,Scale of Fates,3
-Pyrobifle,45466,Scale of Fates,4
+Pamage,45446,Grasps of Reason,4
+Pyrobifle,45446,Grasps of Reason,5
+Aelvå,45456,Loop of the Agile,1
+Gosseyn,45459,Frigid Strength of Hodir,1
+Iryastra,45459,Frigid Strength of Hodir,2
+Aelvå,45460,Bindings of Winter Gale,1
+Aelvå,45461,Drape of Icy Intent,1
+Ørly,45466,Scale of Fates,1
+Warloquë,45466,Scale of Fates,2
+Pyrobifle,45466,Scale of Fates,3
+Pamage,45466,Scale of Fates,4
 Ninnah,45471,Fate's Clutch,1
 Queriss,45471,Fate's Clutch,2
 Iryastra,45472,Warhelm of the Champion,1
 Nweysa,45473,Embrace of the Gladiator,1
 Iryastra,45481,Gauntlets of Ruthless Reprisal,1
-Ninnah,45485,Bronze Pendant of the Vanir,1
-Queriss,45485,Bronze Pendant of the Vanir,2
+Queriss,45485,Bronze Pendant of the Vanir,1
+Ninnah,45485,Bronze Pendant of the Vanir,2
 Ninnah,45487,Handguards of Revitalization,1
 Queriss,45487,Handguards of Revitalization,2
 Warloquë,45488,Leggings of the Enslaved Idol,1
 Skotia,45495,Conductive Seal,1
-Pamage,45495,Conductive Seal,2
-Ørly,45495,Conductive Seal,3
+Ørly,45495,Conductive Seal,2
+Warloquë,45495,Conductive Seal,3
 Pyrobifle,45495,Conductive Seal,4
-Warloquë,45495,Conductive Seal,5
+Pamage,45495,Conductive Seal,5
 Queriss,45496,Titanskin Cloak,1
 Ninnah,45496,Titanskin Cloak,2
 Warloquë,45497,Crown of Luminescence,1
-Nweysa,45517,Pendulum of Infinity,1
+Aelvå,45517,Pendulum of Infinity,1
+Nweysa,45517,Pendulum of Infinity,2
 Ørly,45518,Flare of the Heavens,1
 Pamage,45518,Flare of the Heavens,2
-Pyrobifle,45518,Flare of the Heavens,3
-Warloquë,45518,Flare of the Heavens,4
+Warloquë,45518,Flare of the Heavens,3
+Pyrobifle,45518,Flare of the Heavens,4
 Skotia,45519,Vestments of the Blind Denizen,1
 Iryastra,45534,Seal of the Betrayed King,1
 Gosseyn,45534,Seal of the Betrayed King,2
 Skotia,45535,Show of Faith,1
 Nweysa,45536,Legguards of Cunning Deception,1
 Pyrobifle,45537,Treads of the False Oracle,1
-Pamage,45537,Treads of the False Oracle,2
-Ørly,45537,Treads of the False Oracle,3
+Ørly,45537,Treads of the False Oracle,2
+Pamage,45537,Treads of the False Oracle,3
 Ninnah,45587,Bulwark of Algalon,1
 Queriss,45587,Bulwark of Algalon,2
-Queriss,45594,Legplates of the Endless Void,1
-Ninnah,45594,Legplates of the Endless Void,2
-Iryastra,45599,Sabatons of Lifeless Night,1
-Gosseyn,45599,Sabatons of Lifeless Night,2
-Nweysa,45609,Comet's Trail,1
-Iryastra,45609,Comet's Trail,2
+Ninnah,45594,Legplates of the Endless Void,1
+Queriss,45594,Legplates of the Endless Void,2
+Gosseyn,45599,Sabatons of Lifeless Night,1
+Iryastra,45599,Sabatons of Lifeless Night,2
+Aelvå,45609,Comet's Trail,1
+Nweysa,45609,Comet's Trail,2
+Iryastra,45609,Comet's Trail,3
+Aelvå,45610,Boundless Gaze,1
+Aelvå,45612,Constellus,1
 Nweysa,45613,Dreambinder,1
 Skotia,45616,Star-beaded Clutch,1
 Pamage,45617,Cosmos,1
-Pyrobifle,45617,Cosmos,2
-Warloquë,45617,Cosmos,3
+Warloquë,45617,Cosmos,2
+Pyrobifle,45617,Cosmos,3
 Ørly,45617,Cosmos,4
 Warloquë,45619,Starwatcher's Binding,1
 Pamage,45619,Starwatcher's Binding,2
 Ørly,45619,Starwatcher's Binding,3
 Pyrobifle,45619,Starwatcher's Binding,4
-Ørly,45620,Starshard Edge,1
+Pyrobifle,45620,Starshard Edge,1
 Pamage,45620,Starshard Edge,2
-Warloquë,45620,Starshard Edge,3
-Pyrobifle,45620,Starshard Edge,4
+Ørly,45620,Starshard Edge,3
+Warloquë,45620,Starshard Edge,4
 Warloquë,45632,Breastplate of the Wayward Conqueror,1
-Gosseyn,45634,Breastplate of the Wayward Vanquisher,1
-Iryastra,45634,Breastplate of the Wayward Vanquisher,2
-Ørly,45634,Breastplate of the Wayward Vanquisher,3
-Pyrobifle,45634,Breastplate of the Wayward Vanquisher,4
-Pamage,45634,Breastplate of the Wayward Vanquisher,5
+Aelvå,45633,Breastplate of the Wayward Protector,1
+Iryastra,45634,Breastplate of the Wayward Vanquisher,1
+Gosseyn,45634,Breastplate of the Wayward Vanquisher,2
+Pamage,45634,Breastplate of the Wayward Vanquisher,3
+Ørly,45634,Breastplate of the Wayward Vanquisher,4
+Pyrobifle,45634,Breastplate of the Wayward Vanquisher,5
 Ninnah,45638,Crown of the Wayward Conqueror,1
 Queriss,45639,Crown of the Wayward Protector,1
 Nweysa,45640,Crown of the Wayward Vanquisher,1
@@ -109,9 +118,11 @@ Skotia,45640,Crown of the Wayward Vanquisher,3
 Ørly,45640,Crown of the Wayward Vanquisher,4
 Pamage,45640,Crown of the Wayward Vanquisher,5
 Pyrobifle,45640,Crown of the Wayward Vanquisher,6
+Aelvå,45642,Gauntlets of the Wayward Protector,1
 Nweysa,45643,Gauntlets of the Wayward Vanquisher,1
 Gosseyn,45643,Gauntlets of the Wayward Vanquisher,2
 Skotia,45643,Gauntlets of the Wayward Vanquisher,3
+Aelvå,45654,Legplates of the Wayward Protector,1
 Skotia,45655,Legplates of the Wayward Vanquisher,1
 Pyrobifle,45655,Legplates of the Wayward Vanquisher,2
 Pamage,45655,Legplates of the Wayward Vanquisher,3
@@ -119,18 +130,19 @@ Pamage,45655,Legplates of the Wayward Vanquisher,3
 Ninnah,45656,Mantle of the Wayward Conqueror,1
 Warloquë,45656,Mantle of the Wayward Conqueror,2
 Queriss,45657,Mantle of the Wayward Protector,1
-Gosseyn,45658,Mantle of the Wayward Vanquisher,1
-Iryastra,45658,Mantle of the Wayward Vanquisher,2
+Aelvå,45657,Mantle of the Wayward Protector,2
+Iryastra,45658,Mantle of the Wayward Vanquisher,1
+Gosseyn,45658,Mantle of the Wayward Vanquisher,2
 Skotia,45658,Mantle of the Wayward Vanquisher,3
-Pyrobifle,45658,Mantle of the Wayward Vanquisher,4
-Ørly,45658,Mantle of the Wayward Vanquisher,5
-Pamage,45658,Mantle of the Wayward Vanquisher,6
+Pamage,45658,Mantle of the Wayward Vanquisher,4
+Pyrobifle,45658,Mantle of the Wayward Vanquisher,5
+Ørly,45658,Mantle of the Wayward Vanquisher,6
 Iryastra,45663,Armbands of Bedlam,1
 Gosseyn,45663,Armbands of Bedlam,2
 Warloquë,45665,Pharos Gloves,1
-Pamage,45665,Pharos Gloves,2
-Pyrobifle,45665,Pharos Gloves,3
-Ørly,45665,Pharos Gloves,4
+Ørly,45665,Pharos Gloves,2
+Pamage,45665,Pharos Gloves,3
+Pyrobifle,45665,Pharos Gloves,4
 Skotia,45703,Spark of Hope,1
 Nweysa,45869,Fluxing Energy Coils,1
 Skotia,45886,Icecore Staff,1
@@ -140,30 +152,36 @@ Skotia,45946,Fire Orchid Signet,1
 Ninnah,45947,"Serilas, Blood Blade of Invar One-Arm",1
 Ninnah,45988,Greaves of the Iron Army,1
 Queriss,45988,Greaves of the Iron Army,2
-Queriss,46021,Royal Seal of King Llane,1
-Ninnah,46021,Royal Seal of King Llane,2
+Aelvå,45989,Tempered Mercury Greaves,1
+Ninnah,46021,Royal Seal of King Llane,1
+Queriss,46021,Royal Seal of King Llane,2
 Nweysa,46032,Drape of the Faceless General,1
 Gosseyn,46032,Drape of the Faceless General,2
+Aelvå,46038,Dark Matter,1
 Queriss,46039,Breastplate of the Timeless,1
 Ninnah,46039,Breastplate of the Timeless,2
-Warloquë,46046,Nebula Band,1
-Ørly,46046,Nebula Band,2
+Aelvå,46046,Nebula Band,1
+Pamage,46046,Nebula Band,2
 Pyrobifle,46046,Nebula Band,3
-Pamage,46046,Nebula Band,4
+Warloquë,46046,Nebula Band,4
+Ørly,46046,Nebula Band,5
 Nweysa,46048,Band of Lights,1
 Nweysa,46053,Reply-Code Alpha,1
-Iryastra,46053,Reply-Code Alpha,2
-Gosseyn,46053,Reply-Code Alpha,3
+Gosseyn,46053,Reply-Code Alpha,2
+Iryastra,46053,Reply-Code Alpha,3
 Skotia,46053,Reply-Code Alpha,4
 Warloquë,46053,Reply-Code Alpha,5
 Nweysa,46095,Soul-Devouring Cinch,1
-Gosseyn,46097,Caress of Insanity,1
+Aelvå,46097,Caress of Insanity,1
 Gosseyn,46097,Caress of Insanity,2
+Gosseyn,46097,Caress of Insanity,3
 Gosseyn,40207,Sigil of Awareness,P1
 Iryastra,40207,Sigil of Awareness,P1
 Skotia,40342,Idol of Awakening,P1
 Nweysa,40713,Idol of the Ravenous Beast,P1
+Aelvå,42608,Furious Gladiator's Totem of Indomitability,PvP
 Gosseyn,42987,Darkmoon Card: Greatness,P1
 Iryastra,42987,Darkmoon Card: Greatness,P1
+Aelvå,45553,Belt of Dragons,Craft
 Nweysa,45564,Footpads of Silence,Craft
 Ninnah,45825,Shieldwarder Girdle,Emblems of Conquest

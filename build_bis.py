@@ -6,12 +6,12 @@ import pandas as pd
 import os
 
 
-def get_items_from_eightyupgrades(url, player=None):
+def get_items_from_eightyupgrades(url):
     driver = webdriver.Chrome()
     driver.get(url)
     time.sleep(10)
 
-    elems = re.findall('gear-slot_itemName__[A-Z0-9]* item-(?:epic|rare|legendary).*?</a>',
+    elems = re.findall('gear-slot_itemName__[a-zA-Z0-9]* item-(?:epic|rare|legendary).*?</a>',
                                                             driver.page_source)
     driver.close()
 
@@ -19,6 +19,7 @@ def get_items_from_eightyupgrades(url, player=None):
                                                             for e in elems])
     wanted_slots = [1, 2, 3, 15, 5, 9, 16, 10, 6, 7, 8, 11, 12, 13, 14, 18]
     accepted_slots = wanted_slots + [17]
+    assert len(np.unique(slots)) == len(slots)
     assert all([s in slots for s in wanted_slots])
     mask = np.isin(slots, accepted_slots)
 
@@ -83,18 +84,15 @@ def get_items_from_eightyupgrades(url, player=None):
                                                                     'Starshine Signet']:
             ids[i], names[i] = 46052, 'Reply-Code Alpha'
 
-    if player is not None:
-        with open(rf'data/players/{player}.txt', 'w') as f:
-            f.write('\n'.join([' '.join([str(i), n]) for i, n in zip(ids, names)]))
-
     return ids, names
 
 
-def get_items_from_text(txt):
+def get_items_from_text(txt, ignore_len=False):
     ids = np.array([int(line.split()[0]) for line in txt.split('\n')])
     names = np.array([' '.join(line.split()[1:]) for line in txt.split('\n')],
                                                                 dtype='<U50')
-    assert len(ids) in [16, 17]
+    if not ignore_len:
+        assert len(ids) in [16, 17]
 
     return ids, names
 
@@ -103,10 +101,28 @@ def get_items(player):
     with open(rf'data/players/{player}.txt', 'r') as f:
         content = f.read()
 
-    if 'eightyupgrades' in content:
-        return get_items_from_eightyupgrades(content, player=player)
+    lines = content.split('\n')
+    lines = [l for l in lines if l]
+    ids = []
+    names = []
+    if 'eightyupgrades' in lines[0]:
+        eighty_ids, eighty_names = get_items_from_eightyupgrades(lines[0])
+        ids += eighty_ids.tolist()
+        names += eighty_names.tolist()
+        lines = lines[1:]
+    if lines:
+        ignore_len = len(ids) > 0
+        txt_ids, txt_names = get_items_from_text('\n'.join(lines), ignore_len=ignore_len)
+        ids += txt_ids.tolist()
+        names += txt_names.tolist()
 
-    return get_items_from_text(content)
+    ids = np.array(ids, dtype='int')
+    names = np.array(names, dtype='<U50')
+
+    with open(rf'data/players/{player}.txt', 'w') as f:
+        f.write('\n'.join([' '.join([str(i), n]) for i, n in zip(ids, names)]))
+
+    return ids, names
 
 
 def build_bis(players):
