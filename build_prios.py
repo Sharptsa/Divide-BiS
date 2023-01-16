@@ -140,6 +140,7 @@ def optimize_prios(df_source, fixed_pre=None, fixed_post=None, epochs=80, target
                                           axis=1)
     best_df['received'] = ''
     best_df.loc[best_df.rank_in_queue == 'P1', 'received'] = 'X'
+    best_df.sort_values('item_name', inplace=True)
 
     best_df.to_excel(r'data/players_priorities.xlsx', index=False)
 
