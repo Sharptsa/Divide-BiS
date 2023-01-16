@@ -138,8 +138,9 @@ def optimize_prios(df_source, fixed_pre=None, fixed_post=None, epochs=80, target
                                           if pd.notna(row.rank_in_queue)
                                           else non_lootable_sources[row.item_id],
                                           axis=1)
+    best_df['received'] = ''
 
-    best_df.to_csv(r'data/players_priorities.csv', index=False)
+    best_df.to_excel(r'data/players_priorities.xlsx', index=False)
 
     return best_df, np.array(temps), np.array(losses)
 

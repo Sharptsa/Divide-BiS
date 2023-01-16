@@ -17,7 +17,7 @@ if st.session_state.fr:
     df_items.item_name = df_items.item_name_fr
     df_items.boss = df_items.boss_fr
 
-df_priorities = pd.read_csv(r'data/players_priorities.csv')
+df_priorities = pd.read_excel(r'data/players_priorities.xlsx')
 left, right = (df_priorities, df_items.drop(['item_name', 'drops_per_id'], axis=1)) \
               if not st.session_state.fr \
               else (df_priorities.drop('item_name', axis=1), df_items.drop('drops_per_id', axis=1))
@@ -95,8 +95,11 @@ if st.session_state.fr:
                                                   axis=1)
 df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
+df_priorities.received = df_priorities.received.fillna('').apply(lambda x:
+                         ('Yes' if len(x) > 0 else 'No') if not st.session_state.fr
+                         else ('Oui' if len(x) > 0 else 'Non')
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
-                                                                            .reset_index()
+                                                                    .reset_index(drop=True)
 
 
 # Add background image
@@ -121,35 +124,30 @@ add_background()
 
 # Display dataframe
 def display_df(mask, how='standard'):
-    if how == 'standard':
-        to_display = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl',
-                                                'item_name', 'item_id']) \
-                     .loc[mask & (df_priorities.rank_in_queue == 1),
-                          ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue', 'icon']]
-
-    elif how == 'player':
-        to_display = df_priorities.sort_values(['lootable', 'rank_in_queue', 'ilvl',
+    to_display = df_priorities.sort_values(['lootable', 'boss', 'raid_size', 'hm',
+                                            'ilvl', 'item_name', 'item_id', 'received',
+                                            'player'],
+                                           ascending=[False, True, True, True,
+                                                      True, True, True, False,
+                                                      True])
+    to_display = to_display.loc[mask, ['source', 'item_name', 'ilvl', 'player', 'received', 'icon']]
+    if how == 'player':
+        to_display = df_priorities.sort_values(['player', 'lootable', 'received',
+                                                'ilvl', 'item_name', 'item_id',
                                                 'boss', 'raid_size', 'hm'],
-                                               ascending=[False, True, False,
-                                                          True, True, True]) \
-                     .loc[mask, ['player', 'item_name', 'ilvl',
-                                              'source', 'rank_in_queue', 'icon']]
-
-    elif how == 'item':
-        to_display = df_priorities.sort_values(['lootable', 'boss', 'raid_size', 'hm', 'ilvl',
-                                                'item_name', 'rank_in_queue', 'player'],
-                                               ascending=[False, True, True, True, True,
-                                                          True, True, True]) \
-                     .loc[mask, ['source', 'item_name', 'ilvl', 'player', 'rank_in_queue', 'icon']]
+                                               ascending=[True, False, False,
+                                                          False, True, True,
+                                                          True, True, True])
+        to_display = to_display.loc[mask, ['player', 'item_name', 'ilvl', 'source', 'received', 'icon']]
 
     to_display.item_name = to_display.icon.apply(lambda x: '<img src="' + x + '" width="22" > ') \
                                                                         + to_display.item_name
     to_display.drop('icon', axis=1, inplace=True)
     columns_rename = {'source': 'Source', 'item_id': 'Item ID', 'item_name': 'Item',
-                      'ilvl': 'ilvl', 'player': 'Player', 'rank_in_queue': 'Obtained in'}
+                      'ilvl': 'ilvl', 'player': 'Player', 'received': 'Received'}
     if st.session_state.fr:
         columns_rename = {'source': 'Source', 'item_id': "ID d'item'", 'item_name': 'Item',
-                          'ilvl': 'ilvl', 'player': 'Joueur', 'rank_in_queue': 'Obtenu dans'}
+                          'ilvl': 'ilvl', 'player': 'Joueur', 'received': 'Reçu'}
     to_display.columns = [columns_rename[c] for c in to_display.columns]
 
     col.markdown(to_display.to_html(escape=False, index=False) \
@@ -174,7 +172,7 @@ else:
     n_activated_masks = sum([m.sum() > 0 for m in masks])
 
     if n_activated_masks >= 2: # standard display
-        display_df(mask, )
+        display_df(mask)
 
     elif mask_player.sum() > 0: # player
         display_df(mask, how='player')
