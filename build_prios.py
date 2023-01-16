@@ -38,24 +38,51 @@ def evaluate_prios(df):
 
     # Compute penalities
     penalizing = df.groupby('item_id').cumcount(ascending=False)
-    df['penality'] = penalizing * df.weight
-    player_penalities = df.groupby('player').penality.sum()
-    loss = np.var(player_penalities)
+    penalized = df.groupby('item_id').cumcount(ascending=True)
+    # df['penalizing'] = penalizing * df.weight
+    df['penalized'] = penalized * df.weight
+    # player_penalizing = df.groupby('player').penalizing.sum()
+    player_penalized = df.groupby('player').penalized.sum()
+    loss = np.var(player_penalized)
 
     return loss
 
 
-def optimize_prios(df_source, fixed=None, epochs=80, target_temp=0.1):
+def optimize_prios(df_source, fixed_pre=None, fixed_post=None, epochs=80, target_temp=0.001):
+    if fixed_pre is None:
+        fixed_pre = {}
+    if fixed_post is None:
+        fixed_post = {}
+
+    def format_fixed_dict(fixed, df):
+        for item_id in df.item_id.unique():
+            if item_id not in fixed:
+                fixed[item_id] = []
+        stored = []
+        for k in fixed:
+            for i, p in enumerate(fixed[k]):
+                fixed[k][i] = df.loc[(df.item_id == k)
+                                     & (df.player == p)
+                                     & (~df.index.isin(stored))].index[0]
+                stored.append(fixed[k][i])
+
+        return fixed
+
     # Prepare dataframe
     df = df_source.copy()
     df = df.loc[df.item_id.isin(df_items.item_id), :] # only keep lootable items
     df = df.sample(df.shape[0]).sort_values('item_id') # shuffle
 
+    # Format fixed dicts
+    fixed_pre = format_fixed_dict(fixed_pre, df)
+    fixed_post = format_fixed_dict(fixed_post, df)
+    idxs_in_fixed = list(itertools.chain.from_iterable([fixed_pre[k] for k in fixed_pre])) \
+                    + list(itertools.chain.from_iterable([fixed_post[k] for k in fixed_post]))
+
     # Create group items and probas
     groups = df.groupby('item_id').item_name.groups
     groups = {k: list(groups[k]) for k in groups}
-    if fixed is not None:
-        groups = {k: [i for i in groups[k] if k not in fixed or i not in fixed[k]] for k in groups}
+    groups = {k: [i for i in groups[k] if i not in idxs_in_fixed] for k in groups}
     group_probas = {k: int(len(groups[k]) * (len(groups[k]) - 1) / 2) for k in groups}
     total_links = sum(group_probas.values())
     group_probas = {k: group_probas[k] / sum(group_probas.values()) for k in group_probas}
@@ -64,7 +91,8 @@ def optimize_prios(df_source, fixed=None, epochs=80, target_temp=0.1):
     old_loss = evaluate_prios(df)
     min_loss = old_loss
     best_df = df
-    temp = 100.
+    temp = evaluate_prios(df) / 2.5
+    target_temp *= temp
     lbda = np.exp(np.log(target_temp / temp) / (epochs * total_links))
     temps = []
     losses = []
@@ -79,9 +107,7 @@ def optimize_prios(df_source, fixed=None, epochs=80, target_temp=0.1):
                                                                 groups[item_id][first_id]
 
         # Evaluate
-        groups_with_fixed = {k: fixed[k] + groups[k] if fixed is not None and k in fixed
-                                                     else groups[k]
-                                                     for k in groups}
+        groups_with_fixed = {k: fixed_pre[k] + groups[k] + fixed_post[k] for k in groups}
         loss = evaluate_prios(df.loc[list(itertools.chain.from_iterable(groups_with_fixed.values()))])
         if np.random.random() > np.exp((old_loss - loss) / temp): # not accepted
             groups[item_id][first_id], groups[item_id][second_id] = groups[item_id][second_id], \
@@ -118,3 +144,8 @@ def optimize_prios(df_source, fixed=None, epochs=80, target_temp=0.1):
 
 
 df_priorities, temps, losses = optimize_prios(df_bis)
+
+import matplotlib.pyplot as plt
+plt.plot(np.arange(len(temps)), temps)
+plt.plot(np.arange(len(temps)), losses)
+plt.show()
