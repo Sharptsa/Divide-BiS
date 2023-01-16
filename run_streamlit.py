@@ -97,7 +97,7 @@ df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
 df_priorities.received = df_priorities.received.fillna('').apply(lambda x:
                          ('Yes' if len(x) > 0 else 'No') if not st.session_state.fr
-                         else ('Oui' if len(x) > 0 else 'Non')
+                         else ('Oui' if len(x) > 0 else 'Non'))
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                     .reset_index(drop=True)
 
@@ -153,6 +153,8 @@ def display_df(mask, how='standard'):
     col.markdown(to_display.to_html(escape=False, index=False) \
                 .replace('<tr>','<tr style = "background-color: rgba(40, 40, 40, 1.0); color: white">')
                 .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0); color: white; text-align: center">')
+                .replace('Yes','<span style="color: rgba(37, 153, 37, 1.0)">Yes</span>')
+                .replace('Oui','<span style="color: rgba(37, 153, 37, 1.0)">Oui</span>')
                 , unsafe_allow_html=True)
 
 
