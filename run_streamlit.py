@@ -95,9 +95,11 @@ if st.session_state.fr:
                                                   axis=1)
 df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
-df_priorities.received = df_priorities.received.fillna('').apply(lambda x:
-                         ('Yes' if len(x) > 0 else 'No') if not st.session_state.fr
-                         else ('Oui' if len(x) > 0 else 'Non'))
+df_priorities.loc[df_priorities.received.notna(), 'received'] = \
+                                        'No' if not st.session_state.fr else 'Non'
+df_priorities.loc[df_priorities.received.isna(), 'received'] = \
+                                        'Yes' if not st.session_state.fr else 'Oui'
+df_priorities.loc[~df_priorities.lootable, 'received'] = ''
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                     .reset_index(drop=True)
 

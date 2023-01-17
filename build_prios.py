@@ -141,7 +141,6 @@ def optimize_prios(df_source, insert_player=None, fixed_pre=None, fixed_post=Non
                                           else non_lootable_sources[row.item_id],
                                           axis=1)
     best_df['received'] = ''
-    best_df.loc[best_df.rank_in_queue == 'P1', 'received'] = 'X'
     best_df.sort_values('item_name', inplace=True)
 
     if insert_player is None:
