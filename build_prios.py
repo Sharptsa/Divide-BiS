@@ -38,7 +38,7 @@ def evaluate_prios(df):
     df = pd.merge(df, df_items[['item_id', 'weight']], how='inner', on='item_id')
 
     # Compute penalities
-    penalizing = df.groupby('item_id').cumcount(ascending=False)
+    # penalizing = df.groupby('item_id').cumcount(ascending=False)
     penalized = df.groupby('item_id').cumcount(ascending=True)
     # df['penalizing'] = penalizing * df.weight
     df['penalized'] = penalized * df.weight
@@ -49,7 +49,8 @@ def evaluate_prios(df):
     return loss
 
 
-def optimize_prios(df_source, fixed_pre=None, fixed_post=None, epochs=80, target_temp=0.001):
+def optimize_prios(df_source, insert_player=None, fixed_pre=None, fixed_post=None,
+                                                    epochs=80, target_temp=0.001):
     if fixed_pre is None:
         fixed_pre = {}
     if fixed_post is None:
@@ -72,7 +73,8 @@ def optimize_prios(df_source, fixed_pre=None, fixed_post=None, epochs=80, target
     # Prepare dataframe
     df = df_source.copy()
     df = df.loc[df.item_id.isin(df_items.item_id), :] # only keep lootable items
-    df = df.sample(df.shape[0]).sort_values('item_id') # shuffle
+    if insert_player is None:
+        df = df.sample(df.shape[0]).sort_values('item_id') # shuffle
 
     # Format fixed dicts
     fixed_pre = format_fixed_dict(fixed_pre, df)
@@ -97,7 +99,7 @@ def optimize_prios(df_source, fixed_pre=None, fixed_post=None, epochs=80, target
     lbda = np.exp(np.log(target_temp / temp) / (epochs * total_links))
     temps = []
     losses = []
-    for step in range(epochs * total_links):
+    for step in range(epochs * total_links * (insert_player == None)):
         if step % total_links == 0:
             print(f'Epoch {int(step / total_links) + 1}/{epochs}...')
 
@@ -142,14 +144,16 @@ def optimize_prios(df_source, fixed_pre=None, fixed_post=None, epochs=80, target
     best_df.loc[best_df.rank_in_queue == 'P1', 'received'] = 'X'
     best_df.sort_values('item_name', inplace=True)
 
-    best_df.to_excel(r'data/players_priorities.xlsx', index=False)
+    if insert_player is None:
+        best_df.to_excel(r'data/players_priorities.xlsx', index=False)
 
     return best_df, np.array(temps), np.array(losses)
 
 
-df_priorities, temps, losses = optimize_prios(df_bis)
+if __name__ == '__main__':
+    df_priorities, temps, losses = optimize_prios(df_bis, fixed_post={45612: ['Aelvå']})
 
-import matplotlib.pyplot as plt
-plt.plot(np.arange(len(temps)), temps)
-plt.plot(np.arange(len(temps)), losses)
-plt.show()
+    import matplotlib.pyplot as plt
+    plt.plot(np.arange(len(temps)), temps)
+    plt.plot(np.arange(len(temps)), losses)
+    plt.show()

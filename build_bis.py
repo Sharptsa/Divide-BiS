@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 import os
 
+from build_prios import optimize_prios
+
 
 def get_items_from_eightyupgrades(url):
     driver = webdriver.Chrome()
@@ -111,7 +113,7 @@ def get_items(player):
         names += eighty_names.tolist()
         lines = lines[1:]
     if lines:
-        ignore_len = len(ids) > 0
+        ignore_len = len(ids) > 0 or player in ['Aelvå']
         txt_ids, txt_names = get_items_from_text('\n'.join(lines), ignore_len=ignore_len)
         ids += txt_ids.tolist()
         names += txt_names.tolist()
@@ -135,5 +137,20 @@ def build_bis(players):
     df.to_csv(r'data/players_bis.csv', index=False)
 
 
-players = [os.path.splitext(f)[0] for f in os.listdir(r'data/players')]
-build_bis(players)
+def insert_player_priorities(player):
+    df_bis = pd.read_csv(r'data/players_bis.csv')
+    df_priorities = pd.read_excel(r'data/players_priorities.xlsx')
+    assert player not in df_priorities.player.unique()
+
+    player_bis = df_bis.loc[df_bis.player == player]
+    df_priorities = pd.concat([df_priorities, player_bis]).reset_index(drop=True)
+    df_res, _, _ = optimize_prios(df_priorities.iloc[:, :-2], insert_player=player)
+    received_mask = (df_priorities.player != player) & (df_priorities.received.notna())
+    df_res.loc[received_mask, 'received'] = df_priorities.loc[received_mask, 'received']
+
+    df_res.to_excel(r'data/players_priorities.xlsx', index=False)
+
+
+if __name__ == '__main__':
+    players = [os.path.splitext(f)[0] for f in os.listdir(r'data/players')]
+    build_bis(players)
