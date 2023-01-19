@@ -11,7 +11,7 @@
 45654 Legplates of the Wayward Protector
 45989 Tempered Mercury Greaves
 45456 Loop of the Agile
-46046 Nebula Band
+46053 Reply-Code Alpha
 46038 Dark Matter
 45609 Comet's Trail
 42608 Furious Gladiator's Totem of Indomitability

@@ -150,7 +150,9 @@ def optimize_prios(df_source, insert_player=None, fixed_pre=None, fixed_post=Non
 
 
 if __name__ == '__main__':
-    df_priorities, temps, losses = optimize_prios(df_bis, fixed_post={45612: ['Aelvå']})
+    df_priorities, temps, losses = optimize_prios(df_bis,
+                                                  fixed_pre={},
+                                                  fixed_post={45612: ['Aelvå']})
 
     import matplotlib.pyplot as plt
     plt.plot(np.arange(len(temps)), temps)
