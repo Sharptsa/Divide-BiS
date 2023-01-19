@@ -141,7 +141,9 @@ def optimize_prios(df_source, insert_player=None, fixed_pre=None, fixed_post=Non
                                           else non_lootable_sources[row.item_id],
                                           axis=1)
     best_df['received'] = ''
-    best_df.sort_values('item_name', inplace=True)
+    best_df['temp_idx'] = range(best_df.shape[0])
+    best_df.sort_values(['item_name', 'temp_idx'], inplace=True)
+    best_df.drop('temp_idx', axis=1, inplace=True)
 
     if insert_player is None:
         best_df.to_excel(r'data/players_priorities.xlsx', index=False)
