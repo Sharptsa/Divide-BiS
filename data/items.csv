@@ -124,3 +124,6 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 45886,Icecore Staff,Bâton au coeur de glace,Hodir,Hodir,10,True,Weapon 2H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_staff_94.jpg
 45946,Fire Orchid Signet,Chevalière de l'orchidée de feu,Freya,Freya,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_65.jpg
 45114,Steamcaller's Totem,Totem d'implorateur de la vapeur,Flame Leviathan,Léviathan des flammes,25,False,Ranged,232,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_nature_slowingtotem.jpg
+45146,Shackles of the Odalisque,Menottes de l'odalisque,Razorscale,Tranchécaille,25,False,Wrist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_27.jpg
+45119,Embrace of the Leviathan,Etreinte du léviathan,Flame Leviathan,Léviathan des flammes,25,False,Waist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_49.jpg
+45511,Scepter of Lost Souls,Sceptre des âmes perdues,General Vezax,Général Vezax,25,False,Ranged,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_28.jpg
