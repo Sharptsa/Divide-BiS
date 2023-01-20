@@ -5,7 +5,7 @@ import base64
 
 # Title and text box
 st.set_page_config(layout="wide")
-col = st.columns([0.18, 0.64, 0.18])[1]
+col = st.columns([0.17, 0.66, 0.17])[1]
 col.title('Divide BiS')
 col.checkbox('Mode français', key='fr')
 col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
