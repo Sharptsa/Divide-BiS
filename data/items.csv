@@ -127,3 +127,5 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 45146,Shackles of the Odalisque,Menottes de l'odalisque,Razorscale,Tranchécaille,25,False,Wrist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_27.jpg
 45119,Embrace of the Leviathan,Etreinte du léviathan,Flame Leviathan,Léviathan des flammes,25,False,Waist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_49.jpg
 45511,Scepter of Lost Souls,Sceptre des âmes perdues,General Vezax,Général Vezax,25,False,Ranged,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_28.jpg
+45454,Frost-bound Chain Bracers,Brassards cerclés de givre en anneaux,Hodir,Hodir,25,False,Wrist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_25.jpg
+45498,"Lotrafen, Spear of the Damned","Lotrafen, la lance des damnés",General Vezax,Général Vezax,25,False,Weapon 2H,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_halberd_30.jpg
