@@ -95,11 +95,10 @@ if st.session_state.fr:
                                                   axis=1)
 df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
-df_priorities.loc[df_priorities.received.notna(), 'received'] = \
-                                        'Yes' if not st.session_state.fr else 'Oui'
-df_priorities.loc[df_priorities.received.isna(), 'received'] = \
-                                        'No' if not st.session_state.fr else 'Non'
-df_priorities.loc[~df_priorities.lootable, 'received'] = ''
+df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
+df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
+df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
+df_priorities.loc[~df_priorities.lootable, 'received'] = -1.
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                     .reset_index(drop=True)
 
@@ -142,6 +141,10 @@ def display_df(mask, how='standard'):
                                                           True, True, True])
         to_display = to_display.loc[mask, ['player', 'item_name', 'ilvl', 'source', 'received', 'icon']]
 
+    to_display.loc[to_display.received == 1., 'received'] = 'Oui' if st.session_state.fr else 'Yes'
+    to_display.loc[to_display.received == 0.5, 'received'] = 'Solo'
+    to_display.loc[to_display.received == 0., 'received'] = 'Non' if st.session_state.fr else 'No'
+    to_display.loc[to_display.received == -1., 'received'] = ''
     to_display.item_name = to_display.icon.apply(lambda x: '<img src="' + x + '" width="22" > ') \
                                                                         + to_display.item_name
     to_display.drop('icon', axis=1, inplace=True)
@@ -157,6 +160,7 @@ def display_df(mask, how='standard'):
                 .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0); color: white; text-align: center">')
                 .replace('Yes','<span style="color: rgba(37, 153, 37, 1.0)">Yes</span>')
                 .replace('Oui','<span style="color: rgba(37, 153, 37, 1.0)">Oui</span>')
+                .replace('Solo','<span style="color: rgba(37, 153, 37, 1.0)">Solo</span>')
                 , unsafe_allow_html=True)
 
 
