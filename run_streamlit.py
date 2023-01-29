@@ -28,7 +28,7 @@ df_priorities['source'] = df_priorities.apply(lambda row: row.rank_in_queue if p
                                         ' hm' if row.hm else '']),
                           axis=1)
 df_priorities.loc[df_priorities.boss.isna(), 'rank_in_queue'] = np.nan
-df_priorities['lootable'] = (df_priorities.boss.notna()) | (df_priorities.source == 'Craft')
+df_priorities['lootable'] = df_priorities.boss.notna()
 
 # Clean data
 df_priorities.hm = df_priorities.hm == True
@@ -98,7 +98,7 @@ df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
 df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
 df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
 df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
-df_priorities.loc[~df_priorities.lootable, 'received'] = -1.
+df_priorities.loc[(~df_priorities.lootable) & (df_priorities.source != 'Craft'), 'received'] = -1.
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                     .reset_index(drop=True)
 
