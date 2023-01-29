@@ -28,7 +28,7 @@ df_priorities['source'] = df_priorities.apply(lambda row: row.rank_in_queue if p
                                         ' hm' if row.hm else '']),
                           axis=1)
 df_priorities.loc[df_priorities.boss.isna(), 'rank_in_queue'] = np.nan
-df_priorities['lootable'] = df_priorities.boss.notna()
+df_priorities['lootable'] = (df_priorities.boss.notna()) | (df_priorities.source == 'Craft')
 
 # Clean data
 df_priorities.hm = df_priorities.hm == True
