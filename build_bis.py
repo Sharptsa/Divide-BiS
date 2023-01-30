@@ -144,7 +144,24 @@ def insert_player_priorities(player):
 
     player_bis = df_bis.loc[df_bis.player == player]
     df_priorities = pd.concat([df_priorities, player_bis]).reset_index(drop=True)
-    df_res, _, _ = optimize_prios(df_priorities.iloc[:, :-2], insert_player=player)
+    df_res, _, _ = optimize_prios(df_priorities.iloc[:, :-2], resim=False)
+    received_mask = (df_priorities.player != player) & (df_priorities.received.notna())
+    df_res.loc[received_mask, 'received'] = df_priorities.loc[received_mask, 'received']
+
+    df_res.to_excel(r'data/players_priorities.xlsx', index=False)
+
+
+def remove_player_priorities(player):
+    df_bis = pd.read_csv(r'data/players_bis.csv')
+    df_priorities = pd.read_excel(r'data/players_priorities.xlsx')
+    assert player in df_priorities.player.unique()
+
+    new_df_bis = df_bis[df_bis.player != player]
+    new_df_bis.to_csv(r'data/players_bis.csv', index=False)
+
+    new_df_priorities = df_priorities[df_priorities.player != player]
+    df_res, _, _ = optimize_prios(new_df_priorities.iloc[:, :-2], resim=False)
+
     received_mask = (df_priorities.player != player) & (df_priorities.received.notna())
     df_res.loc[received_mask, 'received'] = df_priorities.loc[received_mask, 'received']
 

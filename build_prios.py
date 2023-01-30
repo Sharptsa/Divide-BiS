@@ -49,7 +49,7 @@ def evaluate_prios(df):
     return loss
 
 
-def optimize_prios(df_source, insert_player=None, fixed_pre=None, fixed_post=None,
+def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
                                                     epochs=80, target_temp=0.001):
     if fixed_pre is None:
         fixed_pre = {}
@@ -73,7 +73,7 @@ def optimize_prios(df_source, insert_player=None, fixed_pre=None, fixed_post=Non
     # Prepare dataframe
     df = df_source.copy()
     df = df.loc[df.item_id.isin(df_items.item_id), :] # only keep lootable items
-    if insert_player is None:
+    if resim:
         df = df.sample(df.shape[0]).sort_values('item_id') # shuffle
 
     # Format fixed dicts
@@ -99,7 +99,7 @@ def optimize_prios(df_source, insert_player=None, fixed_pre=None, fixed_post=Non
     lbda = np.exp(np.log(target_temp / temp) / (epochs * total_links))
     temps = []
     losses = []
-    for step in range(epochs * total_links * (insert_player == None)):
+    for step in range(epochs * total_links * resim):
         if step % total_links == 0:
             print(f'Epoch {int(step / total_links) + 1}/{epochs}...')
 
@@ -142,10 +142,12 @@ def optimize_prios(df_source, insert_player=None, fixed_pre=None, fixed_post=Non
                                           axis=1)
     best_df['received'] = ''
     best_df['temp_idx'] = range(best_df.shape[0])
-    best_df.sort_values(['item_name', 'temp_idx'], inplace=True)
+    best_df.sort_values(['item_name', 'item_id', 'temp_idx'], inplace=True)
     best_df.drop('temp_idx', axis=1, inplace=True)
 
-    if insert_player is None:
+    if resim:
+        previous_priorities = pd.read_excel(r'data/players_priorities.xlsx')
+        previous_priorities.to_excel(r'data/players_priorities_previous.xlsx', index=False)
         best_df.to_excel(r'data/players_priorities.xlsx', index=False)
 
     return best_df, np.array(temps), np.array(losses)
