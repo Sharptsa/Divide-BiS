@@ -15,10 +15,11 @@ for iid in df_bis.item_id.unique():
     if iid not in df_items.item_id.unique():
         if iid not in [45825, 45564, 45553, 45551, 40207, 40321, 40713, 40342,
                        37111, 40705, 40432, 40255, 40267, 40709, 42987, 44253,
-                       42853, 42608, 46017]:
+                       42853, 42608, 46017, 45561]:
             iids.append(iid)
 if iids:
     print(f'Found new items: {iids}')
+    raise Warning
 
 
 def add_item(row):
@@ -130,7 +131,7 @@ def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
     non_lootable = df_source.copy().loc[~df_source.item_id.isin(df_items.item_id), :]
     best_df = pd.concat([best_df, non_lootable.sort_values('item_id')])
     non_lootable_sources = {'Emblems of Conquest': [45825],
-                            'Craft': [45564, 45553, 45551],
+                            'Craft': [45564, 45553, 45551, 45561],
                             'P1': [40207, 40321, 40713, 40342, 37111, 40705, 40432,
                                    40255, 40267, 40709, 42987, 44253],
                             'PvP': [42853, 42608],
