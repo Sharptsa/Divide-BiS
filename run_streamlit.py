@@ -25,7 +25,7 @@ df_priorities = pd.merge(left, right,
                          how='left', on='item_id')
 df_priorities['source'] = df_priorities.apply(lambda row: row.rank_in_queue if pd.isna(row.boss)
                           else ''.join([row.boss, ' ' + str(int(row.raid_size)),
-                                        ' hm' if row.hm else '']),
+                                        ' hm' if row.hm else ' nm']),
                           axis=1)
 df_priorities.loc[df_priorities.boss.isna(), 'rank_in_queue'] = np.nan
 df_priorities['lootable'] = (df_priorities.boss.notna()) | (df_priorities.source == 'Craft')
@@ -34,7 +34,7 @@ df_priorities['lootable'] = (df_priorities.boss.notna()) | (df_priorities.source
 df_priorities.hm = df_priorities.hm == True
 df_priorities.raid_size = df_priorities.raid_size.fillna(-1).apply(int)
 df_priorities.boss.fillna('', inplace=True)
-df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ' ###############
+df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ'
 df_priorities.slot.fillna('', inplace=True)
 non_lootable_ilvls = {258: [46017],
                       238: [42853, 42608],
@@ -148,6 +148,7 @@ def display_df(mask, how='standard'):
     to_display.loc[to_display.received == 0.5, 'received'] = 'Solo'
     to_display.loc[to_display.received == 0., 'received'] = 'Non' if st.session_state.fr else 'No'
     to_display.loc[to_display.received == -1., 'received'] = ''
+    to_display.source = to_display.source.apply(lambda x: x.replace(' nm', ''))
     to_display.item_name = to_display.icon.apply(lambda x: '<img src="' + x + '" width="22" > ') \
                                                                         + to_display.item_name
     to_display.drop('icon', axis=1, inplace=True)
