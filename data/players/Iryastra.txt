@@ -4,7 +4,7 @@
 46053 Reply-Code Alpha
 45634 Breastplate of the Wayward Vanquisher
 45663 Armbands of Bedlam
-45442 Sorthalis, Hammer of the Watchers
+46097 Caress of Insanity
 45442 Sorthalis, Hammer of the Watchers
 45481 Gauntlets of Ruthless Reprisal
 45241 Belt of Colossal Rage
