@@ -10,7 +10,7 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 45314,Igniter Rod,Bâtonnet boute-feu,Ignis the Furnace Master,Ignis le maître de la Fournaise,10,False,Weapon 1H,225,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_ulduarraid_d_03.jpg
 45158,Heart of Iron,Cœur de fer,Ignis the Furnace Master,Ignis le maître de la Fournaise,25,False,Trinket,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_spiritshard_01.jpg
 45170,Scepter of Creation,Sceptre de création,Ignis the Furnace Master,Ignis le maître de la Fournaise,25,False,Ranged,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_29.jpg
-45137,Veranus' Bane,Plaie de Veranus,Razorscale,Tranchécaille,10,False,Ranged,225,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_rifle_31.jpg
+45137,Veranus' Bane,Plaie de Veranus,Razorscale,Tranchécaille,25,False,Ranged,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_rifle_31.jpg
 45151,Belt of the Fallen Wyrm,Ceinture du wyrm vaincu,Razorscale,Tranchécaille,25,False,Waist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_47a.jpg
 45139,Dragonslayer's Brace,Corset de tueur de dragon,Razorscale,Tranchécaille,25,False,Waist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_34.jpg
 45148,Living Flame,Flamme vivante,Razorscale,Tranchécaille,25,False,Trinket,232,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_fire_burnout.jpg
