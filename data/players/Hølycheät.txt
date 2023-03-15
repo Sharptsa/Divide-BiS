@@ -1,12 +1,12 @@
 45638 Crown of the Wayward Conqueror
 45933 Pendant of the Shallow Grave
-45656 Mantle of the Wayward Conqueror
+45474 Pauldrons of the Combatant
 45486 Drape of the Sullen Goddess
 45445 Breastplate of the Devoted
 45460 Bindings of Winter Gale
 46035 Aesuga, Hand of the Ardent Champion
 45470 Wisdom's Hold
-45641 Gauntlets of the Wayward Conqueror
+45928 Gauntlets of the Thunder God
 45151 Belt of the Fallen Wyrm
 45653 Legplates of the Wayward Conqueror
 45561 Treads of Destiny

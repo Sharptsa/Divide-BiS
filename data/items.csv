@@ -131,3 +131,5 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 45498,"Lotrafen, Spear of the Damned","Lotrafen, la lance des damnés",General Vezax,Général Vezax,25,False,Weapon 2H,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_halberd_30.jpg
 46035,"Aesuga, Hand of the Ardent Champion","Aesuga, Main du champion ardent",General Vezax,Général Vezax,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_92.jpg
 46036,Void Sabre,Sabre du Vide,General Vezax,Général Vezax,10,True,1H Weapon,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_133.jpg
+45928,Gauntlets of the Thunder God,Gantelets du dieu du tonnerre,Thorim,Thorim,10,True,Hands,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_62.jpg
+45474,Pauldrons of the Combatant,Espauliers du combattant,Thorim,Thorim,25,True,Shoulder,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_01.jpg
