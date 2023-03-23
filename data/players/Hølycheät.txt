@@ -1,17 +1,17 @@
 45638 Crown of the Wayward Conqueror
-45933 Pendant of the Shallow Grave
-45474 Pauldrons of the Combatant
-45486 Drape of the Sullen Goddess
-45445 Breastplate of the Devoted
-45460 Bindings of Winter Gale
-46035 Aesuga, Hand of the Ardent Champion
-45470 Wisdom's Hold
-45928 Gauntlets of the Thunder God
-45151 Belt of the Fallen Wyrm
-45653 Legplates of the Wayward Conqueror
-45561 Treads of Destiny
-45946 Fire Orchid Signet
-46053 Reply-Code Alpha
-46051 Meteorite Crystal
-37111 Soul Preserver
-40705 Libram of Renewal
+45485 Bronze Pendant of the Vanir
+45656 Mantle of the Wayward Conqueror
+45496 Titanskin Cloak
+46039 Breastplate of the Timeless
+45111 Mimiron's Inferno Couplings
+45947 Serilas, Blood Blade of Invar One-Arm
+45587 Bulwark of Algalon
+45487 Handguards of Revitalization
+45825 Shieldwarder Girdle
+45594 Legplates of the Endless Void
+45560 Spiked Deathdealers
+45471 Fate's Clutch
+45326 Platinum Band of the Aesir
+45158 Heart of Iron
+42987 Darkmoon Card: Greatness
+45145 Libram of the Sacred Shield

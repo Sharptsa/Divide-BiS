@@ -38,7 +38,7 @@ df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ'
 df_priorities.slot.fillna('', inplace=True)
 non_lootable_ilvls = {258: [46017],
                       238: [42853, 42608],
-                      232: [45825, 45564, 45553, 45551, 45561],
+                      232: [45825, 45564, 45553, 45551, 45561, 45560],
                       213: [40207, 40321, 40342, 40432, 40255, 40267, 39728],
                       200: [40713, 40705, 40709, 42987, 44253, 40708],
                       187: [37111]}
@@ -68,7 +68,8 @@ non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_
                       45551: 'https://wow.zamimg.com/images/wow/icons/large/inv_belt_45a.jpg',
                       45561: 'https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_01.jpg',
                       39728: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_slowingtotem.jpg',
-                      40708: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_unrelentingstorm.jpg'}
+                      40708: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_unrelentingstorm.jpg',
+                      45560: 'https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_06.jpg'}
 df_priorities.icon = df_priorities.apply(lambda row: row.icon
                                          if pd.notna(row.icon)
                                          else non_lootable_icons[row.item_id],
@@ -95,7 +96,8 @@ if st.session_state.fr:
                              45551: 'Ceinturon indestructible en plaques',
                              45561: 'Bottines de la destinée',
                              39728: 'Totem de détresse',
-                             40708: 'Totem du plan élémentaire'}
+                             40708: 'Totem du plan élémentaire',
+                             45560: 'Dispensateurs de mort à pointes'}
     df_priorities.item_name = df_priorities.apply(lambda row: row.item_name
                                                   if pd.notna(row.item_name)
                                                   else non_lootable_names_fr[row.item_id],
