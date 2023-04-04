@@ -151,7 +151,7 @@ def insert_player_priorities(player):
     df_res.to_excel(r'data/players_priorities.xlsx', index=False)
 
 
-def remove_player_priorities(player):
+def remove_player_bis_priorities(player):
     df_bis = pd.read_csv(r'data/players_bis.csv')
     df_priorities = pd.read_excel(r'data/players_priorities.xlsx')
     assert player in df_priorities.player.unique()
