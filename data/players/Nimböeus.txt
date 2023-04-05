@@ -4,7 +4,7 @@
 45242 Drape of Mortal Downfall
 45633 Breastplate of the Wayward Protector
 45460 Bindings of Winter Gale
-45612 Constellus
+46035 Aesuga, Hand of the Ardent Champion
 45470 Wisdom's Hold
 45665 Pharos Gloves
 45616 Star-beaded Clutch
