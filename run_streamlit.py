@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import base64
+import unidecode
 
 # Title and text box
 st.set_page_config(layout="wide")
@@ -181,11 +182,15 @@ if st.session_state.query == '': # No query
     display_df(pd.Series(True, index=df_priorities.index))
 
 else:
-    mask_player = df_priorities.player.str.lower().str.contains(st.session_state.query.lower())
-    mask_item_name = df_priorities.item_name.str.lower().str.contains(st.session_state.query.lower())
+
+    def approx_fnc(x):
+        return unidecode.unidecode(x).lower()
+
+    mask_player = df_priorities.player.apply(approx_fnc).str.contains(approx_fnc(st.session_state.query))
+    mask_item_name = df_priorities.item_name.apply(approx_fnc).str.contains(approx_fnc(st.session_state.query))
     mask_item_id = df_priorities.item_id.apply(str).str.contains(st.session_state.query)
-    mask_source = pd.DataFrame([df_priorities.source.str.lower().str.contains(q) \
-                                for q in st.session_state.query.lower().split()]).all()
+    mask_source = pd.DataFrame([df_priorities.source.apply(approx_fnc).str.contains(q) \
+                                for q in approx_fnc(st.session_state.query).split()]).all()
 
     masks = [mask_player, mask_item_name, mask_item_id, mask_source]
     mask = pd.DataFrame(masks).any()
