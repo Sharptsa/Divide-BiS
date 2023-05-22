@@ -1,7 +1,7 @@
 45638 Crown of the Wayward Conqueror
 45243 Sapphire Amulet of Renewal
 45656 Mantle of the Wayward Conqueror
-45242 Drape of Mortal Downfall
+46053 Reply-Code Alpha
 45632 Breastplate of the Wayward Conqueror
 45446 Grasps of Reason
 45620 Starshard Edge
