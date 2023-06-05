@@ -136,7 +136,7 @@ add_background()
 
 
 # Display dataframe
-def display_df(mask, how='standard'):
+def display_df(mask, how='standard', min_glow=252):
     to_display = df_priorities.sort_values(['lootable', 'boss', 'raid_size', 'hm',
                                             'ilvl', 'item_name', 'item_id', 'received',
                                             'player'],
@@ -153,10 +153,19 @@ def display_df(mask, how='standard'):
                                                           True, True, True])
         to_display = to_display.loc[mask, ['player', 'item_name', 'ilvl', 'source', 'received', 'icon']]
 
+    def glow_fnc(row):
+        if row.received not in ['Yes', 'Oui', 'Solo']:
+            return row.received
+        elif row.ilvl >= min_glow:
+            return row.received + ' glow'
+        else:
+            return row.received + ' noglow'
+
     to_display.loc[to_display.received == 1., 'received'] = 'Oui' if st.session_state.fr else 'Yes'
     to_display.loc[to_display.received == 0.5, 'received'] = 'Solo'
     to_display.loc[to_display.received == 0., 'received'] = 'Non' if st.session_state.fr else 'No'
     to_display.loc[to_display.received == -1., 'received'] = ''
+    to_display.received = to_display.apply(glow_fnc, axis=1)
     to_display.source = to_display.source.apply(lambda x: x.replace(' nm', ''))
     to_display.item_name = to_display.icon.apply(lambda x: '<img src="' + x + '" width="22" > ') \
                                                                         + to_display.item_name
@@ -171,9 +180,12 @@ def display_df(mask, how='standard'):
     col.markdown(to_display.to_html(escape=False, index=False) \
                 .replace('<tr>','<tr style = "background-color: rgba(40, 40, 40, 1.0); color: white">')
                 .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0); color: white; text-align: center">')
-                .replace('Yes','<span style="color: rgba(37, 153, 37, 1.0)">Yes</span>')
-                .replace('Oui','<span style="color: rgba(37, 153, 37, 1.0)">Oui</span>')
-                .replace('Solo','<span style="color: rgba(37, 153, 37, 1.0)">Solo</span>')
+                .replace('Yes noglow','<span style="color: rgba(37, 153, 37, 1.0)">Yes</span>')
+                .replace('Oui noglow','<span style="color: rgba(37, 153, 37, 1.0)">Oui</span>')
+                .replace('Solo noglow','<span style="color: rgba(37, 153, 37, 1.0)">Solo</span>')
+                .replace('Yes glow','<span style="color: rgba(255, 215, 0, 1.0)">Yes</span>')
+                .replace('Oui glow','<span style="color: rgba(255, 215, 0, 1.0)">Oui</span>')
+                .replace('Solo glow','<span style="color: rgba(255, 215, 0, 1.0)">Solo</span>')
                 , unsafe_allow_html=True)
 
 
