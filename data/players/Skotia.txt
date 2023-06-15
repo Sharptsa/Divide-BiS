@@ -1,16 +1,17 @@
-45640 Crown of the Wayward Vanquisher
+47559 Regalia of the Grand Vanquisher
 45243 Sapphire Amulet of Renewal
-45658 Mantle of the Wayward Vanquisher
-46053 Reply-Code Alpha
-45519 Vestments of the Blind Denizen
-45446 Grasps of Reason
-45886 Icecore Staff
-45643 Gauntlets of the Wayward Vanquisher
-45616 Star-beaded Clutch
-45655 Legplates of the Wayward Vanquisher
-45135 Boots of Fiery Resolution
+47559 Regalia of the Grand Vanquisher
+46977 Shawl of the Refreshing Winds
+46993 Flowing Vestments of Ascent
+47066 Bracers of the Autumn Willow
+46017 Val'anyr, Hammer of Ancient Kings
+47958 Chalice of Benedictus
+47559 Regalia of the Grand Vanquisher
+47145 Cord of Pale Thorns
+47559 Regalia of the Grand Vanquisher
+47097 Boots of the Mourning Widow
 45495 Conductive Seal
-45946 Fire Orchid Signet
+47224 Ring of the Darkmender
+47059 Solace of the Defeated
 45535 Show of Faith
-45703 Spark of Hope
 40342 Idol of Awakening

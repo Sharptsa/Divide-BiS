@@ -1,17 +1,17 @@
-45639 Crown of the Wayward Protector
-45517 Pendulum of Infinity
-45657 Mantle of the Wayward Protector
-46032 Drape of the Faceless General
-45633 Breastplate of the Wayward Protector
-45611 Solar Bindings
-45516 Voldrethar, Dark Blade of Oblivion
-45516 Voldrethar, Dark Blade of Oblivion
-45642 Gauntlets of the Wayward Protector
-46095 Soul-Devouring Cinch
-45536 Legguards of Cunning Deception
-45599 Sabatons of Lifeless Night
-46052 Reply-Code Alpha
-46053 Reply-Code Alpha
-42987 Darkmoon Card: Greatness
+47558 Regalia of the Grand Protector
+47060 Charge of the Demon Lord
+47558 Regalia of the Grand Protector
+47545 Vereesa's Dexterity
+47558 Regalia of the Grand Protector
+47074 Bracers of the Untold Massacre
+47078 Justicebringer
+47078 Justicebringer
+47240 Gloves of Bitter Reprisal
+47002 Bloodbath Belt
+47558 Regalia of the Grand Protector
+47154 Greaves of the 7th Legion
+46966 Band of the Violent Temperment
+47075 Ring of Callous Aggression
+47131 Death's Verdict
 45931 Mjolnir Runestone
-45296 Twirling Blades
+46995 Talonstrike

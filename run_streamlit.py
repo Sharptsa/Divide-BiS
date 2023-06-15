@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import pandas as pd
 import numpy as np
 import base64
@@ -38,6 +39,7 @@ df_priorities.boss.fillna('', inplace=True)
 df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ'
 df_priorities.slot.fillna('', inplace=True)
 non_lootable_ilvls = {258: [46017],
+                      245: [47673, 47570, 47664, 47666, 47668],
                       238: [42853, 42608],
                       232: [45825, 45564, 45553, 45551, 45561, 45560],
                       213: [40207, 40321, 40342, 40432, 40255, 40267, 39728],
@@ -71,7 +73,12 @@ non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_
                       39728: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_slowingtotem.jpg',
                       40708: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_unrelentingstorm.jpg',
                       45560: 'https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_06.jpg',
-                      44255: 'https://wow.zamimg.com/images/wow/icons/large/inv_inscription_tarotgreatness.jpg'}
+                      44255: 'https://wow.zamimg.com/images/wow/icons/large/inv_inscription_tarotgreatness.jpg',
+                      47673: 'https://wow.zamimg.com/images/wow/icons/large/inv_shield_56.jpg',
+                      47570: 'https://wow.zamimg.com/images/wow/icons/large/inv_bracer_32a.jpg',
+                      47664: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_libramofhope.jpg',
+                      47666: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_diseasecleansingtotem.jpg',
+                      47668: 'https://wow.zamimg.com/images/wow/icons/large/inv_qirajidol_strife.jpg'}
 df_priorities.icon = df_priorities.apply(lambda row: row.icon
                                          if pd.notna(row.icon)
                                          else non_lootable_icons[row.item_id],
@@ -100,7 +107,12 @@ if st.session_state.fr:
                              39728: 'Totem de détresse',
                              40708: 'Totem du plan élémentaire',
                              45560: 'Dispensateurs de mort à pointes',
-                             44255: 'Carte de Sombrelune : Grandeur'}
+                             44255: 'Carte de Sombrelune : Grandeur',
+                             47673: 'Cachet de virulence',
+                             47570: 'Brise-épée en saronite',
+                             47664: 'Libram de défiance',
+                             47666: 'Totem du vent électrifiant',
+                             47668: 'Idole de mutilation'}
     df_priorities.item_name = df_priorities.apply(lambda row: row.item_name
                                                   if pd.notna(row.item_name)
                                                   else non_lootable_names_fr[row.item_id],
@@ -111,6 +123,9 @@ df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
 df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
 df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
 df_priorities.loc[~df_priorities.lootable, 'received'] = -1.
+df_priorities['TOC'] = df_priorities.boss.apply(lambda x: any([val in x for val in
+                                                ['Beasts', 'Jaraxxus', 'Champions',
+                                                'Twin', 'Anub', 'Chest']]))
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                     .reset_index(drop=True)
 
@@ -137,20 +152,20 @@ add_background()
 
 # Display dataframe
 def display_df(mask, how='standard', min_glow=252):
-    to_display = df_priorities.sort_values(['lootable', 'boss', 'raid_size', 'hm',
+    to_display = df_priorities.sort_values(['TOC', 'lootable', 'boss', 'raid_size', 'hm',
                                             'ilvl', 'item_name', 'item_id', 'received',
                                             'player'],
-                                           ascending=[False, True, True, True,
+                                           ascending=[False, False, True, True, True,
                                                       True, True, True, False,
                                                       True])
     to_display = to_display.loc[mask, ['source', 'item_name', 'ilvl', 'player', 'received',
                                        'icon', 'item_id']]
     if how == 'player':
         to_display = df_priorities.sort_values(['player', 'lootable', 'received',
-                                                'ilvl', 'item_name', 'item_id',
+                                                'ilvl', 'TOC', 'item_name', 'item_id',
                                                 'boss', 'raid_size', 'hm'],
                                                ascending=[True, False, False,
-                                                          False, True, True,
+                                                          False, False, True, True,
                                                           True, True, True])
         to_display = to_display.loc[mask, ['player', 'item_name', 'ilvl', 'source', 'received',
                                            'icon', 'item_id']]
@@ -164,9 +179,6 @@ def display_df(mask, how='standard', min_glow=252):
             return row.received + ' noglow'
 
     def item_name_icon_hyperlink_fnc(row):
-        # onmouseover_style = "'text-decoration:underline'"
-        # onmouseout_style = "'text-decoration:none'"
-        # return f'<a href="https://www.wowhead.com/wotlk{"/fr" if st.session_state.fr else ""}/item={row.item_id}" style="text-decoration: none; color: white;" onmouseover="style={onmouseover_style}" onmouseout="style={onmouseout_style}"><img src="{row.icon}" width="22" > {row.item_name}</a>'
         return f'<a href="https://www.wowhead.com/wotlk{"/fr" if st.session_state.fr else ""}/item={row.item_id}" style="text-decoration: none; color: white;"><img src="{row.icon}" width="22" > {row.item_name}</a>'
 
     to_display.loc[to_display.received == 1., 'received'] = 'Oui' if st.session_state.fr else 'Yes'
@@ -184,16 +196,27 @@ def display_df(mask, how='standard', min_glow=252):
                           'ilvl': 'ilvl', 'player': 'Joueur', 'received': 'Reçu'}
     to_display.columns = [columns_rename[c] for c in to_display.columns]
 
-    col.markdown(to_display.to_html(escape=False, index=False) \
-                .replace('<tr>','<tr style = "background-color: rgba(40, 40, 40, 1.0); color: white">')
-                .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0); color: white; text-align: center">')
-                .replace('Yes noglow','<span style="color: rgba(37, 153, 37, 1.0)">Yes</span>')
-                .replace('Oui noglow','<span style="color: rgba(37, 153, 37, 1.0)">Oui</span>')
-                .replace('Solo noglow','<span style="color: rgba(37, 153, 37, 1.0)">Solo</span>')
-                .replace('Yes glow','<span style="color: rgba(255, 215, 0, 1.0)">Yes</span>')
-                .replace('Oui glow','<span style="color: rgba(255, 215, 0, 1.0)">Oui</span>')
+    html_block = to_display.to_html(escape=False, index=False) \
+                .replace('<tr>','<tr style = "background-color: rgba(40, 40, 40, 1.0); color: white">') \
+                .replace('<th>','<th style = "background-color: rgba(90, 90, 90, 1.0); color: white; text-align: center">') \
+                .replace('Yes noglow','<span style="color: rgba(37, 153, 37, 1.0)">Yes</span>') \
+                .replace('Oui noglow','<span style="color: rgba(37, 153, 37, 1.0)">Oui</span>') \
+                .replace('Solo noglow','<span style="color: rgba(37, 153, 37, 1.0)">Solo</span>') \
+                .replace('Yes glow','<span style="color: rgba(255, 215, 0, 1.0)">Yes</span>') \
+                .replace('Oui glow','<span style="color: rgba(255, 215, 0, 1.0)">Oui</span>') \
                 .replace('Solo glow','<span style="color: rgba(255, 215, 0, 1.0)">Solo</span>')
-                , unsafe_allow_html=True)
+
+    # New code with tooltip
+    # html_string = '''
+    # <script language="javascript">
+    # const whTooltips = {colorLinks: true, iconizeLinks: false, renameLinks: false}
+    # </script>
+    # <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+    # '''
+    # with col:
+    #     components.html(html_block + html_string)
+
+    col.markdown(html_block, unsafe_allow_html=True) # old code without tooltip
 
 
 # Manage query

@@ -1,403 +1,153 @@
 player,item_id,item_name
-Aurallia,45610,Boundless Gaze
-Aurallia,45517,Pendulum of Infinity
-Aurallia,45300,Mantle of Fiery Vengeance
-Aurallia,46032,Drape of the Faceless General
-Aurallia,45633,Breastplate of the Wayward Protector
-Aurallia,45454,Frost-bound Chain Bracers
-Aurallia,45444,Gloves of the Steady Hand
-Aurallia,45467,Belt of the Betrayed
-Aurallia,45654,Legplates of the Wayward Protector
-Aurallia,45244,Greaves of Swift Vengeance
-Aurallia,46053,Reply-Code Alpha
-Aurallia,46052,Reply-Code Alpha
-Aurallia,46038,Dark Matter
-Aurallia,45931,Mjolnir Runestone
-Aurallia,45498,"Lotrafen, Spear of the Damned"
-Aurallia,45570,Skyforge Crossbow
-Ayurvedae,45610,Boundless Gaze
-Ayurvedae,45517,Pendulum of Infinity
-Ayurvedae,45657,Mantle of the Wayward Protector
-Ayurvedae,45461,Drape of Icy Intent
-Ayurvedae,45633,Breastplate of the Wayward Protector
-Ayurvedae,45460,Bindings of Winter Gale
-Ayurvedae,45132,Golden Saronite Dragon
-Ayurvedae,46097,Caress of Insanity
-Ayurvedae,45642,Gauntlets of the Wayward Protector
-Ayurvedae,45553,Belt of Dragons
-Ayurvedae,45654,Legplates of the Wayward Protector
-Ayurvedae,45989,Tempered Mercury Greaves
-Ayurvedae,45456,Loop of the Agile
-Ayurvedae,46053,Reply-Code Alpha
-Ayurvedae,45609,Comet's Trail
-Ayurvedae,46038,Dark Matter
-Ayurvedae,42608,Furious Gladiator's Totem of Indomitability
-Csamain,45993,Mimiron's Flight Goggles
-Csamain,45517,Pendulum of Infinity
-Csamain,45245,Shoulderpads of the Intruder
-Csamain,45461,Drape of Icy Intent
-Csamain,45473,Embrace of the Gladiator
-Csamain,45611,Solar Bindings
-Csamain,45132,Golden Saronite Dragon
-Csamain,45484,Bladetwister
-Csamain,46043,Gloves of the Endless Dark
-Csamain,46095,Soul-Devouring Cinch
-Csamain,45536,Legguards of Cunning Deception
-Csamain,45564,Footpads of Silence
-Csamain,46048,Band of Lights
-Csamain,46053,Reply-Code Alpha
-Csamain,45609,Comet's Trail
-Csamain,46038,Dark Matter
-Csamain,45570,Skyforge Crossbow
-Dimoncello,45610,Boundless Gaze
-Dimoncello,45517,Pendulum of Infinity
-Dimoncello,45300,Mantle of Fiery Vengeance
-Dimoncello,46032,Drape of the Faceless General
-Dimoncello,45473,Embrace of the Gladiator
-Dimoncello,45869,Fluxing Energy Coils
-Dimoncello,45613,Dreambinder
-Dimoncello,45444,Gloves of the Steady Hand
-Dimoncello,46095,Soul-Devouring Cinch
-Dimoncello,45536,Legguards of Cunning Deception
-Dimoncello,45244,Greaves of Swift Vengeance
-Dimoncello,46052,Reply-Code Alpha
-Dimoncello,46053,Reply-Code Alpha
-Dimoncello,46038,Dark Matter
-Dimoncello,44253,Darkmoon Card: Greatness
-Dimoncello,45570,Skyforge Crossbow
-Dkfëîné,45472,Warhelm of the Champion
-Dkfëîné,46040,Strength of the Heavens
-Dkfëîné,45658,Mantle of the Wayward Vanquisher
-Dkfëîné,46053,Reply-Code Alpha
-Dkfëîné,45634,Breastplate of the Wayward Vanquisher
-Dkfëîné,45663,Armbands of Bedlam
-Dkfëîné,46097,Caress of Insanity
-Dkfëîné,46036,Void Sabre
-Dkfëîné,45481,Gauntlets of Ruthless Reprisal
-Dkfëîné,45241,Belt of Colossal Rage
-Dkfëîné,45134,Plated Leggings of Ruination
-Dkfëîné,45599,Sabatons of Lifeless Night
-Dkfëîné,45534,Seal of the Betrayed King
-Dkfëîné,45250,Crazed Construct Ring
-Dkfëîné,42987,Darkmoon Card: Greatness
-Dkfëîné,45609,Comet's Trail
-Dkfëîné,45254,Sigil of the Vengeful Heart
-Drikato,45640,Crown of the Wayward Vanquisher
-Drikato,45517,Pendulum of Infinity
-Drikato,45245,Shoulderpads of the Intruder
-Drikato,45461,Drape of Icy Intent
-Drikato,45473,Embrace of the Gladiator
-Drikato,45611,Solar Bindings
-Drikato,45484,Bladetwister
-Drikato,45484,Bladetwister
-Drikato,45643,Gauntlets of the Wayward Vanquisher
-Drikato,46095,Soul-Devouring Cinch
-Drikato,45536,Legguards of Cunning Deception
-Drikato,45564,Footpads of Silence
+Drikato,47559,Regalia of the Grand Vanquisher
+Drikato,47060,Charge of the Demon Lord
+Drikato,47559,Regalia of the Grand Vanquisher
+Drikato,47545,Vereesa's Dexterity
+Drikato,47559,Regalia of the Grand Vanquisher
+Drikato,47155,Bracers of Dark Determination
+Drikato,46969,Steel Bladebreaker
+Drikato,46969,Steel Bladebreaker
+Drikato,47559,Regalia of the Grand Vanquisher
+Drikato,47112,Belt of the Merciless Killer
+Drikato,46975,Leggings of the Broken Beast
+Drikato,47077,Treads of the Icewalker
+Drikato,47075,Ring of Callous Aggression
 Drikato,46053,Reply-Code Alpha
-Drikato,46048,Band of Lights
+Drikato,47131,Death's Verdict
 Drikato,45609,Comet's Trail
-Drikato,46038,Dark Matter
-Drikato,45570,Skyforge Crossbow
-Elasalylédra,45497,Crown of Luminescence
-Elasalylédra,45933,Pendant of the Shallow Grave
-Elasalylédra,45658,Mantle of the Wayward Vanquisher
-Elasalylédra,45242,Drape of Mortal Downfall
-Elasalylédra,45634,Breastplate of the Wayward Vanquisher
-Elasalylédra,45446,Grasps of Reason
-Elasalylédra,45620,Starshard Edge
-Elasalylédra,45617,Cosmos
-Elasalylédra,45665,Pharos Gloves
-Elasalylédra,45619,Starwatcher's Binding
-Elasalylédra,45488,Leggings of the Enslaved Idol
-Elasalylédra,45537,Treads of the False Oracle
-Elasalylédra,46046,Nebula Band
-Elasalylédra,45495,Conductive Seal
-Elasalylédra,45466,Scale of Fates
-Elasalylédra,45518,Flare of the Heavens
-Elasalylédra,40321,Idol of the Shooting Star
-Euphemià,45497,Crown of Luminescence
-Euphemià,45243,Sapphire Amulet of Renewal
-Euphemià,45658,Mantle of the Wayward Vanquisher
-Euphemià,46053,Reply-Code Alpha
-Euphemià,45634,Breastplate of the Wayward Vanquisher
-Euphemià,45446,Grasps of Reason
-Euphemià,45620,Starshard Edge
-Euphemià,45617,Cosmos
-Euphemià,45665,Pharos Gloves
-Euphemià,45619,Starwatcher's Binding
-Euphemià,45488,Leggings of the Enslaved Idol
-Euphemià,45135,Boots of Fiery Resolution
-Euphemià,45495,Conductive Seal
-Euphemià,46046,Nebula Band
-Euphemià,45518,Flare of the Heavens
-Euphemià,45466,Scale of Fates
-Euphemià,45294,Petrified Ivy Sprig
-Gosseyn,45640,Crown of the Wayward Vanquisher
-Gosseyn,45459,Frigid Strength of Hodir
-Gosseyn,45658,Mantle of the Wayward Vanquisher
-Gosseyn,46032,Drape of the Faceless General
-Gosseyn,45634,Breastplate of the Wayward Vanquisher
+Drikato,47521,BRK-1000
+Gosseyn,47559,Regalia of the Grand Vanquisher
+Gosseyn,47110,The Executioner's Malice
+Gosseyn,47559,Regalia of the Grand Vanquisher
+Gosseyn,47547,Varian's Furor
+Gosseyn,47559,Regalia of the Grand Vanquisher
 Gosseyn,45663,Armbands of Bedlam
-Gosseyn,46097,Caress of Insanity
-Gosseyn,46097,Caress of Insanity
-Gosseyn,45643,Gauntlets of the Wayward Vanquisher
-Gosseyn,45241,Belt of Colossal Rage
-Gosseyn,45134,Plated Leggings of Ruination
+Gosseyn,47526,Remorseless
+Gosseyn,47526,Remorseless
+Gosseyn,47559,Regalia of the Grand Vanquisher
+Gosseyn,47002,Bloodbath Belt
+Gosseyn,47132,Legguards of Ascension
 Gosseyn,45599,Sabatons of Lifeless Night
-Gosseyn,45534,Seal of the Betrayed King
-Gosseyn,46053,Reply-Code Alpha
-Gosseyn,45931,Mjolnir Runestone
-Gosseyn,42987,Darkmoon Card: Greatness
-Gosseyn,40207,Sigil of Awareness
-Hølycheät,45638,Crown of the Wayward Conqueror
-Hølycheät,45485,Bronze Pendant of the Vanir
-Hølycheät,45656,Mantle of the Wayward Conqueror
-Hølycheät,45496,Titanskin Cloak
-Hølycheät,46039,Breastplate of the Timeless
-Hølycheät,45111,Mimiron's Inferno Couplings
-Hølycheät,45947,"Serilas, Blood Blade of Invar One-Arm"
-Hølycheät,45587,Bulwark of Algalon
-Hølycheät,45487,Handguards of Revitalization
-Hølycheät,45825,Shieldwarder Girdle
-Hølycheät,45594,Legplates of the Endless Void
-Hølycheät,45560,Spiked Deathdealers
+Gosseyn,46966,Band of the Violent Temperment
+Gosseyn,47920,Carnivorous Band
+Gosseyn,47131,Death's Verdict
+Gosseyn,45609,Comet's Trail
+Gosseyn,47673,Sigil of Virulence
+Hølycheät,47557,Regalia of the Grand Conqueror
+Hølycheät,47133,The Arbiter's Muse
+Hølycheät,47557,Regalia of the Grand Conqueror
+Hølycheät,47549,Magni's Resolution
+Hølycheät,46968,Chestplate of the Towering Monstrosity
+Hølycheät,47570,Saronite Swordbreakers
+Hølycheät,47506,Silverwing Defender
+Hølycheät,46964,Crystal Plated Vanguard
+Hølycheät,47557,Regalia of the Grand Conqueror
+Hølycheät,47076,Girdle of Bloodied Scars
+Hølycheät,47557,Regalia of the Grand Conqueror
+Hølycheät,47003,Dawnbreaker Greaves
+Hølycheät,47157,Signet of the Traitor King
 Hølycheät,45471,Fate's Clutch
-Hølycheät,45326,Platinum Band of the Aesir
+Hølycheät,47088,Satrina's Impeding Scarab
 Hølycheät,45158,Heart of Iron
-Hølycheät,42987,Darkmoon Card: Greatness
-Hølycheät,45145,Libram of the Sacred Shield
-Iryastra,45472,Warhelm of the Champion
-Iryastra,45459,Frigid Strength of Hodir
-Iryastra,45658,Mantle of the Wayward Vanquisher
-Iryastra,46053,Reply-Code Alpha
-Iryastra,45634,Breastplate of the Wayward Vanquisher
-Iryastra,45663,Armbands of Bedlam
-Iryastra,46097,Caress of Insanity
-Iryastra,45442,"Sorthalis, Hammer of the Watchers"
-Iryastra,45481,Gauntlets of Ruthless Reprisal
-Iryastra,45241,Belt of Colossal Rage
-Iryastra,45134,Plated Leggings of Ruination
-Iryastra,45599,Sabatons of Lifeless Night
-Iryastra,45534,Seal of the Betrayed King
-Iryastra,45250,Crazed Construct Ring
-Iryastra,42987,Darkmoon Card: Greatness
-Iryastra,45609,Comet's Trail
-Iryastra,40207,Sigil of Awareness
-Linacool,45640,Crown of the Wayward Vanquisher
-Linacool,45243,Sapphire Amulet of Renewal
-Linacool,45658,Mantle of the Wayward Vanquisher
-Linacool,46053,Reply-Code Alpha
-Linacool,45519,Vestments of the Blind Denizen
-Linacool,45446,Grasps of Reason
-Linacool,45886,Icecore Staff
-Linacool,45643,Gauntlets of the Wayward Vanquisher
-Linacool,45616,Star-beaded Clutch
-Linacool,45655,Legplates of the Wayward Vanquisher
-Linacool,45135,Boots of Fiery Resolution
-Linacool,45495,Conductive Seal
-Linacool,45946,Fire Orchid Signet
-Linacool,45535,Show of Faith
-Linacool,45703,Spark of Hope
-Linacool,40342,Idol of Awakening
-Lockdrak,45497,Crown of Luminescence
-Lockdrak,45133,Pendant of Fiery Havoc
-Lockdrak,46068,Amice of Inconceivable Horror
-Lockdrak,46053,Reply-Code Alpha
-Lockdrak,45632,Breastplate of the Wayward Conqueror
-Lockdrak,45446,Grasps of Reason
-Lockdrak,45620,Starshard Edge
-Lockdrak,45617,Cosmos
-Lockdrak,45665,Pharos Gloves
-Lockdrak,45619,Starwatcher's Binding
-Lockdrak,45653,Legplates of the Wayward Conqueror
-Lockdrak,45135,Boots of Fiery Resolution
+Hølycheät,47664,Libram of Defiance
+Lockdrak,47557,Regalia of the Grand Conqueror
+Lockdrak,47144,Wail of the Val'kyr
+Lockdrak,47557,Regalia of the Grand Conqueror
+Lockdrak,47553,Bolvar's Devotion
+Lockdrak,47129,Skyweaver Robes
+Lockdrak,47208,Armbands of the Ashen Saint
+Lockdrak,46980,Blade of Tarasque
+Lockdrak,47958,Chalice of Benedictus
+Lockdrak,47557,Regalia of the Grand Conqueror
+Lockdrak,46973,Cord of the Tenebrous Mist
+Lockdrak,47557,Regalia of the Grand Conqueror
+Lockdrak,47097,Boots of the Mourning Widow
+Lockdrak,47237,Band of Deplorable Violence
 Lockdrak,45495,Conductive Seal
-Lockdrak,46046,Nebula Band
-Lockdrak,45518,Flare of the Heavens
 Lockdrak,45466,Scale of Fates
+Lockdrak,45518,Flare of the Heavens
 Lockdrak,45294,Petrified Ivy Sprig
-Lupusreginä,45638,Crown of the Wayward Conqueror
-Lupusreginä,45243,Sapphire Amulet of Renewal
-Lupusreginä,45656,Mantle of the Wayward Conqueror
-Lupusreginä,46053,Reply-Code Alpha
-Lupusreginä,45632,Breastplate of the Wayward Conqueror
-Lupusreginä,45446,Grasps of Reason
-Lupusreginä,45620,Starshard Edge
-Lupusreginä,45617,Cosmos
-Lupusreginä,45665,Pharos Gloves
-Lupusreginä,45619,Starwatcher's Binding
-Lupusreginä,45653,Legplates of the Wayward Conqueror
-Lupusreginä,45135,Boots of Fiery Resolution
-Lupusreginä,46046,Nebula Band
-Lupusreginä,45495,Conductive Seal
-Lupusreginä,45518,Flare of the Heavens
-Lupusreginä,45466,Scale of Fates
-Lupusreginä,45294,Petrified Ivy Sprig
-Nimböeus,45639,Crown of the Wayward Protector
-Nimböeus,45933,Pendant of the Shallow Grave
-Nimböeus,45657,Mantle of the Wayward Protector
-Nimböeus,45242,Drape of Mortal Downfall
-Nimböeus,45633,Breastplate of the Wayward Protector
+Nimböeus,47558,Regalia of the Grand Protector
+Nimböeus,47144,Wail of the Val'kyr
+Nimböeus,47558,Regalia of the Grand Protector
+Nimböeus,47552,Jaina's Radiance
+Nimböeus,47558,Regalia of the Grand Protector
 Nimböeus,45460,Bindings of Winter Gale
-Nimböeus,46035,"Aesuga, Hand of the Ardent Champion"
-Nimböeus,45470,Wisdom's Hold
-Nimböeus,45665,Pharos Gloves
-Nimböeus,45616,Star-beaded Clutch
-Nimböeus,45654,Legplates of the Wayward Protector
-Nimböeus,45537,Treads of the False Oracle
+Nimböeus,46980,Blade of Tarasque
+Nimböeus,47085,Bastion of Purity
+Nimböeus,47558,Regalia of the Grand Protector
+Nimböeus,47084,Cord of Biting Cold
+Nimböeus,47190,Legwraps of the Awakening
+Nimböeus,47099,Boots of Tremoring Earth
 Nimböeus,45495,Conductive Seal
 Nimböeus,46046,Nebula Band
 Nimböeus,45518,Flare of the Heavens
-Nimböeus,40255,Dying Curse
-Nimböeus,40708,Totem of the Elemental Plane
-Nomys,45639,Crown of the Wayward Protector
-Nomys,45459,Frigid Strength of Hodir
-Nomys,46037,Shoulderplates of the Celestial Watch
-Nomys,46032,Drape of the Faceless General
-Nomys,45633,Breastplate of the Wayward Protector
-Nomys,45663,Armbands of Bedlam
-Nomys,45516,"Voldrethar, Dark Blade of Oblivion"
-Nomys,45444,Gloves of the Steady Hand
-Nomys,45241,Belt of Colossal Rage
-Nomys,45536,Legguards of Cunning Deception
-Nomys,45599,Sabatons of Lifeless Night
-Nomys,46053,Reply-Code Alpha
-Nomys,45534,Seal of the Betrayed King
-Nomys,45931,Mjolnir Runestone
-Nomys,46038,Dark Matter
-Nomys,45296,Twirling Blades
-Nordton,45639,Crown of the Wayward Protector
-Nordton,45517,Pendulum of Infinity
-Nordton,45657,Mantle of the Wayward Protector
-Nordton,46032,Drape of the Faceless General
-Nordton,45633,Breastplate of the Wayward Protector
-Nordton,45611,Solar Bindings
-Nordton,45516,"Voldrethar, Dark Blade of Oblivion"
-Nordton,45516,"Voldrethar, Dark Blade of Oblivion"
-Nordton,45642,Gauntlets of the Wayward Protector
-Nordton,46095,Soul-Devouring Cinch
-Nordton,45536,Legguards of Cunning Deception
-Nordton,45599,Sabatons of Lifeless Night
-Nordton,46052,Reply-Code Alpha
-Nordton,46053,Reply-Code Alpha
-Nordton,42987,Darkmoon Card: Greatness
+Nimböeus,47188,Reign of the Unliving
+Nimböeus,47666,Totem of Electrifying Wind
+Nordton,47558,Regalia of the Grand Protector
+Nordton,47060,Charge of the Demon Lord
+Nordton,47558,Regalia of the Grand Protector
+Nordton,47545,Vereesa's Dexterity
+Nordton,47558,Regalia of the Grand Protector
+Nordton,47074,Bracers of the Untold Massacre
+Nordton,47078,Justicebringer
+Nordton,47078,Justicebringer
+Nordton,47240,Gloves of Bitter Reprisal
+Nordton,47002,Bloodbath Belt
+Nordton,47558,Regalia of the Grand Protector
+Nordton,47154,Greaves of the 7th Legion
+Nordton,46966,Band of the Violent Temperment
+Nordton,47075,Ring of Callous Aggression
+Nordton,47131,Death's Verdict
 Nordton,45931,Mjolnir Runestone
-Nordton,45296,Twirling Blades
-Nwesa,45638,Crown of the Wayward Conqueror
-Nwesa,45443,Charm of Meticulous Timing
-Nwesa,45656,Mantle of the Wayward Conqueror
-Nwesa,45486,Drape of the Sullen Goddess
-Nwesa,45632,Breastplate of the Wayward Conqueror
-Nwesa,45446,Grasps of Reason
-Nwesa,45612,Constellus
-Nwesa,45314,Igniter Rod
-Nwesa,45520,Handwraps of the Vigilant
-Nwesa,45619,Starwatcher's Binding
-Nwesa,45653,Legplates of the Wayward Conqueror
-Nwesa,46050,Starlight Treads
-Nwesa,45946,Fire Orchid Signet
-Nwesa,46096,Signet of Soft Lament
-Nwesa,45535,Show of Faith
-Nwesa,40432,Illustration of the Dragon Soul
-Nwesa,45294,Petrified Ivy Sprig
-Pamage,45640,Crown of the Wayward Vanquisher
-Pamage,45133,Pendant of Fiery Havoc
-Pamage,45658,Mantle of the Wayward Vanquisher
-Pamage,45242,Drape of Mortal Downfall
-Pamage,45634,Breastplate of the Wayward Vanquisher
-Pamage,45446,Grasps of Reason
-Pamage,45620,Starshard Edge
-Pamage,45617,Cosmos
-Pamage,45665,Pharos Gloves
-Pamage,45619,Starwatcher's Binding
-Pamage,45655,Legplates of the Wayward Vanquisher
-Pamage,45537,Treads of the False Oracle
-Pamage,46046,Nebula Band
-Pamage,45495,Conductive Seal
-Pamage,45466,Scale of Fates
-Pamage,45518,Flare of the Heavens
-Pamage,45294,Petrified Ivy Sprig
-Seina,45638,Crown of the Wayward Conqueror
-Seina,45933,Pendant of the Shallow Grave
-Seina,45656,Mantle of the Wayward Conqueror
-Seina,45486,Drape of the Sullen Goddess
-Seina,45445,Breastplate of the Devoted
+Nordton,46995,Talonstrike
+Seina,47557,Regalia of the Grand Conqueror
+Seina,47144,Wail of the Val'kyr
+Seina,47557,Regalia of the Grand Conqueror
+Seina,47552,Jaina's Radiance
+Seina,47147,Breastplate of the Frozen Lake
 Seina,45460,Bindings of Winter Gale
-Seina,46035,"Aesuga, Hand of the Ardent Champion"
-Seina,45470,Wisdom's Hold
-Seina,45641,Gauntlets of the Wayward Conqueror
-Seina,45151,Belt of the Fallen Wyrm
-Seina,45653,Legplates of the Wayward Conqueror
-Seina,45537,Treads of the False Oracle
-Seina,46046,Nebula Band
+Seina,46017,"Val'anyr, Hammer of Ancient Kings"
+Seina,47085,Bastion of Purity
+Seina,45665,Pharos Gloves
+Seina,46991,Belt of the Ice Burrower
+Seina,47067,Legplates of Failing Light
+Seina,46986,Boots of the Courageous
+Seina,47224,Ring of the Darkmender
 Seina,46053,Reply-Code Alpha
-Seina,46051,Meteorite Crystal
 Seina,37111,Soul Preserver
+Seina,46051,Meteorite Crystal
 Seina,40705,Libram of Renewal
-Sharpélune,45640,Crown of the Wayward Vanquisher
-Sharpélune,45517,Pendulum of Infinity
-Sharpélune,45245,Shoulderpads of the Intruder
-Sharpélune,46032,Drape of the Faceless General
-Sharpélune,45473,Embrace of the Gladiator
-Sharpélune,45869,Fluxing Energy Coils
-Sharpélune,45613,Dreambinder
-Sharpélune,45643,Gauntlets of the Wayward Vanquisher
-Sharpélune,46095,Soul-Devouring Cinch
-Sharpélune,45536,Legguards of Cunning Deception
-Sharpélune,45564,Footpads of Silence
-Sharpélune,46048,Band of Lights
+Sharpélune,47559,Regalia of the Grand Vanquisher
+Sharpélune,47060,Charge of the Demon Lord
+Sharpélune,47559,Regalia of the Grand Vanquisher
+Sharpélune,47545,Vereesa's Dexterity
+Sharpélune,47559,Regalia of the Grand Vanquisher
+Sharpélune,45611,Solar Bindings
+Sharpélune,47239,Archon Glaive
+Sharpélune,47945,Gloves of the Silver Assassin
+Sharpélune,47112,Belt of the Merciless Killer
+Sharpélune,47559,Regalia of the Grand Vanquisher
+Sharpélune,47077,Treads of the Icewalker
+Sharpélune,47075,Ring of Callous Aggression
 Sharpélune,46053,Reply-Code Alpha
-Sharpélune,45609,Comet's Trail
 Sharpélune,45931,Mjolnir Runestone
-Sharpélune,40713,Idol of the Ravenous Beast
-Siimonne,45497,Crown of Luminescence
-Siimonne,45133,Pendant of Fiery Havoc
-Siimonne,46068,Amice of Inconceivable Horror
-Siimonne,46053,Reply-Code Alpha
-Siimonne,45632,Breastplate of the Wayward Conqueror
-Siimonne,45446,Grasps of Reason
-Siimonne,45620,Starshard Edge
-Siimonne,45617,Cosmos
-Siimonne,45665,Pharos Gloves
-Siimonne,45619,Starwatcher's Binding
-Siimonne,45653,Legplates of the Wayward Conqueror
-Siimonne,45135,Boots of Fiery Resolution
-Siimonne,45495,Conductive Seal
-Siimonne,46046,Nebula Band
-Siimonne,45466,Scale of Fates
-Siimonne,45518,Flare of the Heavens
-Siimonne,45294,Petrified Ivy Sprig
-Skotia,45640,Crown of the Wayward Vanquisher
+Sharpélune,47131,Death's Verdict
+Sharpélune,47668,Idol of Mutilation
+Skotia,47559,Regalia of the Grand Vanquisher
 Skotia,45243,Sapphire Amulet of Renewal
-Skotia,45658,Mantle of the Wayward Vanquisher
-Skotia,46053,Reply-Code Alpha
-Skotia,45519,Vestments of the Blind Denizen
-Skotia,45446,Grasps of Reason
-Skotia,45886,Icecore Staff
-Skotia,45643,Gauntlets of the Wayward Vanquisher
-Skotia,45616,Star-beaded Clutch
-Skotia,45655,Legplates of the Wayward Vanquisher
-Skotia,45135,Boots of Fiery Resolution
+Skotia,47559,Regalia of the Grand Vanquisher
+Skotia,46977,Shawl of the Refreshing Winds
+Skotia,46993,Flowing Vestments of Ascent
+Skotia,47066,Bracers of the Autumn Willow
+Skotia,46017,"Val'anyr, Hammer of Ancient Kings"
+Skotia,47958,Chalice of Benedictus
+Skotia,47559,Regalia of the Grand Vanquisher
+Skotia,47145,Cord of Pale Thorns
+Skotia,47559,Regalia of the Grand Vanquisher
+Skotia,47097,Boots of the Mourning Widow
 Skotia,45495,Conductive Seal
-Skotia,45946,Fire Orchid Signet
+Skotia,47224,Ring of the Darkmender
+Skotia,47059,Solace of the Defeated
 Skotia,45535,Show of Faith
-Skotia,45703,Spark of Hope
 Skotia,40342,Idol of Awakening
-Warloquë,45497,Crown of Luminescence
-Warloquë,45133,Pendant of Fiery Havoc
-Warloquë,45656,Mantle of the Wayward Conqueror
-Warloquë,46053,Reply-Code Alpha
-Warloquë,45632,Breastplate of the Wayward Conqueror
-Warloquë,45446,Grasps of Reason
-Warloquë,45665,Pharos Gloves
-Warloquë,45619,Starwatcher's Binding
-Warloquë,45488,Leggings of the Enslaved Idol
-Warloquë,45135,Boots of Fiery Resolution
-Warloquë,45495,Conductive Seal
-Warloquë,46046,Nebula Band
-Warloquë,45518,Flare of the Heavens
-Warloquë,45466,Scale of Fates
-Warloquë,45620,Starshard Edge
-Warloquë,45617,Cosmos
-Warloquë,45294,Petrified Ivy Sprig

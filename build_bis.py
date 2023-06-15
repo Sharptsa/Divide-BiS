@@ -30,7 +30,7 @@ def get_items_from_eightyupgrades(url):
     names = np.array([re.findall('>(.*?)<', e)[0] for e in elems], dtype='<U50')[mask]
 
     def convert_tier_to_token(item_slot, item_name):
-        assert item_slot in [1, 3, 5, 10, 7] and 'Conqueror' in item_name
+        assert item_slot in [1, 3, 5, 10, 7] and 'Conqueror' in item_name or 'Triumph' in item_name
         if 'Deathbringer' in item_name or 'Aegis' in item_name \
                                        or 'Sanctification' in item_name:
             # Warlock / Paladin / Priest
@@ -73,11 +73,27 @@ def get_items_from_eightyupgrades(url):
             elif item_slot == 7: # Legs
                 return 45655, 'Legplates of the Wayward Vanquisher'
 
+        elif "Kel'Thuzad" in item_name or 'Turalyon' in item_name \
+                                       or 'Velen' in item_name:
+            # Warlock / Paladin / Priest
+            return 47557, 'Regalia of the Grand Conqueror'
+
+        elif 'Nobundo' in item_name or 'Wrynn' in item_name \
+                                    or 'Windrunner' in item_name:
+            # Shaman / Warrior / Hunter
+            return 47558, 'Regalia of the Grand Protector'
+
+        elif 'VanCleef' in item_name or 'Thassarian' in item_name \
+             or 'Khadgar' in item_name or 'Malfurion' in item_name:
+            # Rogue / DK / Mage / Druid
+            return 47559, 'Regalia of the Grand Vanquisher'
+
         else:
+            print(item_name)
             raise Warning('Unrecognized class')
 
     for i, n in enumerate(names):
-        if 'Conqueror' in n:
+        if 'Conqueror' in n or 'Triumph' in n:
             ids[i], names[i] = convert_tier_to_token(slots[i], n)
         elif n in ['Drape of the Skyborn', 'Sunglimmer Cloak', "Brann's Signet Ring",
                                                                 'Starshine Circle']:
@@ -113,7 +129,7 @@ def get_items(player):
         names += eighty_names.tolist()
         lines = lines[1:]
     if lines:
-        ignore_len = len(ids) > 0 or player in ['Aelvå']
+        ignore_len = len(ids) > 0
         txt_ids, txt_names = get_items_from_text('\n'.join(lines), ignore_len=ignore_len)
         ids += txt_ids.tolist()
         names += txt_names.tolist()

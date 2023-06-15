@@ -1,16 +1,16 @@
-45640 Crown of the Wayward Vanquisher
-45517 Pendulum of Infinity
-45245 Shoulderpads of the Intruder
-46032 Drape of the Faceless General
-45473 Embrace of the Gladiator
-45869 Fluxing Energy Coils
-45613 Dreambinder
-45643 Gauntlets of the Wayward Vanquisher
-46095 Soul-Devouring Cinch
-45536 Legguards of Cunning Deception
-45564 Footpads of Silence
-46048 Band of Lights
+47559 Regalia of the Grand Vanquisher
+47060 Charge of the Demon Lord
+47559 Regalia of the Grand Vanquisher
+47545 Vereesa's Dexterity
+47559 Regalia of the Grand Vanquisher
+45611 Solar Bindings
+47239 Archon Glaive
+47945 Gloves of the Silver Assassin
+47112 Belt of the Merciless Killer
+47559 Regalia of the Grand Vanquisher
+47077 Treads of the Icewalker
+47075 Ring of Callous Aggression
 46053 Reply-Code Alpha
-45609 Comet's Trail
 45931 Mjolnir Runestone
-40713 Idol of the Ravenous Beast
+47131 Death's Verdict
+47668 Idol of Mutilation

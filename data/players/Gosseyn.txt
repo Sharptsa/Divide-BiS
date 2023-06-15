@@ -1,17 +1,17 @@
-45640 Crown of the Wayward Vanquisher
-45459 Frigid Strength of Hodir
-45658 Mantle of the Wayward Vanquisher
-46032 Drape of the Faceless General
-45634 Breastplate of the Wayward Vanquisher
+47559 Regalia of the Grand Vanquisher
+47110 The Executioner's Malice
+47559 Regalia of the Grand Vanquisher
+47547 Varian's Furor
+47559 Regalia of the Grand Vanquisher
 45663 Armbands of Bedlam
-46097 Caress of Insanity
-46097 Caress of Insanity
-45643 Gauntlets of the Wayward Vanquisher
-45241 Belt of Colossal Rage
-45134 Plated Leggings of Ruination
+47526 Remorseless
+47526 Remorseless
+47559 Regalia of the Grand Vanquisher
+47002 Bloodbath Belt
+47132 Legguards of Ascension
 45599 Sabatons of Lifeless Night
-45534 Seal of the Betrayed King
-46053 Reply-Code Alpha
-45931 Mjolnir Runestone
-42987 Darkmoon Card: Greatness
-40207 Sigil of Awareness
+46966 Band of the Violent Temperment
+47920 Carnivorous Band
+47131 Death's Verdict
+45609 Comet's Trail
+47673 Sigil of Virulence
