@@ -15,7 +15,8 @@ col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
 
 # Load and prepare data
 df_items = pd.read_csv(r'data/items.csv')
-legendaries = ["Val'anyr, Hammer of Ancient Kings"]
+legendaries = ["Val'anyr, Hammer of Ancient Kings",
+               "Val'anyr, le marteau des anciens rois"]
 if st.session_state.fr:
     df_items.item_name = df_items.item_name_fr
     df_items.boss = df_items.boss_fr
