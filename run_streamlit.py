@@ -15,6 +15,7 @@ col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
 
 # Load and prepare data
 df_items = pd.read_csv(r'data/items.csv')
+legendaries = ["Val'anyr, Hammer of Ancient Kings"]
 if st.session_state.fr:
     df_items.item_name = df_items.item_name_fr
     df_items.boss = df_items.boss_fr
@@ -119,13 +120,14 @@ if st.session_state.fr:
                                                   axis=1)
 df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
-df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
-df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
-df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
-df_priorities.loc[~df_priorities.lootable, 'received'] = -1.
 df_priorities['TOC'] = df_priorities.boss.apply(lambda x: any([val in x for val in
                                                 ['Beasts', 'Jaraxxus', 'Champions',
                                                 'Twin', 'Anub', 'Chest']]))
+df_priorities['legendary'] = df_priorities.item_name.isin(legendaries)
+df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
+df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
+df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
+df_priorities.loc[~df_priorities.lootable & ~df_priorities.legendary, 'received'] = -1.
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                     .reset_index(drop=True)
 
@@ -152,19 +154,21 @@ add_background()
 
 # Display dataframe
 def display_df(mask, how='standard', min_glow=252):
-    to_display = df_priorities.sort_values(['TOC', 'lootable', 'boss', 'raid_size', 'hm',
+    to_display = df_priorities.sort_values(['TOC', 'lootable', 'legendary',
+                                            'boss', 'raid_size', 'hm',
                                             'ilvl', 'item_name', 'item_id', 'received',
                                             'player'],
-                                           ascending=[False, False, True, True, True,
+                                           ascending=[False, False, False,
+                                                      True, True, True,
                                                       True, True, True, False,
                                                       True])
     to_display = to_display.loc[mask, ['source', 'item_name', 'ilvl', 'player', 'received',
                                        'icon', 'item_id']]
     if how == 'player':
-        to_display = df_priorities.sort_values(['player', 'lootable', 'received',
+        to_display = df_priorities.sort_values(['player', 'legendary', 'lootable', 'received',
                                                 'ilvl', 'TOC', 'item_name', 'item_id',
                                                 'boss', 'raid_size', 'hm'],
-                                               ascending=[True, False, False,
+                                               ascending=[True, False, False, False,
                                                           False, False, True, True,
                                                           True, True, True])
         to_display = to_display.loc[mask, ['player', 'item_name', 'ilvl', 'source', 'received',
@@ -173,6 +177,8 @@ def display_df(mask, how='standard', min_glow=252):
     def glow_fnc(row):
         if row.received not in ['Yes', 'Oui', 'Solo']:
             return row.received
+        elif row.item_name in legendaries:
+            return row.received + ' leg'
         elif row.ilvl >= min_glow:
             return row.received + ' glow'
         else:
@@ -204,7 +210,10 @@ def display_df(mask, how='standard', min_glow=252):
                 .replace('Solo noglow','<span style="color: rgba(37, 153, 37, 1.0)">Solo</span>') \
                 .replace('Yes glow','<span style="color: rgba(255, 215, 0, 1.0)">Yes</span>') \
                 .replace('Oui glow','<span style="color: rgba(255, 215, 0, 1.0)">Oui</span>') \
-                .replace('Solo glow','<span style="color: rgba(255, 215, 0, 1.0)">Solo</span>')
+                .replace('Solo glow','<span style="color: rgba(255, 215, 0, 1.0)">Solo</span>') \
+                .replace('Yes leg','<span style="color: rgba(255, 128, 0, 1.0)">Yes</span>') \
+                .replace('Oui leg','<span style="color: rgba(255, 128, 0, 1.0)">Oui</span>') \
+                .replace('Solo leg','<span style="color: rgba(255, 128, 0, 1.0)">Solo</span>')
 
     # New code with tooltip
     # html_string = '''
