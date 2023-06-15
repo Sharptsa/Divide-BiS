@@ -215,6 +215,10 @@ def display_df(mask, how='standard', min_glow=252):
                 .replace('Yes leg','<span style="color: rgba(255, 128, 0, 1.0)">Yes</span>') \
                 .replace('Oui leg','<span style="color: rgba(255, 128, 0, 1.0)">Oui</span>') \
                 .replace('Solo leg','<span style="color: rgba(255, 128, 0, 1.0)">Solo</span>')
+    if st.session_state.fr:
+        html_block = html_block.replace('Legendary', 'Légendaire') \
+                               .replace('Emblems of Conquest', 'Emblèmes de Conquête') \
+                               .replace('Emblems of Triumph', 'Emblèmes de Triomphe')
 
     # New code with tooltip
     # html_string = '''
