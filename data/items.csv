@@ -198,3 +198,4 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 47129,Skyweaver Robes,Robe de tisseur céleste,Twin Val'kyr,Jumelles Val'kyr,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_75.jpg
 46973,Cord of the Tenebrous Mist,Corde de la brume ténébreuse,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_52.jpg
 47208,Armbands of the Ashen Saint,Bracières du saint cendreux,Anub'arak',Anub'arak,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_37.jpg
+47924,Belt of the Frozen Reach,Ceinture des confins Gelés,Northrend Beasts,Bêtes du Norfendre,10,True,Waist,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_49b.jpg

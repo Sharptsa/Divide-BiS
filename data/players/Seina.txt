@@ -7,7 +7,7 @@
 46017 Val'anyr, Hammer of Ancient Kings
 47085 Bastion of Purity
 45665 Pharos Gloves
-46991 Belt of the Ice Burrower
+47924 Belt of the Frozen Reach
 47067 Legplates of Failing Light
 46986 Boots of the Courageous
 47224 Ring of the Darkmender
