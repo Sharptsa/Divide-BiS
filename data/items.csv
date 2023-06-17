@@ -133,12 +133,12 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 46036,Void Sabre,Sabre du Vide,General Vezax,Général Vezax,10,True,1H Weapon,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_133.jpg
 45928,Gauntlets of the Thunder God,Gantelets du dieu du tonnerre,Thorim,Thorim,10,True,Hands,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_62.jpg
 45474,Pauldrons of the Combatant,Espauliers du combattant,Thorim,Thorim,25,True,Shoulder,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_01.jpg
-47559,Regalia of the Grand Vanquisher,Tenue de parade du grand vainqueur,Tribute Chest 1A,Coffre d'offrande 1T',25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-47558,Regalia of the Grand Protector,Tenue de parade du grand protecteur,Tribute Chest 1A,Coffre d'offrande 1T',25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-47557,Regalia of the Grand Conqueror,Tenue de parade du grand conquérant,Tribute Chest 1A,Coffre d'offrande 1T',25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
+47559,Regalia of the Grand Vanquisher,Tenue de parade du grand vainqueur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
+47558,Regalia of the Grand Protector,Tenue de parade du grand protecteur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
+47557,Regalia of the Grand Conqueror,Tenue de parade du grand conquérant,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
 47060,Charge of the Demon Lord,Devoir du seigneur démoniaque,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Neck,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_34.jpg
 47545,Vereesa's Dexterity,Dextérité de Vereesa,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-47155,Bracers of Dark Determination,Brassards de la sombre détermination,Anub'arak',Anub'arak,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_23b.jpg
+47155,Bracers of Dark Determination,Brassards de la sombre détermination,Anub'arak,Anub'arak,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_23b.jpg
 46969,Steel Bladebreaker,Brise-lame en acier,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_95.jpg
 47112,Belt of the Merciless Killer,Ceinture du tueur impitoyable,Twin Val'kyr,Jumelles Val'kyr,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_37c.jpg
 46975,Leggings of the Broken Beast,Jambières de la bête domptée,Northrend Beasts,Bêtes du Norfendre,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_28.jpg
@@ -160,33 +160,33 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 46964,Crystal Plated Vanguard,Avant-garde à plaques de cristal,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_68.jpg
 47076,Girdle of Bloodied Scars,Ceinturon des balafres sanglantes,Faction Champions,Champions de Faction,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_48c.jpg
 47003,Dawnbreaker Greaves,Grèves brise-aube,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_06.jpg
-47157,Signet of the Traitor King,Chevalière du roi traître,Anub'arak',Anub'arak,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_57.jpg
+47157,Signet of the Traitor King,Chevalière du roi traître,Anub'arak,Anub'arak,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_57.jpg
 47088,Satrina's Impeding Scarab,Scarabée d'obstruction de Satrina,Faction Champions,Champions de Faction,25,True,Trinket,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_scarab_crystal.jpg
-47156,Stormpike Cleaver,Fendoir foudrepique,Anub'arak',Anub'arak,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_105.jpg
-47154,Greaves of the 7th Legion,Grèves de la 7e Légion,Anub'arak',Anub'arak,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_01.jpg
+47156,Stormpike Cleaver,Fendoir foudrepique,Anub'arak,Anub'arak,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_105.jpg
+47154,Greaves of the 7th Legion,Grèves de la 7e Légion,Anub'arak,Anub'arak,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_01.jpg
 47144,Wail of the Val'kyr,Complainte des val'kyrs,Twin Val'kyr,Jumelles Val'kyr,25,True,Neck,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_36.jpg
 47552,Jaina's Radiance,Radiance de Jaina,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
 46980,Blade of Tarasque,Lame de la tarasque,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_99.jpg
 47085,Bastion of Purity,Bastion de pureté,Faction Champions,Champions de Faction,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_69.jpg
 47084,Cord of Biting Cold,Corde du froid mordant,Faction Champions,Champions de Faction,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_52.jpg
-47190,Legwraps of the Awakening,Jambards de l'éveil,Anub'arak',Anub'arak,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_28.jpg
+47190,Legwraps of the Awakening,Jambards de l'éveil,Anub'arak,Anub'arak,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_28.jpg
 47099,Boots of Tremoring Earth,Bottes du tremblement de terre,Faction Champions,Champions de Faction,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_06.jpg
-47188,Reign of the Unliving,Règne des non-vivants,Anub'arak',Anub'arak,25,True,Trinket,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_crown_13.jpg
+47188,Reign of the Unliving,Règne des non-vivants,Anub'arak,Anub'arak,25,True,Trinket,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_crown_13.jpg
 47074,Bracers of the Untold Massacre,Brassards du massacre inavoué,Faction Champions,Champions de Faction,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_32a.jpg
 47078,Justicebringer,Porte-justice,Faction Champions,Champions de Faction,25,True,Weapon 2H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_103.jpg
-47240,Gloves of Bitter Reprisal,Gants des représailles amères,Anub'arak',Anub'arak,25,True,Hands,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_75.jpg
+47240,Gloves of Bitter Reprisal,Gants des représailles amères,Anub'arak,Anub'arak,25,True,Hands,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_75.jpg
 46995,Talonstrike,Frappe-serres,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Ranged,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_crossbow_34.jpg
 47143,Bindings of Dark Essence,Manchettes de la sombre essence,Twin Val'kyr,Jumelles Val'kyr,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_37.jpg
-47206,Misery's End,Fin de la détresse,Anub'arak',Anub'arak,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_107.jpg
+47206,Misery's End,Fin de la détresse,Anub'arak,Anub'arak,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_107.jpg
 47146,Chalice of Searing Light,Calice de la lumière incendiaire,Twin Val'kyr,Jumelles Val'kyr,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_pvealliance_d_01.jpg
 47097,Boots of the Mourning Widow,Bottes de la veuve éplorée,Faction Champions,Champions de Faction,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_23.jpg
-47237,Band of Deplorable Violence,Bague de violence déplorable,Anub'arak',Anub'arak,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_55.jpg
+47237,Band of Deplorable Violence,Bague de violence déplorable,Anub'arak,Anub'arak,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_55.jpg
 47224,Ring of the Darkmender,Anneau du sombre réparateur,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_80.jpg
 47147,Breastplate of the Frozen Lake,Cuirasse du lac gelé,Twin Val'kyr,Jumelles Val'kyr,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate_22.jpg
 46991,Belt of the Ice Burrower,Ceinture du fouisseur de glace,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_47a.jpg
 47067,Legplates of Failing Light,Cuissards de la lumière déclinante,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_15.jpg
 46986,Boots of the Courageous,Bottes des courageux,Northrend Beasts,Bêtes du Norfendre,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_11.jpg
-47239,Archon Glaive,Couteau de brèche d'archonte,Anub'arak',Anub'arak,25,True,Weapon 2H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_staff_101.jpg
+47239,Archon Glaive,Couteau de brèche d'archonte,Anub'arak,Anub'arak,25,True,Weapon 2H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_staff_101.jpg
 47945,Gloves of the Silver Assassin,Gants de l'assassin d'argent,Faction Champions,Champions de Faction,10,True,Feet,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_77a.jpg
 46977,Shawl of the Refreshing Winds,Châle des vents rafraîchissants,Northrend Beasts,Bêtes du Norfendre,25,True,Back,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
 46993,Flowing Vestments of Ascent,Habits flottants de l'ascension,Northrend Beasts,Bêtes du Norfendre,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_75.jpg
@@ -197,6 +197,8 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 47553,Bolvar's Devotion,Dévotion de Bolvar,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
 47129,Skyweaver Robes,Robe de tisseur céleste,Twin Val'kyr,Jumelles Val'kyr,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_75.jpg
 46973,Cord of the Tenebrous Mist,Corde de la brume ténébreuse,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_52.jpg
-47208,Armbands of the Ashen Saint,Bracières du saint cendreux,Anub'arak',Anub'arak,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_37.jpg
+47208,Armbands of the Ashen Saint,Bracières du saint cendreux,Anub'arak,Anub'arak,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_37.jpg
 47924,Belt of the Frozen Reach,Ceinture des confins Gelés,Northrend Beasts,Bêtes du Norfendre,10,True,Waist,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_49b.jpg
 46973,Cord of the Tenebrous Mist,Corde de la brume ténébreuse,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_52.jpg
+47001,Lionhead Slasher,Balafreur à tête de lion,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_105.jpg
+47934,Planestalker Signet,Chevalière du traqueur des plans,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Finger,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_61.jpg
