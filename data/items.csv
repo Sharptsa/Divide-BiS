@@ -202,3 +202,8 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 46973,Cord of the Tenebrous Mist,Corde de la brume ténébreuse,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_52.jpg
 47001,Lionhead Slasher,Balafreur à tête de lion,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_105.jpg
 47934,Planestalker Signet,Chevalière du traqueur des plans,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Finger,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_61.jpg
+46965,Breastplate of Cruel Intent,Plastron de l'intention cruelle,Northrend Beasts,Bêtes du Norfendre,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_mail_07.jpg
+47153,Belt of Deathly Dominion,Ceinture de domination mortelle,Anub'arak,Anub'arak,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_45a.jpg
+47109,Sabatons of Ruthless Judgment,Solerets du jugement brutal,Twin Val'kyr,Jumelles Val'kyr,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_07.jpg
+47517,Blade of the Unbroken Covenant,Lame du concordat intact,Tribute Chest 25A,Coffre d'offrande 25T,25,True,Weapon 1H,258,0.1428571428571428,https://wow.zamimg.com/images/wow/icons/large/inv_sword_144.jpg
+47191,Legguards of the Lurking Threat,Garde-jambes de la menace tapie,Anub'arak,Anub'arak,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_mail_25.jpg
