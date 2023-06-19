@@ -2,7 +2,7 @@
 47144 Wail of the Val'kyr
 47559 Regalia of the Grand Vanquisher
 46977 Shawl of the Refreshing Winds
-47559 Regalia of the Grand Vanquisher
+46993 Flowing Vestments of Ascent
 47066 Bracers of the Autumn Willow
 47206 Misery's End
 47958 Chalice of Benedictus
