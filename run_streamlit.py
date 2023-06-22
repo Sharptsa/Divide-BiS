@@ -248,7 +248,7 @@ else:
 
     mask_player = df_priorities.player.apply(approx_fnc).str.contains(approx_fnc(st.session_state.query))
     mask_item_name = df_priorities.item_name.apply(approx_fnc).str.contains(approx_fnc(st.session_state.query))
-    mask_item_id = df_priorities.item_id.apply(str).str.contains(st.session_state.query)
+    mask_item_id = df_priorities.item_id.apply(str) == st.session_state.query
     mask_source = pd.DataFrame([df_priorities.source.apply(approx_fnc).str.contains(q) \
                                 for q in approx_fnc(st.session_state.query).split()]).all()
 

@@ -6,7 +6,7 @@ df_bis = pd.read_csv(r'data/players_bis.csv')
 df_items = pd.read_csv(r'data/items.csv')
 df_items['weight'] = (1. + (df_items.slot == 'Weapon 2H')) \
                      * (1. + 0.5 * (df_items.slot.isin(['Weapon 2H', 'Weapon 1H', 'Trinket']))) \
-                     * (1. + (df_items.ilvl - 225) / (252 - 225)) \
+                     * (1. + (df_items.ilvl - 245) / (258 - 245)) \
                      / (df_items.drops_per_id / 0.2)
 
 # Assert items are known
