@@ -3,7 +3,7 @@
 47557 Regalia of the Grand Conqueror
 47549 Magni's Resolution
 46968 Chestplate of the Towering Monstrosity
-47570 Saronite Swordbreakers
+47918 Dreadscale Armguards
 47506 Silverwing Defender
 46964 Crystal Plated Vanguard
 45487 Handguards of Revitalization
