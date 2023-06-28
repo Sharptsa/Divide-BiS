@@ -210,3 +210,4 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 47922,Rod of Imprisoned Souls,Bâtonnet des âmes emprisonnées,Northrend Beasts,Bêtes du Norfendre,10,True,Ranged,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_15.jpg
 47918,Dreadscale Armguards,Garde-bras d'Ecaille-d'effroi,Northrend Beasts,Bêtes du Norfendre,10,True,Wrist,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_32.jpg
 49475,Judgement Heaume,Armet du jugement,Onyxia,Onyxia,25,False,Head,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_74.jpg
+47916,Armbands of the Northern Stalker,Bracières du traqueur nordique,Northrend Beasts,Bêtes du Norfendre,10,True,Wrist,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_32a.jpg
