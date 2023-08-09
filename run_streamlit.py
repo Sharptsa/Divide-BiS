@@ -11,8 +11,8 @@ col = st.columns([0.17, 0.66, 0.17])[1]
 col.title('Divide BiS')
 col.checkbox('Mode français', key='fr')
 col.text_input('FLAG A')
-col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
-               else "Joueur, boss, nom d'item ou ID d'item", key='query')
+# col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
+#                else "Joueur, boss, nom d'item ou ID d'item", key='query')
 col.text_input('FLAG B')
 
 # Load and prepare data
