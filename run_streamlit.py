@@ -10,10 +10,10 @@ st.set_page_config(layout="wide")
 col = st.columns([0.17, 0.66, 0.17])[1]
 col.title('Divide BiS')
 col.checkbox('Mode français', key='fr')
-col.text('FLAG A')
+col.text_input('FLAG A')
 col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
                else "Joueur, boss, nom d'item ou ID d'item", key='query')
-col.text('FLAG B')
+col.text_input('FLAG B')
 
 # Load and prepare data
 df_items = pd.read_csv(r'data/items.csv')
@@ -23,7 +23,7 @@ if st.session_state.fr:
     df_items.item_name = df_items.item_name_fr
     df_items.boss = df_items.boss_fr
 
-col.text('FLAG C')
+col.text_input('FLAG C')
 df_priorities = pd.read_excel(r'data/players_priorities.xlsx')
 left, right = (df_priorities, df_items.drop(['item_name', 'drops_per_id'], axis=1)) \
               if not st.session_state.fr \
@@ -34,7 +34,7 @@ df_priorities['source'] = df_priorities.apply(lambda row: row.rank_in_queue if p
                           else ''.join([row.boss, ' ' + str(int(row.raid_size)),
                                         ' hm' if row.hm else ' nm']),
                           axis=1)
-col.text('FLAG D')
+col.text_input('FLAG D')
 df_priorities.loc[df_priorities.boss.isna(), 'rank_in_queue'] = np.nan
 df_priorities['lootable'] = (df_priorities.boss.notna()) | (df_priorities.source == 'Craft')
 
@@ -44,7 +44,7 @@ df_priorities.raid_size = df_priorities.raid_size.fillna(-1).apply(int)
 df_priorities.boss.fillna('', inplace=True)
 df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ'
 df_priorities.slot.fillna('', inplace=True)
-col.text('FLAG E')
+col.text_input('FLAG E')
 non_lootable_ilvls = {258: [46017],
                       245: [47673, 47570, 47664, 47666, 47668, 47661, 47665, 47587,
                             47733],
@@ -54,14 +54,14 @@ non_lootable_ilvls = {258: [46017],
                       200: [40713, 40705, 40709, 42987, 44253, 40708, 44255],
                       187: [37111]}
 non_lootable_ilvls = {v: k for k in non_lootable_ilvls for v in non_lootable_ilvls[k]}
-col.text('FLAG F')
-col.text(list(non_lootable_ilvls.keys()))
-col.text(non_lootable_ilvls[47733])
+col.text_input('FLAG F')
+col.text_input(str(list(non_lootable_ilvls.keys())))
+col.text_input(str(non_lootable_ilvls[47733]))
 df_priorities.ilvl = df_priorities.apply(lambda row: int(row.ilvl)
                                          if pd.notna(row.ilvl)
                                          else non_lootable_ilvls[row.item_id],
                                          axis=1)
-col.text('FLAG G')
+col.text_input('FLAG G')
 non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_misc_orb_03.jpg',
                       40207: 'https://wow.zamimg.com/images/wow/icons/large/inv_shield_56.jpg',
                       40255: 'https://wow.zamimg.com/images/wow/icons/large/inv_trinket_naxxramas03.jpg',
