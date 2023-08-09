@@ -213,3 +213,6 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 47916,Armbands of the Northern Stalker,Bracières du traqueur nordique,Northrend Beasts,Bêtes du Norfendre,10,True,Wrist,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_32a.jpg
 47189,Leggings of the Deepening Void,Jambières du vide profond,Anub'arak,Anub'arak,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_cloth_33.jpg
 47928,Firestorm Ring,Anneau tempête-de-feu,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Finger,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_57.jpg
+47930,Amulet of Binding Elements,Amulette du lien des éléments,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Neck,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_46.jpg
+47238,Maiden's Favor,Faveur de la damoiselle,Anub'arak,Anub'arak,25,True,Back,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
+47062,Leggings of the Soothing Touch,Jambières de la caresse apaisante,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_cloth_33.jpg
