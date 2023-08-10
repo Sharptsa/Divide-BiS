@@ -6,7 +6,7 @@
 45460 Bindings of Winter Gale
 46017 Val'anyr, Hammer of Ancient Kings
 47085 Bastion of Purity
-45665 Pharos Gloves
+47236 Gloves of the Lifeless Touch
 47924 Belt of the Frozen Reach
 47067 Legplates of Failing Light
 46986 Boots of the Courageous
