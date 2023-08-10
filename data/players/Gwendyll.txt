@@ -2,12 +2,12 @@
 47060 Charge of the Demon Lord
 47557 Regalia of the Grand Conqueror
 47547 Varian's Furor
-46965 Breastplate of Cruel Intent
+47557 Regalia of the Grand Conqueror
 47155 Bracers of Dark Determination
-47078 Justicebringer
+47519 Catastrophe
 47557 Regalia of the Grand Conqueror
 47002 Bloodbath Belt
-47557 Regalia of the Grand Conqueror
+47132 Legguards of Ascension
 47154 Greaves of the 7th Legion
 47075 Ring of Callous Aggression
 46966 Band of the Violent Temperment

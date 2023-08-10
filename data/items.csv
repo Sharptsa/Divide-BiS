@@ -217,3 +217,4 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 47238,Maiden's Favor,Faveur de la damoiselle,Anub'arak,Anub'arak,25,True,Back,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
 47062,Leggings of the Soothing Touch,Jambières de la caresse apaisante,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_cloth_33.jpg
 47236,Gloves of the Lifeless Touch,Gants de la caresse sans vie,Anub'arak,Anub'arak,25,True,Hands,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_79.jpg
+47519,Catastrophe,Catastrophe,Tribute Chest 25A,Coffre d'offrande 25T,25,True,Weapon 2H,258,0.14285714285714285,https://wow.zamimg.com/images/wow/icons/large/inv_mace_106.jpg
