@@ -42,7 +42,7 @@ df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ'
 df_priorities.slot.fillna('', inplace=True)
 non_lootable_ilvls = {258: [46017],
                       245: [47673, 47570, 47664, 47666, 47668, 47661, 47665, 47587,
-                            47733],
+                            47733, 47670],
                       238: [42853, 42608],
                       232: [45825, 45564, 45553, 45551, 45561, 45560],
                       213: [40207, 40321, 40342, 40432, 40255, 40267, 39728],
@@ -85,7 +85,8 @@ non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_
                       47661: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_libramofhope.jpg',
                       47665: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_slowingtotem.jpg',
                       47587: 'https://wow.zamimg.com/images/wow/icons/large/inv_bracer_37.jpg',
-                      47733: 'https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_57.jpg'}
+                      47733: 'https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_57.jpg',
+                      47670: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_idolofrejuvenation.jpg'}
 df_priorities.icon = df_priorities.apply(lambda row: row.icon
                                          if pd.notna(row.icon)
                                          else non_lootable_icons[row.item_id],
@@ -123,7 +124,8 @@ if st.session_state.fr:
                              47661: 'Libram de vaillance',
                              47665: 'Totem des marées calmantes',
                              47587: 'Brassards royaux en voile lunaire',
-                             47733: 'Cercle du réparacoeur'}
+                             47733: 'Cercle du réparacoeur',
+                             47670: 'Idole de la fureur lunaire'}
     df_priorities.item_name = df_priorities.apply(lambda row: row.item_name
                                                   if pd.notna(row.item_name)
                                                   else non_lootable_names_fr[row.item_id],
