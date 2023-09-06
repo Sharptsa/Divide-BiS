@@ -5,9 +5,9 @@ import itertools
 df_bis = pd.read_csv(r'data/players_bis.csv')
 df_items = pd.read_csv(r'data/items.csv')
 df_items['weight'] = (1. + (df_items.slot == 'Weapon 2H')) \
-                     * (1. + 0.5 * (df_items.slot.isin(['Weapon 2H', 'Weapon 1H', 'Trinket']))) \
-                     * (1. + (df_items.ilvl - 245) / (258 - 245)) \
-                     / (df_items.drops_per_id / 0.2)
+    * (1. + 0.5 * (df_items.slot.isin(['Weapon 2H', 'Weapon 1H', 'Trinket']))) \
+    * (1. + (df_items.ilvl - 245) / (258 - 245)) \
+    / (df_items.drops_per_id / 0.2)
 
 # Assert items are known
 iids = []
@@ -38,7 +38,8 @@ def add_item(row):
 def evaluate_prios(df):
     # Prepare dataframe
     df = df.copy()
-    df = pd.merge(df, df_items[['item_id', 'weight']], how='inner', on='item_id')
+    df = pd.merge(df, df_items[['item_id', 'weight']],
+                  how='inner', on='item_id')
 
     # Compute penalities
     # penalizing = df.groupby('item_id').cumcount(ascending=False)
@@ -53,7 +54,7 @@ def evaluate_prios(df):
 
 
 def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
-                                                    epochs=80, target_temp=0.001):
+                   epochs=80, target_temp=0.001):
     if fixed_pre is None:
         fixed_pre = {}
     if fixed_post is None:
@@ -75,23 +76,27 @@ def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
 
     # Prepare dataframe
     df = df_source.copy()
-    df = df.loc[df.item_id.isin(df_items.item_id), :] # only keep lootable items
+    # only keep lootable items
+    df = df.loc[df.item_id.isin(df_items.item_id), :]
     if resim:
-        df = df.sample(df.shape[0]).sort_values('item_id') # shuffle
+        df = df.sample(df.shape[0]).sort_values('item_id')  # shuffle
 
     # Format fixed dicts
     fixed_pre = format_fixed_dict(fixed_pre, df)
     fixed_post = format_fixed_dict(fixed_post, df)
     idxs_in_fixed = list(itertools.chain.from_iterable([fixed_pre[k] for k in fixed_pre])) \
-                    + list(itertools.chain.from_iterable([fixed_post[k] for k in fixed_post]))
+        + list(itertools.chain.from_iterable([fixed_post[k] for k in fixed_post]))
 
     # Create group items and probas
     groups = df.groupby('item_id').item_name.groups
     groups = {k: list(groups[k]) for k in groups}
-    groups = {k: [i for i in groups[k] if i not in idxs_in_fixed] for k in groups}
-    group_probas = {k: int(len(groups[k]) * (len(groups[k]) - 1) / 2) for k in groups}
+    groups = {k: [i for i in groups[k] if i not in idxs_in_fixed]
+              for k in groups}
+    group_probas = {
+        k: int(len(groups[k]) * (len(groups[k]) - 1) / 2) for k in groups}
     total_links = sum(group_probas.values())
-    group_probas = {k: group_probas[k] / sum(group_probas.values()) for k in group_probas}
+    group_probas = {
+        k: group_probas[k] / sum(group_probas.values()) for k in group_probas}
 
     # Loop over modifications
     old_loss = evaluate_prios(df)
@@ -107,17 +112,21 @@ def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
             print(f'Epoch {int(step / total_links) + 1}/{epochs}...')
 
         # Modify priorities
-        item_id = np.random.choice(list(group_probas.keys()), p=list(group_probas.values()))
-        first_id, second_id = np.random.choice(len(groups[item_id]), replace=False, size=2)
+        item_id = np.random.choice(
+            list(group_probas.keys()), p=list(group_probas.values()))
+        first_id, second_id = np.random.choice(
+            len(groups[item_id]), replace=False, size=2)
         groups[item_id][first_id], groups[item_id][second_id] = groups[item_id][second_id], \
-                                                                groups[item_id][first_id]
+            groups[item_id][first_id]
 
         # Evaluate
-        groups_with_fixed = {k: fixed_pre[k] + groups[k] + fixed_post[k] for k in groups}
-        loss = evaluate_prios(df.loc[list(itertools.chain.from_iterable(groups_with_fixed.values()))])
-        if np.random.random() > np.exp((old_loss - loss) / temp): # not accepted
+        groups_with_fixed = {
+            k: fixed_pre[k] + groups[k] + fixed_post[k] for k in groups}
+        loss = evaluate_prios(
+            df.loc[list(itertools.chain.from_iterable(groups_with_fixed.values()))])
+        if np.random.random() > np.exp((old_loss - loss) / temp):  # not accepted
             groups[item_id][first_id], groups[item_id][second_id] = groups[item_id][second_id], \
-                                                                    groups[item_id][first_id]
+                groups[item_id][first_id]
             loss = old_loss
         old_loss = loss
         temp *= lbda
@@ -125,12 +134,14 @@ def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
         losses.append(loss)
 
         if loss < min_loss:
-            best_df = df.loc[list(itertools.chain.from_iterable(groups_with_fixed.values()))]
+            best_df = df.loc[list(itertools.chain.from_iterable(
+                groups_with_fixed.values()))]
             min_loss = loss
 
     # Add non lootable items
     best_df['rank_in_queue'] = best_df.groupby('item_id').cumcount() + 1
-    non_lootable = df_source.copy().loc[~df_source.item_id.isin(df_items.item_id), :]
+    non_lootable = df_source.copy(
+    ).loc[~df_source.item_id.isin(df_items.item_id), :]
     best_df = pd.concat([best_df, non_lootable.sort_values('item_id')])
     non_lootable_sources = {'Emblems of Conquest': [45825],
                             'Emblems of Triumph': [47673, 47664, 47666, 47668, 47661,
@@ -141,7 +152,8 @@ def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
                                    44255],
                             'PvP': [42853, 42608],
                             'Legendary': [46017]}
-    non_lootable_sources = {v: k for k in non_lootable_sources for v in non_lootable_sources[k]}
+    non_lootable_sources = {
+        v: k for k in non_lootable_sources for v in non_lootable_sources[k]}
     best_df.rank_in_queue = best_df.apply(lambda row: str(int(row.rank_in_queue))
                                           if pd.notna(row.rank_in_queue)
                                           else non_lootable_sources[row.item_id],
@@ -153,7 +165,8 @@ def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
 
     if resim:
         previous_priorities = pd.read_excel(r'data/players_priorities.xlsx')
-        previous_priorities.to_excel(r'data/players_priorities_previous.xlsx', index=False)
+        previous_priorities.to_excel(
+            r'data/players_priorities_previous.xlsx', index=False)
         best_df.to_excel(r'data/players_priorities.xlsx', index=False)
 
     return best_df, np.array(temps), np.array(losses)
