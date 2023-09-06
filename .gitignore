@@ -1,5 +1,5 @@
 .idea
 .vscode
 build/__pycache__
-static
+static/*
 !static/background.jpg
