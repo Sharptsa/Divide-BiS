@@ -4,3 +4,4 @@
 build/__pycache__
 static/*
 !static/background.jpg
+!static/favicon.png
