@@ -30,7 +30,7 @@ def parse_bis_list(locale="en"):
         lambda row: row.rank_in_queue
         if pd.isna(row.boss)
         else "".join(
-            [row.boss, " " + str(int(row.raid_size)), " hm" if row.hm else " nm"]
+            [row.boss, " " + str(int(row.raid_size)), " HM" if row.hm else " NM"]
         ),
         axis=1,
     )
