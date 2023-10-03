@@ -2,6 +2,7 @@ from jinja2 import Environment, select_autoescape, FileSystemLoader
 
 from bis_list_parser import parse_bis_list, LEGENDARIES
 import os
+from unidecode import unidecode
 
 MIN_GLOW = 277
 

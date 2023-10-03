@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="./favicon.png" />
     <title>Divide BiS List</title>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:bold' rel='stylesheet' type='text/css'>
@@ -30,6 +31,11 @@
             -webkit-text-stroke: 0.01rem black;
         }
 
+        #bis-table th,
+        #bis-table td {
+            padding: 0.6rem 0.6rem;
+        }
+
         #bis-table .iconsmall {
             margin-right: 2px;
         }
@@ -38,17 +44,31 @@
             white-space: nowrap;
         }
 
+        #bis-table th {
+            text-align: center;
+        }
+
+        #bis-table th::after,
+        #bis-table th::before {
+            content: none !important;
+        }
+
         @media only screen and (max-width: 768px) {
             #bis-table td {
                 white-space: normal;
             }
 
-            #bis-table th:nth-child(3) {
+            #bis-table th:nth-child(11) {
                 display: none;
             }
 
-            #bis-table td:nth-child(3) {
+            #bis-table td:nth-child(11) {
                 display: none;
+            }
+
+            #bis-table th,
+            #bis-table td {
+                padding: 0.5rem 0.5rem;
             }
         }
 
@@ -90,9 +110,9 @@
                 <div class="mb-3">
                     <h1>Divide BiS</h1>
                     {% if locale == 'en' %}
-                    <span class="fi fi-fr"></span> <a href="./index_fr.html">En français</a>
+                    <a class='btn btn-secondary' href="./index_fr.html"><span class="fi fi-fr"></span> En français</a>
                     {% elif locale == 'fr' %}
-                    <span class="fi fi-gb"></span> <a href="./index.html">In English</a>
+                    <a class='btn btn-secondary' href="./index.html"><span class="fi fi-gb"></span> In English</a>
                     {% endif %}
                 </div>
                 <table id="bis-table" class="table table-dark table-striped table-hover table-bordered align-middle">
@@ -105,6 +125,7 @@
                             <th scope="col" class="visually-hidden">hBoss</th>
                             <th scope="col" class="visually-hidden">hRaidSize</th>
                             <th scope="col" class="visually-hidden">hHM</th>
+                            <th scope="col" class="visually-hidden">hRawItemName</th>
                             {% if locale == 'en' %}
                             <th scope="col">Source</th>
                             <th scope="col">Item</th>
@@ -131,6 +152,7 @@
                             <td class="visually-hidden">{{ bis['boss'] | format_source(locale=locale) }}</td>
                             <td class="visually-hidden">{{ bis['raid_size'] }}</td>
                             <td class="visually-hidden">{{ bis['hm'] }}</td>
+                            <td class="visually-hidden">{{ bis['item_name'] }}</td>
                             <td>{{ bis['source'] | format_source(locale=locale) }}</td>
                             <td><a href="https://www.wowhead.com/wotlk/{% if locale == 'fr' %}fr/{% endif %}item={{bis['item_id']}}\"
                                     target="_blank" data-wowhead="item={{bis['item_id']}}">{{bis['item_name']}}</a></td>
@@ -156,29 +178,44 @@
     <!-- DataTables -->
     <script src="https://cdn.datatables.net/v/bs5/dt-1.13.5/datatables.min.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/1.13.5/filtering/type-based/accent-neutralise.js"></script>
+
     {% if locale == 'en' %}
     {% set search_placeholder = "Player, boss, item name or item ID" %}
+    {% set zeroRecords = "No matching records found" %}
     {% elif locale == 'fr' %}
     {% set search_placeholder = "Joueur, boss, nom d'item ou ID d'item" %}
+    {% set zeroRecords = "Pas de résultat correspondant" %}
     {% endif %}
     <script>
+        var default_order = [[0, 'desc'], [1, 'desc'], [2, 'desc'], [3, 'desc'], [4, 'asc'], [5, 'desc'], [6, 'desc'], [10, 'desc'], [7, 'asc'], [12, 'desc'], [11, 'asc']];
+        var player_order = [[11, 'asc'], [2, 'desc'], [12, 'desc'], [10, 'desc'], [0, 'desc'], [1, 'desc'], [3, 'desc'], [7, 'asc'], [4, 'asc'], [5, 'desc'], [6, 'desc']];
+
         $(document).ready(function () {
-            $('#bis-table').DataTable({
-                dom: "<f>",
+            var table = $('#bis-table').DataTable({
+                dom: "<'#search-bar'f>",
                 paging: false,
                 searching: true,
                 language: {
                     searchPlaceholder: "{{ search_placeholder }}",
-                    sSearch: ''
+                    sSearch: '',
+                    zeroRecords: "{{ zeroRecords }}"
                 },
                 columnDefs: [
-                    { orderSequence: ["desc", "asc"], targets: [9, 11] },
-                    { orderable: false, targets: [7, 8]},
-                    { orderData: [11, 9], targets: 11}
+                    { orderable: false, targets: '_all' }
                 ],
-                order: [[0, 'desc'], [1, 'desc'], [2, 'desc'], [3, 'desc'], [4, 'asc'], [5, 'desc'], [6, 'desc'], [9, 'desc']]
+                order: default_order
             });
             $('#bis-table_filter>label>input').removeClass('form-control-sm');
+
+            $('#search-bar input').on('input', function (e) {
+                let searchPlayers = table.column(11, { search: 'applied' }).data().unique();
+
+                if (searchPlayers.length === 1) {
+                    table.order(player_order).draw();
+                } else {
+                    table.order(default_order).draw();
+                }
+            });
         });
     </script>
 </body>
