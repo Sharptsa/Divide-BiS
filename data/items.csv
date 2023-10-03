@@ -239,3 +239,10 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 50699,Plague Scientist's Boots,Bottes de scientifique de la peste,Festergut,Pulentraille,25,True,Feet,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_24.jpg
 50631,Nightmare Ender,Fin du cauchemar,Valithria Dreamwalker,Valithria Marcherêve,25,True,Ranged,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_34.jpg
 50664,Ring of Rapid Ascent,Anneau d'ascension rapide,Gunship Armory,Armurerie de la Cannonière,25,True,Ring,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_86.jpg
+50724,Blood Queen's Crimson Choker,Sautoir cramoisi de la reine de sang,Blood-Queen Lana'thel,Reine de sang Lana'thel,25,True,Neck,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelcrafting_crimsonspinel_02.jpg
+50680,Rot-Resistant Breastplate,Cuirasse résistante à la pourriture,Rotface,Trognepus,25,True,Chest,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate22.jpg
+50721,Crypt Keeper's Bracers,Brassards de gardien des cryptes,Blood Prince Council,Conseil des Princes de Sang,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_46.jpg
+50616,Bulwark of Smouldering Steel,Rempart d'acier fumant,Lord Marrowgar,Seigneur Gargamoelle,25,True,Weapon 1H,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_72.jpg
+50650,Fallen Lord's Handguards,Garde-mains de seigneur déchu,Lady Deathwhisper,Dame Murmemort,25,True,Hands,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_85.jpg
+50613,Crushing Coldwraith Belt,Ceinture d'âmefroide broyeuse,Lord Marrowgar,Seigneur Gargamoelle,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_64.jpg
+51928,Corrupted Silverplate Leggings,Jambières corrompues en plates d'argent,Lord Marrowgar,Seigneur Gargamoelle,10,True,Pants,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_33.jpg
