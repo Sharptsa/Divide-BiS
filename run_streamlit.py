@@ -144,13 +144,26 @@ if st.session_state.fr:
 df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
                                            .apply(lambda x: int(x) if x else x)
 df_priorities['TOC'] = df_priorities.boss.apply(lambda x: any([val in x for val in
-                                                ['Beasts', 'Jaraxxus', 'Champions',
-                                                'Twin', 'Anub', 'Chest']]))
+                                                ['Beasts', 'Bêtes',
+                                                 'Jaraxxus',
+                                                 'Champions',
+                                                 'Twin', 'Jumelles',
+                                                 'Anub',
+                                                 'Tribute', 'offrande']]))
 df_priorities['ICC'] = df_priorities.apply(lambda row: any([val in row.boss for val in
-                                                  ['Marrowgar', 'Deathwhisper', 'Gunship',
-                                                  'Saurfang', 'Festergut', 'Rotface',
-                                                  'Putricide', 'Prince Council', "Lana'thel",
-                                                  'Valithria', 'Sindragosa', 'Lich King', 'ICC']])
+                                                  ['Marrowgar', 'Gargamoelle'
+                                                   'Deathwhisper', 'Murmemort',
+                                                   'Gunship', 'Cannonière',
+                                                   'Saurfang', 'Saurcroc',
+                                                   'Festergut', 'Pulentraille',
+                                                   'Rotface', 'Trognepus',
+                                                   'Putricide',
+                                                   'Prince Council', 'Conseil des Princes',
+                                                   "Lana'thel",
+                                                   'Valithria',
+                                                   'Sindragosa',
+                                                   'Lich King', 'Roi-Liche',
+                                                   'ICC']])
                                                 or row.item_id == 49623,
                                                 axis=1)
 df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
