@@ -182,10 +182,10 @@ def parse_bis_list(locale="en"):
             ]
         )
     )
-    df_priorities["ICC"] = df_priorities.boss.apply(
+    df_priorities["ICC"] = df_priorities.apply(
         lambda row: any(
             [
-                val in row
+                val in row.boss
                 for val in [
                     # EN
                     "Marrowgar",
