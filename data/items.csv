@@ -246,3 +246,16 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 50650,Fallen Lord's Handguards,Garde-mains de seigneur déchu,Lady Deathwhisper,Dame Murmemort,25,True,Hands,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_85.jpg
 50613,Crushing Coldwraith Belt,Ceinture d'âmefroide broyeuse,Lord Marrowgar,Seigneur Gargamoelle,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_64.jpg
 51928,Corrupted Silverplate Leggings,Jambières corrompues en plates d'argent,Lord Marrowgar,Seigneur Gargamoelle,10,True,Pants,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_33.jpg
+50712,Landsoul's Horned Greathelm,Grand heaume cornu d'Âmeterre,Blood Prince Council,Conseil des Princes de Sang,25,True,Head,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_151.jpg
+51842,Collar of Haughty Disdain,Collerette du dédain hautain,Blood-Queen Lana'thel,Reine de sang Lana'thel,10,True,Neck,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_48.jpg
+50674,Raging Behemoth's Shoulderplates,Plaques d'épaule de béhémoth déchaîné,Rotface,Trognepus,25,True,Shoulder,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_130.jpg
+50677,Winding Sheet,Linceul,Rotface,Trognepus,25,True,Back,277,0.2,https://wow.zamimg.com/images/wow/icons/large/item_icecrowncape.jpg
+50606,Gendarme's Cuirass,Cuirasse de gendarme,Lord Marrowgar,Seigneur Gargamoelle,25,True,Chest,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate_26.jpg
+51832,Taiga Bindings,Manchettes de la taïga,Valithria Dreamwalker,Valithria Marcherêve,10,True,Wrist,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_43.jpg
+50737,"Havoc's Call, Blade of Lordaeron Kings","Appel-au-carnage, lame des rois de Lordaeron",The Lich King,Le Roi-Liche,25,True,Weapon 1H,284,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_113.jpg
+50690,Fleshrending Gauntlets,Gantelets tranche-chair,Festergut,Pulentraille,25,True,Hands,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_87.jpg
+50620,Coldwraith Links,Chaînons d'âmefroide,Valithria Dreamwalker,Valithria Marcherêve,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_63.jpg
+50624,Scourge Reaver's Legplates,Cuissards de saccageur du Fléau,Valithria Dreamwalker,Valithria Marcherêve,25,True,Pants,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_31.jpg
+50639,Blood-Soaked Saronite Stompers,Croquenots imprégnés de sang en saronite,Lady Deathwhisper,Dame Murmemort,25,True,Feet,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_13.jpg
+50657,Skeleton Lord's Circle,Cercle de seigneur squelette,Gunship Armory,Armurerie de la Cannonière,25,True,Ring,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_83.jpg
+50363,Deathbringer's Will,Volonté de porte-mort,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Trinket,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_trinket_04.jpg

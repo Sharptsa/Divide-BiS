@@ -17,7 +17,7 @@ for iid in df_bis.item_id.unique():
                        37111, 40705, 40432, 40255, 40267, 40709, 42987, 44253,
                        42853, 42608, 46017, 45561, 39728, 40708, 45560, 44255,
                        47673, 47570, 47664, 47666, 47668, 47661, 47665, 47587,
-                       47733, 47670, 49894, 50400, 50454]:
+                       47733, 47670, 49894, 50400, 50454, 52572]:
             iids.append(iid)
 if iids:
     print(f'Found new items: {iids}')
@@ -142,7 +142,7 @@ def optimize_prios(df_source, resim=True, fixed_pre=None, fixed_post=None,
                                    40255, 40267, 40709, 42987, 44253, 39728, 40708,
                                    44255],
                             'PvP': [42853, 42608],
-                            'Reputation': [50400],
+                            'Reputation': [50400, 52572],
                             'Legendary': [46017]}
     non_lootable_sources = {v: k for k in non_lootable_sources for v in non_lootable_sources[k]}
     best_df.rank_in_queue = best_df.apply(lambda row: str(int(row.rank_in_queue))

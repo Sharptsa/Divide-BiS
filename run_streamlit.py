@@ -41,7 +41,7 @@ df_priorities.raid_size = df_priorities.raid_size.fillna(-1).apply(int)
 df_priorities.boss.fillna('', inplace=True)
 df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ'
 df_priorities.slot.fillna('', inplace=True)
-non_lootable_ilvls = {277: [50400],
+non_lootable_ilvls = {277: [50400, 52572],
                       264: [49894, 50454],
                       258: [46017],
                       245: [47673, 47570, 47664, 47666, 47668, 47661, 47665, 47587,
@@ -92,7 +92,8 @@ non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_
                       47670: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_idolofrejuvenation.jpg',
                       49894: 'https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_8.jpg',
                       50400: 'https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_85.jpg',
-                      50454: 'https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg'}
+                      50454: 'https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg',
+                      52572: 'https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_81.jpg'}
 df_priorities.icon = df_priorities.apply(lambda row: row.icon
                                          if pd.notna(row.icon)
                                          else non_lootable_icons[row.item_id],
@@ -134,7 +135,8 @@ if st.session_state.fr:
                              47670: 'Idole de la fureur lunaire',
                              49894: 'Bottes cénariennes bénies',
                              50400: 'Bague de sagesse sans fin du Verdict des cendres',
-                             50454: 'Idole du saule noir'}
+                             50454: 'Idole du saule noir',
+                             52572: 'Bague de puissance sans fin du Verdict des cendres'}
     df_priorities.item_name = df_priorities.apply(lambda row: row.item_name
                                                   if pd.notna(row.item_name)
                                                   else non_lootable_names_fr[row.item_id],
@@ -144,11 +146,12 @@ df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
 df_priorities['TOC'] = df_priorities.boss.apply(lambda x: any([val in x for val in
                                                 ['Beasts', 'Jaraxxus', 'Champions',
                                                 'Twin', 'Anub', 'Chest']]))
-df_priorities['ICC'] = df_priorities.boss.apply(lambda x: any([val in x for val in
-                                                ['Marrowgar', 'Deathwhisper', 'Gunship',
-                                                'Saurfang', 'Festergut', 'Rotface',
-                                                'Putricide', 'Prince Council', "Lana'Thel",
-                                                'Valithria', 'Sindragosa', 'Lich King', 'ICC']]))
+df_priorities['ICC'] = df_priorities.apply(lambda row: any([val in row.boss for val in
+                                                  ['Marrowgar', 'Deathwhisper', 'Gunship',
+                                                  'Saurfang', 'Festergut', 'Rotface',
+                                                  'Putricide', 'Prince Council', "Lana'Thel",
+                                                  'Valithria', 'Sindragosa', 'Lich King', 'ICC']])
+                                                or row.item_id == 49623)
 df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
 df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
 df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
