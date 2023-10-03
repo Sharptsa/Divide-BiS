@@ -30,7 +30,9 @@ def get_items_from_eightyupgrades(url):
     names = np.array([re.findall('>(.*?)<', e)[0] for e in elems], dtype='<U50')[mask]
 
     def convert_tier_to_token(item_slot, item_name):
-        assert item_slot in [1, 3, 5, 10, 7] and 'Conqueror' in item_name or 'Triumph' in item_name
+        assert item_slot in [1, 3, 5, 10, 7] and 'Conqueror' in item_name \
+                                             or 'Triumph' in item_name \
+                                             or 'Sanctified' in item_name
         if 'Deathbringer' in item_name or 'Aegis' in item_name \
                                        or 'Sanctification' in item_name:
             # Warlock / Paladin / Priest
@@ -88,15 +90,30 @@ def get_items_from_eightyupgrades(url):
             # Rogue / DK / Mage / Druid
             return 47559, 'Regalia of the Grand Vanquisher'
 
+        elif 'Sanctified Dark Coven' in item_name or 'Sanctified Lightsworn' in item_name \
+                                                  or 'Sanctified Crimson Acolyte' in item_name:
+            # Warlock / Paladin / Priest
+            return 52030, "Conqueror's Mark of Sanctification"
+
+        elif 'Sanctified Frost Witch' in item_name or 'Sanctified Ymirjar Lord' in item_name \
+                                                   or "Sanctified Ahn'Kahar" in item_name:
+            # Shaman / Warrior / Hunter
+            return 52029, "Protector's Mark of Sanctification"
+
+        elif 'Sanctified Shadowblade' in item_name or 'Sanctified Scourgelord' in item_name \
+             or 'Sanctified Bloodmage' in item_name or 'Sanctified Lasherweave' in item_name:
+            # Rogue / DK / Mage / Druid
+            return 52028, "Vanquisher's Mark of Sanctification"
+
         else:
             print(item_name)
             raise Warning('Unrecognized class')
 
     for i, n in enumerate(names):
-        if 'Conqueror' in n or 'Triumph' in n:
+        if 'Conqueror' in n or 'Triumph' in n or 'Sanctified' in n:
             ids[i], names[i] = convert_tier_to_token(slots[i], n)
         elif n in ['Drape of the Skyborn', 'Sunglimmer Cloak', "Brann's Signet Ring",
-                                                                'Starshine Circle']:
+                                                               'Starshine Circle']:
             ids[i], names[i] = 46053, 'Reply-Code Alpha'
         elif n in ['Drape of the Skyherald', 'Sunglimmer Drape', "Brann's Sealing Ring",
                                                                     'Starshine Signet']:

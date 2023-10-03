@@ -220,3 +220,12 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 47519,Catastrophe,Catastrophe,Tribute Chest 25A,Coffre d'offrande 25T,25,True,Weapon 2H,258,0.1428571428571428,https://wow.zamimg.com/images/wow/icons/large/inv_mace_106.jpg
 47111,Bracers of the Shieldmaiden,Brassards de la vierge guerrière,Twin Val'kyr,Jumelles Val'kyr,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_31.jpg
 47061,Legguards of Feverish Dedication,Garde-jambes du dévouement fiévreux,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_20.jpg
+52028,Vanquisher's Mark of Sanctification,Marque de sanctification de vainqueur,ICC,ICC,25,True,Tier,277,3.33,https://wow.zamimg.com/images/wow/icons/large/ability_paladin_shieldofthetemplar.jpg
+50609,Bone Sentinel's Amulet,Amulette de la sentinelle d'ossements,Lord Marrowgar,Seigneur Gargamoelle,25,True,Neck,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_53.jpg
+50668,Greatcloak of the Turned Champion,Grande cape du champion retourné,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Back,277,0.2,https://wow.zamimg.com/images/wow/icons/large/item_icecrowncape.jpg
+50717,Sanguine Silk Robes,Robe en soie sanguine,Prince Valanar,Prince Valanar,25,True,Chest,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_80.jpg
+50630,Bracers of Eternal Dreaming,Brassards des rêves éternels,Valithria Dreamwalker,Valithria Marcherêve,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_40.jpg
+50635,Sundial of Eternal Dusk,Cadran solaire de pénombre éternelle,Sindragosa,Sindragosa,25,True,Weapon 1H,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_zulaman_d_02.jpg
+50705,Professor's Bloodied Smock,Blouse ensanglantée de professeur,Professor Putricide,Professeur Putricide,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_59.jpg
+50636,Memory of Malygos,Mémoire de Malygos,Sindragosa,Sindragosa,25,True,Ring,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_40.jpg
+50366,Althor's Abacus,Boulier d'Althor,Gunship Armory,Armurerie de la Cannonière,25,True,Trinket,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_trinket_02.jpg

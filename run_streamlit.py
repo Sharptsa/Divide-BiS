@@ -40,7 +40,9 @@ df_priorities.raid_size = df_priorities.raid_size.fillna(-1).apply(int)
 df_priorities.boss.fillna('', inplace=True)
 df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ'
 df_priorities.slot.fillna('', inplace=True)
-non_lootable_ilvls = {258: [46017],
+non_lootable_ilvls = {277: [50400],
+                      264: [49894, 50454],
+                      258: [46017],
                       245: [47673, 47570, 47664, 47666, 47668, 47661, 47665, 47587,
                             47733, 47670],
                       238: [42853, 42608],
@@ -86,7 +88,10 @@ non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_
                       47665: 'https://wow.zamimg.com/images/wow/icons/large/spell_nature_slowingtotem.jpg',
                       47587: 'https://wow.zamimg.com/images/wow/icons/large/inv_bracer_37.jpg',
                       47733: 'https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_57.jpg',
-                      47670: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_idolofrejuvenation.jpg'}
+                      47670: 'https://wow.zamimg.com/images/wow/icons/large/inv_relics_idolofrejuvenation.jpg',
+                      49894: 'https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_8.jpg',
+                      50400: 'https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_85.jpg',
+                      50454: 'https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg'}
 df_priorities.icon = df_priorities.apply(lambda row: row.icon
                                          if pd.notna(row.icon)
                                          else non_lootable_icons[row.item_id],
@@ -125,7 +130,10 @@ if st.session_state.fr:
                              47665: 'Totem des marées calmantes',
                              47587: 'Brassards royaux en voile lunaire',
                              47733: 'Cercle du réparacoeur',
-                             47670: 'Idole de la fureur lunaire'}
+                             47670: 'Idole de la fureur lunaire',
+                             49894: 'Bottes cénariennes bénies',
+                             50400: 'Bague de sagesse sans fin du Verdict des cendres',
+                             50454: 'Idole du saule noir'}
     df_priorities.item_name = df_priorities.apply(lambda row: row.item_name
                                                   if pd.notna(row.item_name)
                                                   else non_lootable_names_fr[row.item_id],
