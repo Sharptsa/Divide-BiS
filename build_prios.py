@@ -15,11 +15,46 @@ df_items["weight"] = (
 iids = []
 for iid in df_bis.item_id.unique():
     if iid not in df_items.item_id.unique():
-        if iid not in [45825, 45564, 45553, 45551, 40207, 40321, 40713, 40342,
-                       37111, 40705, 40432, 40255, 40267, 40709, 42987, 44253,
-                       42853, 42608, 46017, 45561, 39728, 40708, 45560, 44255,
-                       47673, 47570, 47664, 47666, 47668, 47661, 47665, 47587,
-                       47733, 47670, 49894, 50400, 50454, 52572]:
+        if iid not in [
+            45825,
+            45564,
+            45553,
+            45551,
+            40207,
+            40321,
+            40713,
+            40342,
+            37111,
+            40705,
+            40432,
+            40255,
+            40267,
+            40709,
+            42987,
+            44253,
+            42853,
+            42608,
+            46017,
+            45561,
+            39728,
+            40708,
+            45560,
+            44255,
+            47673,
+            47570,
+            47664,
+            47666,
+            47668,
+            47661,
+            47665,
+            47587,
+            47733,
+            47670,
+            49894,
+            50400,
+            50454,
+            52572,
+        ]:
             iids.append(iid)
 if iids:
     print(f"Found new items: {iids}")
@@ -151,28 +186,46 @@ def optimize_prios(
     # Add non lootable items
     best_df["rank_in_queue"] = best_df.groupby("item_id").cumcount() + 1
     non_lootable = df_source.copy().loc[~df_source.item_id.isin(df_items.item_id), :]
-    best_df = pd.concat([best_df, non_lootable.sort_values('item_id')])
-    non_lootable_sources = {'Emblems of Conquest': [45825],
-                            'Emblems of Triumph': [47673, 47664, 47666, 47668, 47661,
-                                                   47665, 47733, 47670],
-                            'Emblems of Frost': [50454],
-                            'Craft': [45564, 45553, 45551, 45561, 45560, 47570, 47587,
-                                      49894],
-                            'P1': [40207, 40321, 40713, 40342, 37111, 40705, 40432,
-                                   40255, 40267, 40709, 42987, 44253, 39728, 40708,
-                                   44255],
-                            'PvP': [42853, 42608],
-                            'Reputation': [50400, 52572],
-                            'Legendary': [46017]}
-    non_lootable_sources = {v: k for k in non_lootable_sources for v in non_lootable_sources[k]}
-    best_df.rank_in_queue = best_df.apply(lambda row: str(int(row.rank_in_queue))
-                                          if pd.notna(row.rank_in_queue)
-                                          else non_lootable_sources[row.item_id],
-                                          axis=1)
-    best_df['received'] = ''
-    best_df['temp_idx'] = range(best_df.shape[0])
-    best_df.sort_values(['item_name', 'item_id', 'temp_idx'], inplace=True)
-    best_df.drop('temp_idx', axis=1, inplace=True)
+    best_df = pd.concat([best_df, non_lootable.sort_values("item_id")])
+    non_lootable_sources = {
+        "Emblems of Conquest": [45825],
+        "Emblems of Triumph": [47673, 47664, 47666, 47668, 47661, 47665, 47733, 47670],
+        "Emblems of Frost": [50454],
+        "Craft": [45564, 45553, 45551, 45561, 45560, 47570, 47587, 49894],
+        "P1": [
+            40207,
+            40321,
+            40713,
+            40342,
+            37111,
+            40705,
+            40432,
+            40255,
+            40267,
+            40709,
+            42987,
+            44253,
+            39728,
+            40708,
+            44255,
+        ],
+        "PvP": [42853, 42608],
+        "Reputation": [50400, 52572],
+        "Legendary": [46017],
+    }
+    non_lootable_sources = {
+        v: k for k in non_lootable_sources for v in non_lootable_sources[k]
+    }
+    best_df.rank_in_queue = best_df.apply(
+        lambda row: str(int(row.rank_in_queue))
+        if pd.notna(row.rank_in_queue)
+        else non_lootable_sources[row.item_id],
+        axis=1,
+    )
+    best_df["received"] = ""
+    best_df["temp_idx"] = range(best_df.shape[0])
+    best_df.sort_values(["item_name", "item_id", "temp_idx"], inplace=True)
+    best_df.drop("temp_idx", axis=1, inplace=True)
 
     if resim:
         previous_priorities = pd.read_excel(r"data/players_priorities.xlsx")

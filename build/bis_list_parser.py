@@ -49,7 +49,7 @@ def parse_bis_list(locale="en"):
     df_priorities.loc[df_priorities.source == "Craft", "boss"] = "ZZZ"
     df_priorities.slot.fillna("", inplace=True)
     non_lootable_ilvls = {
-        277: [50400],
+        277: [50400, 52572],
         264: [49894, 50454],
         258: [46017],
         245: [47673, 47570, 47664, 47666, 47668, 47661, 47665, 47587, 47733, 47670],
@@ -106,6 +106,7 @@ def parse_bis_list(locale="en"):
         49894: "https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_8.jpg",
         50400: "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_85.jpg",
         50454: "https://wow.zamimg.com/images/wow/icons/large/trade_herbalism.jpg",
+        52572: "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_81.jpg",
     }
     df_priorities.icon = df_priorities.apply(
         lambda row: row.icon if pd.notna(row.icon) else non_lootable_icons[row.item_id],
@@ -150,6 +151,7 @@ def parse_bis_list(locale="en"):
             49894: "Bottes cénariennes bénies",
             50400: "Bague de sagesse sans fin du Verdict des cendres",
             50454: "Idole du saule noir",
+            52572: "Bague de puissance sans fin du Verdict des cendres",
         }
         df_priorities.item_name = df_priorities.apply(
             lambda row: row.item_name
@@ -181,9 +183,9 @@ def parse_bis_list(locale="en"):
         )
     )
     df_priorities["ICC"] = df_priorities.boss.apply(
-        lambda x: any(
+        lambda row: any(
             [
-                val in x
+                val in row
                 for val in [
                     # EN
                     "Marrowgar",
@@ -194,7 +196,7 @@ def parse_bis_list(locale="en"):
                     "Rotface",
                     "Putricide",
                     "Prince Council",
-                    "Lana'Thel",
+                    "Lana'thel",
                     "Valithria",
                     "Sindragosa",
                     "Lich King",
@@ -211,6 +213,8 @@ def parse_bis_list(locale="en"):
                 ]
             ]
         )
+        or row.item_id == 49623,
+        axis=1,
     )
     df_priorities["ICC"] = df_priorities["ICC"].astype(int)
     df_priorities["TOC"] = df_priorities["TOC"].astype(int)
