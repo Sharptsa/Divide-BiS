@@ -229,6 +229,8 @@ def parse_bis_list(locale="en"):
         [
             "ICC",
             "TOC",
+            "lootable",
+            "legendary",
             "boss",
             "raid_size",
             "hm",
@@ -237,7 +239,7 @@ def parse_bis_list(locale="en"):
             "player",
             "received",
         ],
-        ascending=[False, False, True, False, False, True, False, True, False],
+        ascending=[False, False, False, False, True, False, False, True, False, True, False],
     ).reset_index(drop=True)
 
     return df_priorities.T.to_dict().values()

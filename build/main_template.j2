@@ -98,7 +98,10 @@
                 <table id="bis-table" class="table table-dark table-striped table-hover table-bordered align-middle">
                     <thead>
                         <tr>
+                            <th scope="col" class="visually-hidden">hICC</th>
                             <th scope="col" class="visually-hidden">hTOC</th>
+                            <th scope="col" class="visually-hidden">hLootable</th>
+                            <th scope="col" class="visually-hidden">hLegendary</th>
                             <th scope="col" class="visually-hidden">hBoss</th>
                             <th scope="col" class="visually-hidden">hRaidSize</th>
                             <th scope="col" class="visually-hidden">hHM</th>
@@ -121,7 +124,10 @@
                     <tbody>
                         {% for bis in bis_list %}
                         <tr>
+                            <td class="visually-hidden">{{ bis['ICC'] }}</td>
                             <td class="visually-hidden">{{ bis['TOC'] }}</td>
+                            <td class="visually-hidden">{{ bis['lootable'] }}</td>
+                            <td class="visually-hidden">{{ bis['legendary'] }}</td>
                             <td class="visually-hidden">{{ bis['boss'] | format_source(locale=locale) }}</td>
                             <td class="visually-hidden">{{ bis['raid_size'] }}</td>
                             <td class="visually-hidden">{{ bis['hm'] }}</td>
@@ -166,11 +172,11 @@
                     sSearch: ''
                 },
                 columnDefs: [
-                    { orderSequence: ["desc", "asc"], targets: [6, 8] },
-                    { orderable: false, targets: [4, 5]},
-                    { orderData: [8, 6], targets: 8}
+                    { orderSequence: ["desc", "asc"], targets: [9, 11] },
+                    { orderable: false, targets: [7, 8]},
+                    { orderData: [11, 9], targets: 11}
                 ],
-                order: [[0, 'desc'], [1, 'asc'], [2, 'desc'], [3, 'desc']]
+                order: [[0, 'desc'], [1, 'desc'], [2, 'desc'], [3, 'desc'], [4, 'asc'], [5, 'desc'], [6, 'desc'], [9, 'desc']]
             });
             $('#bis-table_filter>label>input').removeClass('form-control-sm');
         });
