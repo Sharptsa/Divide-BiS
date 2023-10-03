@@ -15,8 +15,7 @@ col.text_input('Player, boss, item name or item ID' if not st.session_state.fr
 
 # Load and prepare data
 df_items = pd.read_csv(r'data/items.csv')
-legendaries = ["Val'anyr, Hammer of Ancient Kings",
-               "Val'anyr, le marteau des anciens rois"]
+legendaries = [46017]
 if st.session_state.fr:
     df_items.item_name = df_items.item_name_fr
     df_items.boss = df_items.boss_fr
@@ -32,7 +31,9 @@ df_priorities['source'] = df_priorities.apply(lambda row: row.rank_in_queue if p
                                         ' hm' if row.hm else ' nm']),
                           axis=1)
 df_priorities.loc[df_priorities.boss.isna(), 'rank_in_queue'] = np.nan
-df_priorities['lootable'] = (df_priorities.boss.notna()) | (df_priorities.source == 'Craft')
+df_priorities['legendary'] = df_priorities.item_id.isin(legendaries)
+df_priorities['lootable'] = (df_priorities.boss.notna()) | (df_priorities.source == 'Craft') \
+                                                         | (df_priorities.legendary)
 
 # Clean data
 df_priorities.hm = df_priorities.hm == True
@@ -143,7 +144,11 @@ df_priorities.rank_in_queue = df_priorities.rank_in_queue.fillna('') \
 df_priorities['TOC'] = df_priorities.boss.apply(lambda x: any([val in x for val in
                                                 ['Beasts', 'Jaraxxus', 'Champions',
                                                 'Twin', 'Anub', 'Chest']]))
-df_priorities['legendary'] = df_priorities.item_name.isin(legendaries)
+df_priorities['ICC'] = df_priorities.boss.apply(lambda x: any([val in x for val in
+                                                ['Marrowgar', 'Deathwhisper', 'Gunship',
+                                                'Saurfang', 'Festergut', 'Rotface',
+                                                'Putricide', 'Prince Council', "Lana'Thel",
+                                                'Valithria', 'Sindragosa', 'Lich King', 'ICC']]))
 df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
 df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
 df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
@@ -173,23 +178,24 @@ add_background()
 
 
 # Display dataframe
-def display_df(mask, how='standard', min_glow=252):
-    to_display = df_priorities.sort_values(['TOC', 'lootable', 'legendary',
+def display_df(mask, how='standard', min_glow=277):
+    to_display = df_priorities.sort_values(['ICC', 'TOC', 'lootable', 'legendary',
                                             'boss', 'raid_size', 'hm',
                                             'ilvl', 'item_name', 'item_id', 'received',
                                             'player'],
-                                           ascending=[False, False, False,
+                                           ascending=[False, False, False, False,
                                                       True, True, True,
                                                       True, True, True, False,
                                                       True])
+    print(to_display)
     to_display = to_display.loc[mask, ['source', 'item_name', 'ilvl', 'player', 'received',
                                        'icon', 'item_id']]
     if how == 'player':
-        to_display = df_priorities.sort_values(['player', 'legendary', 'lootable', 'received',
-                                                'ilvl', 'TOC', 'item_name', 'item_id',
+        to_display = df_priorities.sort_values(['player', 'lootable', 'received',
+                                                'ilvl', 'ICC', 'TOC', 'legendary', 'item_name', 'item_id',
                                                 'boss', 'raid_size', 'hm'],
-                                               ascending=[True, False, False, False,
-                                                          False, False, True, True,
+                                               ascending=[True, False, False,
+                                                          False, False, False, False, True, True,
                                                           True, True, True])
         to_display = to_display.loc[mask, ['player', 'item_name', 'ilvl', 'source', 'received',
                                            'icon', 'item_id']]
@@ -197,7 +203,7 @@ def display_df(mask, how='standard', min_glow=252):
     def glow_fnc(row):
         if row.received not in ['Yes', 'Oui', 'Solo']:
             return row.received
-        elif row.item_name in legendaries:
+        elif row.item_id in legendaries:
             return row.received + ' leg'
         elif row.ilvl >= min_glow:
             return row.received + ' glow'
