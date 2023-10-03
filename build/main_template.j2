@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Divide BiS List</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:bold' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- DataTables -->
+    <link href="https://cdn.datatables.net/v/bs5/dt-1.13.5/datatables.min.css" rel="stylesheet">
+    <!-- Flag icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.9.2/css/flag-icons.min.css" />
+    <style>
+        body {
+            background-image: url(./background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            color: white;
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: bold;
+            line-height: 1.2;
+            -webkit-text-stroke: 0.01rem black;
+        }
+
+        #bis-table .iconsmall {
+            margin-right: 2px;
+        }
+
+        #bis-table td {
+            white-space: nowrap;
+        }
+
+        @media only screen and (max-width: 768px) {
+            #bis-table td {
+                white-space: normal;
+            }
+
+            #bis-table th:nth-child(3) {
+                display: none;
+            }
+
+            #bis-table td:nth-child(3) {
+                display: none;
+            }
+        }
+
+        #bis-table td .leg {
+            color: rgba(255, 128, 0, 1.0);
+        }
+
+        #bis-table td .glow {
+            color: rgba(255, 215, 0, 1.0);
+        }
+
+        #bis-table td .noglow {
+            color: rgba(37, 153, 37, 1.0);
+        }
+
+        div.dataTables_wrapper div.dataTables_filter {
+            text-align: left;
+        }
+
+        div.dataTables_wrapper div.dataTables_filter label {
+            display: inherit;
+        }
+
+        div.dataTables_wrapper div.dataTables_filter input {
+            margin-left: 0;
+            width: 100%;
+        }
+    </style>
+
+    <!-- WowHead Tooltips -->
+    <script>const whTooltips = { colorLinks: false, iconizeLinks: true, iconSize: 'small', domain: '{{ locale }}.wotlk' };</script>
+    <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 table-responsive align-self-center w-auto">
+                <div class="mb-3">
+                    <h1>Divide BiS</h1>
+                    {% if locale == 'en' %}
+                    <span class="fi fi-fr"></span> <a href="./index_fr.html">En français</a>
+                    {% elif locale == 'fr' %}
+                    <span class="fi fi-gb"></span> <a href="./index.html">In English</a>
+                    {% endif %}
+                </div>
+                <table id="bis-table" class="table table-dark table-striped table-hover table-bordered align-middle">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="visually-hidden">hTOC</th>
+                            <th scope="col" class="visually-hidden">hBoss</th>
+                            <th scope="col" class="visually-hidden">hRaidSize</th>
+                            <th scope="col" class="visually-hidden">hHM</th>
+                            {% if locale == 'en' %}
+                            <th scope="col">Source</th>
+                            <th scope="col">Item</th>
+                            <th scope="col">ilvl</th>
+                            <th scope="col">Player</th>
+                            <th scope="col">Received</th>
+                            {% elif locale == 'fr' %}
+                            <th scope="col">Source</th>
+                            <th scope="col">Item</th>
+                            <th scope="col">ilvl</th>
+                            <th scope="col">Joueur</th>
+                            <th scope="col">Reçu</th>
+                            {% endif %}
+                            <th scope="col" class="visually-hidden">hItemID</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for bis in bis_list %}
+                        <tr>
+                            <td class="visually-hidden">{{ bis['TOC'] }}</td>
+                            <td class="visually-hidden">{{ bis['boss'] | format_source(locale=locale) }}</td>
+                            <td class="visually-hidden">{{ bis['raid_size'] }}</td>
+                            <td class="visually-hidden">{{ bis['hm'] }}</td>
+                            <td>{{ bis['source'] | format_source(locale=locale) }}</td>
+                            <td><a href="https://www.wowhead.com/wotlk/{% if locale == 'fr' %}fr/{% endif %}item={{bis['item_id']}}\"
+                                    target="_blank" data-wowhead="item={{bis['item_id']}}">{{bis['item_name']}}</a></td>
+                            <td>{{ bis['ilvl'] }}</td>
+                            <td>{{ bis['player'] }}</td>
+                            <td>{{ bis | format_received(locale=locale) }}</td>
+                            <td class="visually-hidden">{{ bis['item_id'] }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- DataTables -->
+    <script src="https://cdn.datatables.net/v/bs5/dt-1.13.5/datatables.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.13.5/filtering/type-based/accent-neutralise.js"></script>
+    {% if locale == 'en' %}
+    {% set search_placeholder = "Player, boss, item name or item ID" %}
+    {% elif locale == 'fr' %}
+    {% set search_placeholder = "Joueur, boss, nom d'item ou ID d'item" %}
+    {% endif %}
+    <script>
+        $(document).ready(function () {
+            $('#bis-table').DataTable({
+                dom: "<f>",
+                paging: false,
+                searching: true,
+                language: {
+                    searchPlaceholder: "{{ search_placeholder }}",
+                    sSearch: ''
+                },
+                columnDefs: [
+                    { orderSequence: ["desc", "asc"], targets: [6, 8] },
+                    { orderable: false, targets: [4, 5]},
+                    { orderData: [8, 6], targets: 8}
+                ],
+                order: [[0, 'desc'], [1, 'asc'], [2, 'desc'], [3, 'desc']]
+            });
+            $('#bis-table_filter>label>input').removeClass('form-control-sm');
+        });
+    </script>
+</body>
+
+</html>
