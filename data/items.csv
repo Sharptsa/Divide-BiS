@@ -1,261 +1,261 @@
-item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,icon
-45300,Mantle of Fiery Vengeance,Mantelet de la vengeance embrasée,Flame Leviathan,Léviathan des flammes,10,True,Shoulder,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_73.jpg
-45296,Twirling Blades,Lames tourbillonnantes,Flame Leviathan,Léviathan des flammes,10,True,Ranged,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_throwingknife_08.jpg
-45111,Mimiron's Inferno Couplings,Couplages de l'Inferno de Mimiron,Flame Leviathan,Léviathan des flammes,25,False,Wrist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_28.jpg
-45112,The Leviathan's Coil,L'anneau du léviathan,Flame Leviathan,Léviathan des flammes,25,False,Finger,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_71.jpg
-45133,Pendant of Fiery Havoc,Pendentif du tumulte embrasé,Flame Leviathan,Léviathan des flammes,25,True,Neck,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_31.jpg
-45134,Plated Leggings of Ruination,Jambières de saccage cuirassées,Flame Leviathan,Léviathan des flammes,25,True,Legs,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_25.jpg
-45135,Boots of Fiery Resolution,Bottes de la résolution embrasée,Flame Leviathan,Léviathan des flammes,25,True,Feet,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_19.jpg
-45132,Golden Saronite Dragon,Dragon doré en saronite,Flame Leviathan,Léviathan des flammes,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_hand_23.jpg
-45314,Igniter Rod,Bâtonnet boute-feu,Ignis the Furnace Master,Ignis le maître de la Fournaise,10,False,Weapon 1H,225,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_ulduarraid_d_03.jpg
-45158,Heart of Iron,Cœur de fer,Ignis the Furnace Master,Ignis le maître de la Fournaise,25,False,Trinket,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_spiritshard_01.jpg
-45170,Scepter of Creation,Sceptre de création,Ignis the Furnace Master,Ignis le maître de la Fournaise,25,False,Ranged,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_29.jpg
-45137,Veranus' Bane,Plaie de Veranus,Razorscale,Tranchécaille,25,False,Ranged,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_rifle_31.jpg
-45151,Belt of the Fallen Wyrm,Ceinture du wyrm vaincu,Razorscale,Tranchécaille,25,False,Waist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_47a.jpg
-45139,Dragonslayer's Brace,Corset de tueur de dragon,Razorscale,Tranchécaille,25,False,Waist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_34.jpg
-45148,Living Flame,Flamme vivante,Razorscale,Tranchécaille,25,False,Trinket,232,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_fire_burnout.jpg
-45144,Sigil of Deflection,Cachet de déviation,Razorscale,Tranchécaille,25,False,Ranged,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_56.jpg
-45867,Breastplate of the Stoneshaper,Cuirasse du sculpte-pierre,XT-002 Deconstructor,Déconstructeur XT-002,10,True,Chest,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_mail_04.jpg
-45869,Fluxing Energy Coils,Torsades d'énergie fluctuante,XT-002 Deconstructor,Déconstructeur XT-002,10,True,Wrist,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_15.jpg
-45871,Seal of Ulduar,Sceau d'Ulduar,XT-002 Deconstructor,Déconstructeur XT-002,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/achievement_dungeon_ulduarraid_misc_02.jpg
-45250,Crazed Construct Ring,Anneau de l'assemblage fou,XT-002 Deconstructor,Déconstructeur XT-002,25,False,Finger,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_66.jpg
-45247,Signet of the Earthshaker,Chevalière du trembleterre,XT-002 Deconstructor,Déconstructeur XT-002,25,False,Finger,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_74.jpg
-45254,Sigil of the Vengeful Heart,Cachet du coeur vengeur,XT-002 Deconstructor,Déconstructeur XT-002,25,False,Ranged,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_56.jpg
-45443,Charm of Meticulous Timing,Charme du minutage méticuleux,XT-002 Deconstructor,Déconstructeur XT-002,25,True,Neck,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_amulet_02.jpg
-45445,Breastplate of the Devoted,Cuirasse du dévoué,XT-002 Deconstructor,Déconstructeur XT-002,25,True,Chest,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate18.jpg
-45446,Grasps of Reason,Poignées de la raison,XT-002 Deconstructor,Déconstructeur XT-002,25,True,Wrist,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_24b.jpg
-45444,Gloves of the Steady Hand,Gants de la main sûre,XT-002 Deconstructor,Déconstructeur XT-002,25,True,Hands,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_48.jpg
-45442,"Sorthalis, Hammer of the Watchers","Sorthalis, le marteau des Guetteurs",XT-002 Deconstructor,Déconstructeur XT-002,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_91.jpg
-45456,Loop of the Agile,Jonc d'agilité,Assembly of Iron,Assemblée de Fer,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_71.jpg
-45232,Runed Ironhide Boots,Bottes runiques en cuiracier,Assembly of Iron,Assemblée de Fer,25,False,Feet,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_19.jpg
-45243,Sapphire Amulet of Renewal,Amulette du renouveau en saphir,Assembly of Iron,Assemblée de Fer,25,True,Neck,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_30naxxramas.jpg
-45245,Shoulderpads of the Intruder,Protège-épaules de l'intrus,Assembly of Iron,Assemblée de Fer,25,True,Shoulder,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_51.jpg
-45242,Drape of Mortal Downfall,Drapé de la défaite mortelle,Assembly of Iron,Assemblée de Fer,25,True,Back,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_13.jpg
-45241,Belt of Colossal Rage,Ceinture de la rage colossale,Assembly of Iron,Assemblée de Fer,25,True,Waist,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_49c.jpg
-45244,Greaves of Swift Vengeance,Grèves de la vengeance rapide,Assembly of Iron,Assemblée de Fer,25,True,Feet,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_07.jpg
-45703,Spark of Hope,Etincelle d'espoir,Kologarn,Kologarn,10,False,Trinket,225,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_nature_invisibilitytotem.jpg
-45271,Ironmender,Soigne-fer,Kologarn,Kologarn,25,False,Weapon 1H,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_ulduarraid_d_02.jpg
-45632,Breastplate of the Wayward Conqueror,Cuirasse du conquérant indiscipliné,Hodir,Hodir,25,False,Chest,232,0.66,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-45633,Breastplate of the Wayward Protector,Cuirasse du protecteur indiscipliné,Hodir,Hodir,25,False,Chest,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-45634,Breastplate of the Wayward Vanquisher,Cuirasse du vainqueur indiscipliné,Hodir,Hodir,25,False,Chest,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-45459,Frigid Strength of Hodir,Force de Hodir algide,Hodir,Hodir,25,True,Neck,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_04.jpg
-45461,Drape of Icy Intent,Drapé de l'intention glaciale,Hodir,Hodir,25,True,Back,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_05.jpg
-45460,Bindings of Winter Gale,Manchettes de la trombe hivernale,Hodir,Hodir,25,True,Wrist,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_29.jpg
-45933,Pendant of the Shallow Grave,Pendentif de la tombe peu profonde,Thorim,Thorim,10,True,Neck,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_46.jpg
-45931,Mjolnir Runestone,Pierre runique de Mjolnir,Thorim,Thorim,10,True,Trinket,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_rune_11.jpg
-45638,Crown of the Wayward Conqueror,Couronne du conquérant indiscipliné,Thorim,Thorim,25,False,Head,232,0.66,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_24.jpg
-45639,Crown of the Wayward Protector,Couronne du protecteur indiscipliné,Thorim,Thorim,25,False,Head,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_24.jpg
-45640,Crown of the Wayward Vanquisher,Couronne du vainqueur indiscipliné,Thorim,Thorim,25,False,Head,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_24.jpg
-45467,Belt of the Betrayed,Ceinture du trahi,Thorim,Thorim,25,False,Waist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_45a.jpg
-45466,Scale of Fates,Ecaille des destinées,Thorim,Thorim,25,False,Trinket,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_spiritshard_02.jpg
-45472,Warhelm of the Champion,Heaume de guerre du champion,Thorim,Thorim,25,True,Head,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_134.jpg
-45473,Embrace of the Gladiator,Etreinte du gladiateur,Thorim,Thorim,25,True,Chest,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_16.jpg
-45471,Fate's Clutch,Caresse du destin,Thorim,Thorim,25,True,Finger,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_69.jpg
-45470,Wisdom's Hold,Bastion de la sagesse,Thorim,Thorim,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_65.jpg
-45570,Skyforge Crossbow,Arbalète forge-ciel,Thorim / Algalon the Observer,Thorim / Algalon l'Observateur,25,True,Ranged,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_crossbow_33.jpg
-45294,Petrified Ivy Sprig,Ramille de lierre pétrifié,Freya,Freya,10,True,Ranged,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_29.jpg
-45653,Legplates of the Wayward Conqueror,Cuissards du conquérant indiscipliné,Freya,Freya,25,False,Legs,232,0.66,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_17.jpg
-45481,Gauntlets of Ruthless Reprisal,Gantelets des représailles brutales,Freya,Freya,25,False,Hands,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_29.jpg
-45654,Legplates of the Wayward Protector,Cuissards du protecteur indiscipliné,Freya,Freya,25,False,Legs,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_17.jpg
-45655,Legplates of the Wayward Vanquisher,Cuissards du vainqueur indiscipliné,Freya,Freya,25,False,Legs,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_17.jpg
-45485,Bronze Pendant of the Vanir,Pendentif de Vane en bronze,Freya,Freya,25,True,Neck,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_47.jpg
-45486,Drape of the Sullen Goddess,Drapé de la déesse maussade,Freya,Freya,25,True,Back,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_naxxramas_02.jpg
-45487,Handguards of Revitalization,Garde-mains de revitalisation,Freya,Freya,25,True,Hands,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_62.jpg
-45488,Leggings of the Enslaved Idol,Jambières de l'idole asservie,Freya,Freya,25,True,Legs,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_cloth_27.jpg
-45484,Bladetwister,Tournelame,Freya,Freya,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_93.jpg
-45613,Dreambinder,Lieur de rêve,Freya / Algalon the Observer,Freya / Algalon l'Observateur,25,True,Weapon 2H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_staff_93.jpg
-45993,Mimiron's Flight Goggles,Gants de vol de Mimiron,Mimiron,Mimiron,10,True,Head,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gizmo_newgoggles.jpg
-45988,Greaves of the Iron Army,Grèves de l'armée de fer,Mimiron,Mimiron,10,True,Feet,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_11.jpg
-45989,Tempered Mercury Greaves,Grèves à la trempe de mercure,Mimiron,Mimiron,10,True,Feet,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_03.jpg
-45641,Gauntlets of the Wayward Conqueror,Gantelets du conquérant indiscipliné,Mimiron,Mimiron,25,False,Hands,232,0.66,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_27.jpg
-45642,Gauntlets of the Wayward Protector,Gantelets du protecteur indiscipliné,Mimiron,Mimiron,25,False,Hands,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_27.jpg
-45643,Gauntlets of the Wayward Vanquisher,Gantelets du vainqueur indiscipliné,Mimiron,Mimiron,25,False,Hands,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_27.jpg
-45497,Crown of Luminescence,Couronne de luminescence,Mimiron,Mimiron,25,True,Head,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_99.jpg
-45496,Titanskin Cloak,Cape en peau de titan,Mimiron,Mimiron,25,True,Back,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_19.jpg
-45663,Armbands of Bedlam,Bracières de tumulte,Mimiron,Mimiron,25,True,Wrist,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_23a.jpg
-45495,Conductive Seal,Sceau conducteur,Mimiron,Mimiron,25,True,Finger,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_66.jpg
-45620,Starshard Edge,Tranchant éclat-d'étoiles,Mimiron / Algalon the Observer,Mimiron / Algalon l'Observateur,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_92.jpg
-46032,Drape of the Faceless General,Drapé du général sans-visage,General Vezax,Général Vezax,10,True,Back,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_14.jpg
-45509,Idol of the Corruptor,Idole du corrupteur,General Vezax,Général Vezax,25,False,Ranged,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_qirajidol_strife.jpg
-45145,Libram of the Sacred Shield,Libram du bouclier saint,General Vezax,Général Vezax,25,False,Ranged,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_relics_libramofhope.jpg
-45517,Pendulum of Infinity,Pendule de l'infini,General Vezax,Général Vezax,25,True,Neck,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_45.jpg
-45519,Vestments of the Blind Denizen,Habits du citoyen aveugle,General Vezax,Général Vezax,25,True,Chest,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_12.jpg
-45520,Handwraps of the Vigilant,Protège-mains du vigilant,General Vezax,Général Vezax,25,True,Hands,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_71.jpg
-45518,Flare of the Heavens,Embrasement des cieux,General Vezax,Général Vezax,25,True,Trinket,252,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_holy_summonlightwell.jpg
-45516,"Voldrethar, Dark Blade of Oblivion","Voldrethar, sombre lame de l'oubli",General Vezax,Général Vezax,25,True,Weapon 2H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_136.jpg
-46021,Royal Seal of King Llane,Sceau royal du roi Llane,Yogg-Saron,Yogg-Saron,10,False,Trinket,225,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_crown_13.jpg
-46068,Amice of Inconceivable Horror,Amict de l'horreur inconcevable,Yogg-Saron,Yogg-Saron,10,True,Shoulder,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_25.jpg
-46095,Soul-Devouring Cinch,Cordelière dévoratrice d'âme,Yogg-Saron,Yogg-Saron,10,True,Waist,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_37c.jpg
-46096,Signet of Soft Lament,Chevalière des douces lamentations,Yogg-Saron,Yogg-Saron,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_29.jpg
-46097,Caress of Insanity,Caresse de la démence,Yogg-Saron,Yogg-Saron,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_91.jpg
-45656,Mantle of the Wayward Conqueror,Mantelet du conquérant indiscipliné,Yogg-Saron,Yogg-Saron,25,False,Shoulder,232,0.66,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_22.jpg
-45657,Mantle of the Wayward Protector,Mantelet du protecteur indiscipliné,Yogg-Saron,Yogg-Saron,25,False,Shoulder,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_22.jpg
-45658,Mantle of the Wayward Vanquisher,Mantelet du vainqueur indiscipliné,Yogg-Saron,Yogg-Saron,25,False,Shoulder,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_22.jpg
-45536,Legguards of Cunning Deception,Garde-jambes de la supercherie rusée,Yogg-Saron,Yogg-Saron,25,True,Legs,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_28.jpg
-45537,Treads of the False Oracle,Bottines du faux oracle,Yogg-Saron,Yogg-Saron,25,True,Feet,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_17.jpg
-45534,Seal of the Betrayed King,Sceau du roi trahi,Yogg-Saron,Yogg-Saron,25,True,Finger,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_76.jpg
-45535,Show of Faith,Démonstration de foi,Yogg-Saron,Yogg-Saron,25,True,Trinket,252,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_holy_improvedresistanceauras.jpg
-45533,Dark Edge of Depravity,Sombre tranchante de la dépravation,Yogg-Saron,Yogg-Saron,25,True,Weapon 2H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_halberd_30.jpg
-46052,Reply-Code Alpha,Code-réponse Alpha,Algalon the Observer,Algalon l'Observateur,10,True,Other,239,1.0,https://wow.zamimg.com/images/wow/icons/large/spell_arcane_arcanetorrent.jpg
-46040,Strength of the Heavens,Force des cieux,Algalon the Observer,Algalon l'Observateur,10,True,Neck,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_47.jpg
-46037,Shoulderplates of the Celestial Watch,Plaques d'épaule du guet céleste,Algalon the Observer,Algalon l'Observateur,10,True,Shoulder,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_49.jpg
-46039,Breastplate of the Timeless,Cuirasse de l'intemporel,Algalon the Observer,Algalon l'Observateur,10,True,Chest,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate20.jpg
-46043,Gloves of the Endless Dark,Gants de l'obscurité infinie,Algalon the Observer,Algalon l'Observateur,10,True,Hands,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_54.jpg
-46050,Starlight Treads,Bottines de la lumière stellaire,Algalon the Observer,Algalon l'Observateur,10,True,Feet,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_21.jpg
-46048,Band of Lights,Bague des lumières,Algalon the Observer,Algalon l'Observateur,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_68.jpg
-46046,Nebula Band,Bague de la nébuleuse,Algalon the Observer,Algalon l'Observateur,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_70.jpg
-46038,Dark Matter,Matière noire,Algalon the Observer,Algalon l'Observateur,10,True,Trinket,239,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_shadow_seedofdestruction.jpg
-46051,Meteorite Crystal,Cristal de météorite,Algalon the Observer,Algalon l'Observateur,10,True,Trinket,239,0.2,https://wow.zamimg.com/images/wow/icons/large/achievement_dungeon_ulduarraid_misc_04.jpg
-46053,Reply-Code Alpha,Code-réponse Alpha,Algalon the Observer,Algalon l'Observateur,25,True,Other,252,1.0,https://wow.zamimg.com/images/wow/icons/large/spell_arcane_arcanetorrent.jpg
-45610,Boundless Gaze,Regard infini,Algalon the Observer,Algalon l'Observateur,25,True,Head,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_92.jpg
-45611,Solar Bindings,Manchettes solaires,Algalon the Observer,Algalon l'Observateur,25,True,Wrist,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_26.jpg
-45665,Pharos Gloves,Gants de Pharos,Algalon the Observer,Algalon l'Observateur,25,True,Hands,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_61.jpg
-45616,Star-beaded Clutch,Etreinte semée d'étoiles,Algalon the Observer,Algalon l'Observateur,25,True,Waist,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_40b.jpg
-45619,Starwatcher's Binding,Lien de veilleur d'étoiles,Algalon the Observer,Algalon l'Observateur,25,True,Waist,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_46.jpg
-45594,Legplates of the Endless Void,Cuissards du vide infini,Algalon the Observer,Algalon l'Observateur,25,True,Legs,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_20.jpg
-45615,Planewalker Treads,Bottines de marcheur planaire,Algalon the Observer,Algalon l'Observateur,25,True,Feet,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_08.jpg
-45599,Sabatons of Lifeless Night,Solerets de la nuit sans vie,Algalon the Observer,Algalon l'Observateur,25,True,Feet,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_06.jpg
-45609,Comet's Trail,Queue de la comète,Algalon the Observer,Algalon l'Observateur,25,True,Trinket,252,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_arcane_starfire.jpg
-45587,Bulwark of Algalon,Rempart d'Algalon,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_67.jpg
-45612,Constellus,Constellus,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_92.jpg
-45617,Cosmos,Cosmos,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_ulduarraid_d_03.jpg
-45326,Platinum Band of the Aesir,Bague des Ases en platine,Auriaya,Auriaya,25,False,Finger,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_50naxxramas.jpg
-45947,"Serilas, Blood Blade of Invar One-Arm","Serilas, Lame-sang d'Invar le Manchot",Freya,Freya,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_133.jpg
-45886,Icecore Staff,Bâton au coeur de glace,Hodir,Hodir,10,True,Weapon 2H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_staff_94.jpg
-45946,Fire Orchid Signet,Chevalière de l'orchidée de feu,Freya,Freya,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_65.jpg
-45114,Steamcaller's Totem,Totem d'implorateur de la vapeur,Flame Leviathan,Léviathan des flammes,25,False,Ranged,232,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_nature_slowingtotem.jpg
-45146,Shackles of the Odalisque,Menottes de l'odalisque,Razorscale,Tranchécaille,25,False,Wrist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_27.jpg
-45119,Embrace of the Leviathan,Etreinte du léviathan,Flame Leviathan,Léviathan des flammes,25,False,Waist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_49.jpg
-45511,Scepter of Lost Souls,Sceptre des âmes perdues,General Vezax,Général Vezax,25,False,Ranged,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_28.jpg
-45454,Frost-bound Chain Bracers,Brassards cerclés de givre en anneaux,Hodir,Hodir,25,False,Wrist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_25.jpg
-45498,"Lotrafen, Spear of the Damned","Lotrafen, la lance des damnés",General Vezax,Général Vezax,25,False,Weapon 2H,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_halberd_30.jpg
-46035,"Aesuga, Hand of the Ardent Champion","Aesuga, Main du champion ardent",General Vezax,Général Vezax,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_92.jpg
-46036,Void Sabre,Sabre du Vide,General Vezax,Général Vezax,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_133.jpg
-45928,Gauntlets of the Thunder God,Gantelets du dieu du tonnerre,Thorim,Thorim,10,True,Hands,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_62.jpg
-45474,Pauldrons of the Combatant,Espauliers du combattant,Thorim,Thorim,25,True,Shoulder,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_01.jpg
-47559,Regalia of the Grand Vanquisher,Tenue de parade du grand vainqueur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-47558,Regalia of the Grand Protector,Tenue de parade du grand protecteur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-47557,Regalia of the Grand Conqueror,Tenue de parade du grand conquérant,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-47060,Charge of the Demon Lord,Devoir du seigneur démoniaque,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Neck,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_34.jpg
-47545,Vereesa's Dexterity,Dextérité de Vereesa,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-47155,Bracers of Dark Determination,Brassards de la sombre détermination,Anub'arak,Anub'arak,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_23b.jpg
-46969,Steel Bladebreaker,Brise-lame en acier,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_95.jpg
-47112,Belt of the Merciless Killer,Ceinture du tueur impitoyable,Twin Val'kyr,Jumelles Val'kyr,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_37c.jpg
-46975,Leggings of the Broken Beast,Jambières de la bête domptée,Northrend Beasts,Bêtes du Norfendre,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_28.jpg
-47077,Treads of the Icewalker,Bottines du marcheglace,Faction Champions,Champions de Faction,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_02.jpg
-47075,Ring of Callous Aggression,Anneau de l'agression cruelle,Faction Champions,Champions de Faction,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_65.jpg
-47131,Death's Verdict,Verdict de la mort,Twin Val'kyr,Jumelles Val'kyr,25,True,Trinket,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_bone_skull_02.jpg
-47521,BRK-1000,BRK-1000,Tribute Chest 25A,Coffre d'offrange 25T,25,True,Ranged,258,0.142857143,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_rifle_35.jpg
-47110,The Executioner's Malice,La Malveillance de l'exécuteur,Twin Val'kyr,Jumelles Val'kyr,25,True,Neck,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_33.jpg
-47547,Varian's Furor,Fureur de Varian,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-47526,Remorseless,Sans remords,Tribute Chest 25A,Coffre d'offrange 25T,25,True,Weapon 1H,258,0.142857143,https://wow.zamimg.com/images/wow/icons/large/inv_mace_105.jpg
-47002,Bloodbath Belt,Ceinture du bain de sang,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_49c.jpg
-47132,Legguards of Ascension,Garde-jambes d'ascension,Twin Val'kyr,Jumelles Val'kyr,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_28.jpg
-46966,Band of the Violent Temperment,Bague du tempérament violent,Northrend Beasts,Bêtes du Norfendre,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_76.jpg
-47920,Carnivorous Band,Bague carnivore,Northrend Beasts,Bêtes du Norfendre,10,True,Finger,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_53naxxramas.jpg
-47133,The Arbiter's Muse,La muse du médiateur,Twin Val'kyr,Jumelles Val'kyr,25,True,Neck,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_44.jpg
-47549,Magni's Resolution,Résolution de Magni,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-46968,Chestplate of the Towering Monstrosity,Pansière de la monstruosité imposante,Northrend Beasts,Bêtes du Norfendre,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate20.jpg
-47506,Silverwing Defender,Défenseur aile-argent,Tribute Chest 25A,Coffre d'offrange 25T,25,True,Weapon 1H,258,0.142857143,https://wow.zamimg.com/images/wow/icons/large/inv_sword_145.jpg
-46964,Crystal Plated Vanguard,Avant-garde à plaques de cristal,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_68.jpg
-47076,Girdle of Bloodied Scars,Ceinturon des balafres sanglantes,Faction Champions,Champions de Faction,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_48c.jpg
-47003,Dawnbreaker Greaves,Grèves brise-aube,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_06.jpg
-47157,Signet of the Traitor King,Chevalière du roi traître,Anub'arak,Anub'arak,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_57.jpg
-47088,Satrina's Impeding Scarab,Scarabée d'obstruction de Satrina,Faction Champions,Champions de Faction,25,True,Trinket,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_scarab_crystal.jpg
-47156,Stormpike Cleaver,Fendoir foudrepique,Anub'arak,Anub'arak,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_105.jpg
-47154,Greaves of the 7th Legion,Grèves de la 7e Légion,Anub'arak,Anub'arak,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_01.jpg
-47144,Wail of the Val'kyr,Complainte des val'kyrs,Twin Val'kyr,Jumelles Val'kyr,25,True,Neck,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_36.jpg
-47552,Jaina's Radiance,Radiance de Jaina,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-46980,Blade of Tarasque,Lame de la tarasque,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_shortblade_99.jpg
-47085,Bastion of Purity,Bastion de pureté,Faction Champions,Champions de Faction,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_69.jpg
-47084,Cord of Biting Cold,Corde du froid mordant,Faction Champions,Champions de Faction,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_52.jpg
-47190,Legwraps of the Awakening,Jambards de l'éveil,Anub'arak,Anub'arak,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_28.jpg
-47099,Boots of Tremoring Earth,Bottes du tremblement de terre,Faction Champions,Champions de Faction,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_06.jpg
-47188,Reign of the Unliving,Règne des non-vivants,Anub'arak,Anub'arak,25,True,Trinket,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_crown_13.jpg
-47074,Bracers of the Untold Massacre,Brassards du massacre inavoué,Faction Champions,Champions de Faction,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_32a.jpg
-47078,Justicebringer,Porte-justice,Faction Champions,Champions de Faction,25,True,Weapon 2H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_103.jpg
-47240,Gloves of Bitter Reprisal,Gants des représailles amères,Anub'arak,Anub'arak,25,True,Hands,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_75.jpg
-46995,Talonstrike,Frappe-serres,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Ranged,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_crossbow_34.jpg
-47143,Bindings of Dark Essence,Manchettes de la sombre essence,Twin Val'kyr,Jumelles Val'kyr,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_37.jpg
-47206,Misery's End,Fin de la détresse,Anub'arak,Anub'arak,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_107.jpg
-47146,Chalice of Searing Light,Calice de la lumière incendiaire,Twin Val'kyr,Jumelles Val'kyr,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_pvealliance_d_01.jpg
-47097,Boots of the Mourning Widow,Bottes de la veuve éplorée,Faction Champions,Champions de Faction,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_23.jpg
-47237,Band of Deplorable Violence,Bague de violence déplorable,Anub'arak,Anub'arak,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_55.jpg
-47224,Ring of the Darkmender,Anneau du sombre réparateur,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Finger,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_80.jpg
-47147,Breastplate of the Frozen Lake,Cuirasse du lac gelé,Twin Val'kyr,Jumelles Val'kyr,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate_22.jpg
-46991,Belt of the Ice Burrower,Ceinture du fouisseur de glace,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_47a.jpg
-47067,Legplates of Failing Light,Cuissards de la lumière déclinante,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_15.jpg
-46986,Boots of the Courageous,Bottes des courageux,Northrend Beasts,Bêtes du Norfendre,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_11.jpg
-47239,Archon Glaive,Couteau de brèche d'archonte,Anub'arak,Anub'arak,25,True,Weapon 2H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_staff_101.jpg
-47945,Gloves of the Silver Assassin,Gants de l'assassin d'argent,Faction Champions,Champions de Faction,10,True,Feet,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_77a.jpg
-46977,Shawl of the Refreshing Winds,Châle des vents rafraîchissants,Northrend Beasts,Bêtes du Norfendre,25,True,Back,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-46993,Flowing Vestments of Ascent,Habits flottants de l'ascension,Northrend Beasts,Bêtes du Norfendre,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_75.jpg
-47066,Bracers of the Autumn Willow,Brassards du saule d'automne,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_30b.jpg
-47958,Chalice of Benedictus,Calice de Benedictus,Twin Val'kyr,Jumelles Val'kyr,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_pvealliance_d_01.jpg
-47145,Cord of Pale Thorns,Corde des pâles épines,Twin Val'kyr,Jumelles Val'kyr,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_38a.jpg
-47059,Solace of the Defeated,Réconfort des vaincus,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Trinket,258,0.2,https://wow.zamimg.com/images/wow/icons/large/achievement_dungeon_ulduar77_25man.jpg
-47553,Bolvar's Devotion,Dévotion de Bolvar,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-47129,Skyweaver Robes,Robe de tisseur céleste,Twin Val'kyr,Jumelles Val'kyr,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_75.jpg
-46973,Cord of the Tenebrous Mist,Corde de la brume ténébreuse,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_52.jpg
-47208,Armbands of the Ashen Saint,Bracières du saint cendreux,Anub'arak,Anub'arak,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_37.jpg
-47924,Belt of the Frozen Reach,Ceinture des confins Gelés,Northrend Beasts,Bêtes du Norfendre,10,True,Waist,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_49b.jpg
-47001,Lionhead Slasher,Balafreur à tête de lion,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_105.jpg
-47934,Planestalker Signet,Chevalière du traqueur des plans,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Finger,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_61.jpg
-46965,Breastplate of Cruel Intent,Plastron de l'intention cruelle,Northrend Beasts,Bêtes du Norfendre,25,True,Chest,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_mail_07.jpg
-47153,Belt of Deathly Dominion,Ceinture de domination mortelle,Anub'arak,Anub'arak,25,True,Waist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_45a.jpg
-47109,Sabatons of Ruthless Judgment,Solerets du jugement brutal,Twin Val'kyr,Jumelles Val'kyr,25,True,Feet,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_07.jpg
-47517,Blade of the Unbroken Covenant,Lame du concordat intact,Tribute Chest 25A,Coffre d'offrande 25T,25,True,Weapon 1H,258,0.142857143,https://wow.zamimg.com/images/wow/icons/large/inv_sword_144.jpg
-47191,Legguards of the Lurking Threat,Garde-jambes de la menace tapie,Anub'arak,Anub'arak,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_mail_25.jpg
-47064,Symbol of Transgression,Symbole de transgression,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Weapon 1H,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_pvealliance_d_01.jpg
-47922,Rod of Imprisoned Souls,Bâtonnet des âmes emprisonnées,Northrend Beasts,Bêtes du Norfendre,10,True,Ranged,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_15.jpg
-47918,Dreadscale Armguards,Garde-bras d'Ecaille-d'effroi,Northrend Beasts,Bêtes du Norfendre,10,True,Wrist,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_32.jpg
-49475,Judgement Heaume,Armet du jugement,Onyxia,Onyxia,25,False,Head,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_74.jpg
-47916,Armbands of the Northern Stalker,Bracières du traqueur nordique,Northrend Beasts,Bêtes du Norfendre,10,True,Wrist,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_32a.jpg
-47189,Leggings of the Deepening Void,Jambières du vide profond,Anub'arak,Anub'arak,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_cloth_33.jpg
-47928,Firestorm Ring,Anneau tempête-de-feu,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Finger,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_57.jpg
-47930,Amulet of Binding Elements,Amulette du lien des éléments,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Neck,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_46.jpg
-47238,Maiden's Favor,Faveur de la damoiselle,Anub'arak,Anub'arak,25,True,Back,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-47062,Leggings of the Soothing Touch,Jambières de la caresse apaisante,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_cloth_33.jpg
-47236,Gloves of the Lifeless Touch,Gants de la caresse sans vie,Anub'arak,Anub'arak,25,True,Hands,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_79.jpg
-47519,Catastrophe,Catastrophe,Tribute Chest 25A,Coffre d'offrande 25T,25,True,Weapon 2H,258,0.142857143,https://wow.zamimg.com/images/wow/icons/large/inv_mace_106.jpg
-47111,Bracers of the Shieldmaiden,Brassards de la vierge guerrière,Twin Val'kyr,Jumelles Val'kyr,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_31.jpg
-47061,Legguards of Feverish Dedication,Garde-jambes du dévouement fiévreux,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_20.jpg
-52028,Vanquisher's Mark of Sanctification,Marque de sanctification de vainqueur,ICC,ICC,25,True,Tier,277,3.33,https://wow.zamimg.com/images/wow/icons/large/ability_paladin_shieldofthetemplar.jpg
-50609,Bone Sentinel's Amulet,Amulette de la sentinelle d'ossements,Lord Marrowgar,Seigneur Gargamoelle,25,True,Neck,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_53.jpg
-50668,Greatcloak of the Turned Champion,Grande cape du champion retourné,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Back,277,0.2,https://wow.zamimg.com/images/wow/icons/large/item_icecrowncape.jpg
-50717,Sanguine Silk Robes,Robe en soie sanguine,Blood Prince Council,Conseil des Princes de Sang,25,True,Chest,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_80.jpg
-50630,Bracers of Eternal Dreaming,Brassards des rêves éternels,Valithria Dreamwalker,Valithria Marcherêve,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_40.jpg
-50635,Sundial of Eternal Dusk,Cadran solaire de pénombre éternelle,Sindragosa,Sindragosa,25,True,Weapon 1H,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_zulaman_d_02.jpg
-50705,Professor's Bloodied Smock,Blouse ensanglantée de professeur,Professor Putricide,Professeur Putricide,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_59.jpg
-50636,Memory of Malygos,Mémoire de Malygos,Sindragosa,Sindragosa,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_40.jpg
-50366,Althor's Abacus,Boulier d'Althor,Gunship Armory,Armurerie de la Cannonière,25,True,Trinket,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_trinket_02.jpg
-52030,Conqueror's Mark of Sanctification,Marque de sanctification de conquérant,ICC,ICC,25,True,Tier,277,3.33,https://wow.zamimg.com/images/wow/icons/large/ability_paladin_judgementsofthejust.jpg
-50700,Holiday's Grace,Grâce du jour saint,Festergut,Pulentraille,25,True,Neck,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_49.jpg
-50628,Frostbinder's Shredded Cape,Cape de lieur-de-givre déchiquetée,Valithria Dreamwalker,Valithria Marcherêve,25,True,Back,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
-50686,Death Surgeon's Sleeves,Manches de nécrochirurgien,Rotface,Trognepus,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_47.jpg
-50734,Royal Scepter of Terenas II,Sceptre royal de Terenas II,The Lich King,Le Roi-Liche,25,True,Weapon 1H,284,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_115.jpg
-50702,Lingering Illness,Maladie persistante,Festergut,Pulentraille,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_68.jpg
-51882,Kilt of Untreated Wounds,Kilt des blessures non soignées,Festergut,Pulentraille,10,True,Legs,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_kilt_cloth_02.jpg
-50699,Plague Scientist's Boots,Bottes de scientifique de la peste,Festergut,Pulentraille,25,True,Feet,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_24.jpg
-50631,Nightmare Ender,Fin du cauchemar,Valithria Dreamwalker,Valithria Marcherêve,25,True,Ranged,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_34.jpg
-50664,Ring of Rapid Ascent,Anneau d'ascension rapide,Gunship Armory,Armurerie de la Cannonière,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_86.jpg
-50724,Blood Queen's Crimson Choker,Sautoir cramoisi de la reine de sang,Blood-Queen Lana'thel,Reine de sang Lana'thel,25,True,Neck,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelcrafting_crimsonspinel_02.jpg
-50680,Rot-Resistant Breastplate,Cuirasse résistante à la pourriture,Rotface,Trognepus,25,True,Chest,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate22.jpg
-50721,Crypt Keeper's Bracers,Brassards de gardien des cryptes,Blood Prince Council,Conseil des Princes de Sang,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_46.jpg
-50616,Bulwark of Smouldering Steel,Rempart d'acier fumant,Lord Marrowgar,Seigneur Gargamoelle,25,True,Weapon 1H,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_72.jpg
-50650,Fallen Lord's Handguards,Garde-mains de seigneur déchu,Lady Deathwhisper,Dame Murmemort,25,True,Hands,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_85.jpg
-50613,Crushing Coldwraith Belt,Ceinture d'âmefroide broyeuse,Lord Marrowgar,Seigneur Gargamoelle,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_64.jpg
-51928,Corrupted Silverplate Leggings,Jambières corrompues en plates d'argent,Lord Marrowgar,Seigneur Gargamoelle,10,True,Legs,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_33.jpg
-50712,Landsoul's Horned Greathelm,Grand heaume cornu d'Âmeterre,Blood Prince Council,Conseil des Princes de Sang,25,True,Head,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_151.jpg
-51842,Collar of Haughty Disdain,Collerette du dédain hautain,Blood-Queen Lana'thel,Reine de sang Lana'thel,10,True,Neck,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_48.jpg
-50674,Raging Behemoth's Shoulderplates,Plaques d'épaule de béhémoth déchaîné,Rotface,Trognepus,25,True,Shoulder,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_130.jpg
-50677,Winding Sheet,Linceul,Rotface,Trognepus,25,True,Back,277,0.2,https://wow.zamimg.com/images/wow/icons/large/item_icecrowncape.jpg
-50606,Gendarme's Cuirass,Cuirasse de gendarme,Lord Marrowgar,Seigneur Gargamoelle,25,True,Chest,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate_26.jpg
-51832,Taiga Bindings,Manchettes de la taïga,Valithria Dreamwalker,Valithria Marcherêve,10,True,Wrist,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_43.jpg
-50737,"Havoc's Call, Blade of Lordaeron Kings","Appel-au-carnage, lame des rois de Lordaeron",The Lich King,Le Roi-Liche,25,True,Weapon 1H,284,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_113.jpg
-50690,Fleshrending Gauntlets,Gantelets tranche-chair,Festergut,Pulentraille,25,True,Hands,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_87.jpg
-50620,Coldwraith Links,Chaînons d'âmefroide,Valithria Dreamwalker,Valithria Marcherêve,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_63.jpg
-50624,Scourge Reaver's Legplates,Cuissards de saccageur du Fléau,Valithria Dreamwalker,Valithria Marcherêve,25,True,Legs,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_31.jpg
-50639,Blood-Soaked Saronite Stompers,Croquenots imprégnés de sang en saronite,Lady Deathwhisper,Dame Murmemort,25,True,Feet,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_13.jpg
-50657,Skeleton Lord's Circle,Cercle de seigneur squelette,Gunship Armory,Armurerie de la Cannonière,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_83.jpg
-50363,Deathbringer's Will,Volonté de porte-mort,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Trinket,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_trinket_04.jpg
+item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id
+45300,Mantle of Fiery Vengeance,Mantelet de la vengeance embrasée,Flame Leviathan,Léviathan des flammes,10,True,Shoulder,239,0.2
+45296,Twirling Blades,Lames tourbillonnantes,Flame Leviathan,Léviathan des flammes,10,True,Ranged,245,0.2
+45111,Mimiron's Inferno Couplings,Couplages de l'Inferno de Mimiron,Flame Leviathan,Léviathan des flammes,25,False,Wrist,232,0.2
+45112,The Leviathan's Coil,L'anneau du léviathan,Flame Leviathan,Léviathan des flammes,25,False,Finger,232,0.2
+45133,Pendant of Fiery Havoc,Pendentif du tumulte embrasé,Flame Leviathan,Léviathan des flammes,25,True,Neck,252,0.2
+45134,Plated Leggings of Ruination,Jambières de saccage cuirassées,Flame Leviathan,Léviathan des flammes,25,True,Legs,252,0.2
+45135,Boots of Fiery Resolution,Bottes de la résolution embrasée,Flame Leviathan,Léviathan des flammes,25,True,Feet,252,0.2
+45132,Golden Saronite Dragon,Dragon doré en saronite,Flame Leviathan,Léviathan des flammes,25,True,Weapon 1H,252,0.2
+45314,Igniter Rod,Bâtonnet boute-feu,Ignis the Furnace Master,Ignis le maître de la Fournaise,10,False,Weapon 1H,225,0.2
+45158,Heart of Iron,Cœur de fer,Ignis the Furnace Master,Ignis le maître de la Fournaise,25,False,Trinket,232,0.2
+45170,Scepter of Creation,Sceptre de création,Ignis the Furnace Master,Ignis le maître de la Fournaise,25,False,Ranged,238,0.2
+45137,Veranus' Bane,Plaie de Veranus,Razorscale,Tranchécaille,25,False,Ranged,238,0.2
+45151,Belt of the Fallen Wyrm,Ceinture du wyrm vaincu,Razorscale,Tranchécaille,25,False,Waist,232,0.2
+45139,Dragonslayer's Brace,Corset de tueur de dragon,Razorscale,Tranchécaille,25,False,Waist,232,0.2
+45148,Living Flame,Flamme vivante,Razorscale,Tranchécaille,25,False,Trinket,232,0.2
+45144,Sigil of Deflection,Cachet de déviation,Razorscale,Tranchécaille,25,False,Ranged,232,0.2
+45867,Breastplate of the Stoneshaper,Cuirasse du sculpte-pierre,XT-002 Deconstructor,Déconstructeur XT-002,10,True,Chest,239,0.2
+45869,Fluxing Energy Coils,Torsades d'énergie fluctuante,XT-002 Deconstructor,Déconstructeur XT-002,10,True,Wrist,239,0.2
+45871,Seal of Ulduar,Sceau d'Ulduar,XT-002 Deconstructor,Déconstructeur XT-002,10,True,Finger,239,0.2
+45250,Crazed Construct Ring,Anneau de l'assemblage fou,XT-002 Deconstructor,Déconstructeur XT-002,25,False,Finger,232,0.2
+45247,Signet of the Earthshaker,Chevalière du trembleterre,XT-002 Deconstructor,Déconstructeur XT-002,25,False,Finger,232,0.2
+45254,Sigil of the Vengeful Heart,Cachet du coeur vengeur,XT-002 Deconstructor,Déconstructeur XT-002,25,False,Ranged,232,0.2
+45443,Charm of Meticulous Timing,Charme du minutage méticuleux,XT-002 Deconstructor,Déconstructeur XT-002,25,True,Neck,252,0.2
+45445,Breastplate of the Devoted,Cuirasse du dévoué,XT-002 Deconstructor,Déconstructeur XT-002,25,True,Chest,252,0.2
+45446,Grasps of Reason,Poignées de la raison,XT-002 Deconstructor,Déconstructeur XT-002,25,True,Wrist,252,0.2
+45444,Gloves of the Steady Hand,Gants de la main sûre,XT-002 Deconstructor,Déconstructeur XT-002,25,True,Hands,252,0.2
+45442,"Sorthalis, Hammer of the Watchers","Sorthalis, le marteau des Guetteurs",XT-002 Deconstructor,Déconstructeur XT-002,25,True,Weapon 1H,252,0.2
+45456,Loop of the Agile,Jonc d'agilité,Assembly of Iron,Assemblée de Fer,10,True,Finger,239,0.2
+45232,Runed Ironhide Boots,Bottes runiques en cuiracier,Assembly of Iron,Assemblée de Fer,25,False,Feet,232,0.2
+45243,Sapphire Amulet of Renewal,Amulette du renouveau en saphir,Assembly of Iron,Assemblée de Fer,25,True,Neck,252,0.2
+45245,Shoulderpads of the Intruder,Protège-épaules de l'intrus,Assembly of Iron,Assemblée de Fer,25,True,Shoulder,252,0.2
+45242,Drape of Mortal Downfall,Drapé de la défaite mortelle,Assembly of Iron,Assemblée de Fer,25,True,Back,252,0.2
+45241,Belt of Colossal Rage,Ceinture de la rage colossale,Assembly of Iron,Assemblée de Fer,25,True,Waist,252,0.2
+45244,Greaves of Swift Vengeance,Grèves de la vengeance rapide,Assembly of Iron,Assemblée de Fer,25,True,Feet,252,0.2
+45703,Spark of Hope,Etincelle d'espoir,Kologarn,Kologarn,10,False,Trinket,225,0.2
+45271,Ironmender,Soigne-fer,Kologarn,Kologarn,25,False,Weapon 1H,232,0.2
+45632,Breastplate of the Wayward Conqueror,Cuirasse du conquérant indiscipliné,Hodir,Hodir,25,False,Chest,232,0.66
+45633,Breastplate of the Wayward Protector,Cuirasse du protecteur indiscipliné,Hodir,Hodir,25,False,Chest,232,0.2
+45634,Breastplate of the Wayward Vanquisher,Cuirasse du vainqueur indiscipliné,Hodir,Hodir,25,False,Chest,232,0.2
+45459,Frigid Strength of Hodir,Force de Hodir algide,Hodir,Hodir,25,True,Neck,252,0.2
+45461,Drape of Icy Intent,Drapé de l'intention glaciale,Hodir,Hodir,25,True,Back,252,0.2
+45460,Bindings of Winter Gale,Manchettes de la trombe hivernale,Hodir,Hodir,25,True,Wrist,252,0.2
+45933,Pendant of the Shallow Grave,Pendentif de la tombe peu profonde,Thorim,Thorim,10,True,Neck,239,0.2
+45931,Mjolnir Runestone,Pierre runique de Mjolnir,Thorim,Thorim,10,True,Trinket,239,0.2
+45638,Crown of the Wayward Conqueror,Couronne du conquérant indiscipliné,Thorim,Thorim,25,False,Head,232,0.66
+45639,Crown of the Wayward Protector,Couronne du protecteur indiscipliné,Thorim,Thorim,25,False,Head,232,0.2
+45640,Crown of the Wayward Vanquisher,Couronne du vainqueur indiscipliné,Thorim,Thorim,25,False,Head,232,0.2
+45467,Belt of the Betrayed,Ceinture du trahi,Thorim,Thorim,25,False,Waist,232,0.2
+45466,Scale of Fates,Ecaille des destinées,Thorim,Thorim,25,False,Trinket,232,0.2
+45472,Warhelm of the Champion,Heaume de guerre du champion,Thorim,Thorim,25,True,Head,252,0.2
+45473,Embrace of the Gladiator,Etreinte du gladiateur,Thorim,Thorim,25,True,Chest,252,0.2
+45471,Fate's Clutch,Caresse du destin,Thorim,Thorim,25,True,Finger,252,0.2
+45470,Wisdom's Hold,Bastion de la sagesse,Thorim,Thorim,25,True,Weapon 1H,252,0.2
+45570,Skyforge Crossbow,Arbalète forge-ciel,Thorim / Algalon the Observer,Thorim / Algalon l'Observateur,25,True,Ranged,252,0.2
+45294,Petrified Ivy Sprig,Ramille de lierre pétrifié,Freya,Freya,10,True,Ranged,245,0.2
+45653,Legplates of the Wayward Conqueror,Cuissards du conquérant indiscipliné,Freya,Freya,25,False,Legs,232,0.66
+45481,Gauntlets of Ruthless Reprisal,Gantelets des représailles brutales,Freya,Freya,25,False,Hands,232,0.2
+45654,Legplates of the Wayward Protector,Cuissards du protecteur indiscipliné,Freya,Freya,25,False,Legs,232,0.2
+45655,Legplates of the Wayward Vanquisher,Cuissards du vainqueur indiscipliné,Freya,Freya,25,False,Legs,232,0.2
+45485,Bronze Pendant of the Vanir,Pendentif de Vane en bronze,Freya,Freya,25,True,Neck,252,0.2
+45486,Drape of the Sullen Goddess,Drapé de la déesse maussade,Freya,Freya,25,True,Back,252,0.2
+45487,Handguards of Revitalization,Garde-mains de revitalisation,Freya,Freya,25,True,Hands,252,0.2
+45488,Leggings of the Enslaved Idol,Jambières de l'idole asservie,Freya,Freya,25,True,Legs,252,0.2
+45484,Bladetwister,Tournelame,Freya,Freya,25,True,Weapon 1H,252,0.2
+45613,Dreambinder,Lieur de rêve,Freya / Algalon the Observer,Freya / Algalon l'Observateur,25,True,Weapon 2H,252,0.2
+45993,Mimiron's Flight Goggles,Gants de vol de Mimiron,Mimiron,Mimiron,10,True,Head,239,0.2
+45988,Greaves of the Iron Army,Grèves de l'armée de fer,Mimiron,Mimiron,10,True,Feet,239,0.2
+45989,Tempered Mercury Greaves,Grèves à la trempe de mercure,Mimiron,Mimiron,10,True,Feet,239,0.2
+45641,Gauntlets of the Wayward Conqueror,Gantelets du conquérant indiscipliné,Mimiron,Mimiron,25,False,Hands,232,0.66
+45642,Gauntlets of the Wayward Protector,Gantelets du protecteur indiscipliné,Mimiron,Mimiron,25,False,Hands,232,0.2
+45643,Gauntlets of the Wayward Vanquisher,Gantelets du vainqueur indiscipliné,Mimiron,Mimiron,25,False,Hands,232,0.2
+45497,Crown of Luminescence,Couronne de luminescence,Mimiron,Mimiron,25,True,Head,252,0.2
+45496,Titanskin Cloak,Cape en peau de titan,Mimiron,Mimiron,25,True,Back,252,0.2
+45663,Armbands of Bedlam,Bracières de tumulte,Mimiron,Mimiron,25,True,Wrist,252,0.2
+45495,Conductive Seal,Sceau conducteur,Mimiron,Mimiron,25,True,Finger,252,0.2
+45620,Starshard Edge,Tranchant éclat-d'étoiles,Mimiron / Algalon the Observer,Mimiron / Algalon l'Observateur,25,True,Weapon 1H,252,0.2
+46032,Drape of the Faceless General,Drapé du général sans-visage,General Vezax,Général Vezax,10,True,Back,239,0.2
+45509,Idol of the Corruptor,Idole du corrupteur,General Vezax,Général Vezax,25,False,Ranged,232,0.2
+45145,Libram of the Sacred Shield,Libram du bouclier saint,General Vezax,Général Vezax,25,False,Ranged,232,0.2
+45517,Pendulum of Infinity,Pendule de l'infini,General Vezax,Général Vezax,25,True,Neck,252,0.2
+45519,Vestments of the Blind Denizen,Habits du citoyen aveugle,General Vezax,Général Vezax,25,True,Chest,252,0.2
+45520,Handwraps of the Vigilant,Protège-mains du vigilant,General Vezax,Général Vezax,25,True,Hands,252,0.2
+45518,Flare of the Heavens,Embrasement des cieux,General Vezax,Général Vezax,25,True,Trinket,252,0.2
+45516,"Voldrethar, Dark Blade of Oblivion","Voldrethar, sombre lame de l'oubli",General Vezax,Général Vezax,25,True,Weapon 2H,252,0.2
+46021,Royal Seal of King Llane,Sceau royal du roi Llane,Yogg-Saron,Yogg-Saron,10,False,Trinket,225,0.2
+46068,Amice of Inconceivable Horror,Amict de l'horreur inconcevable,Yogg-Saron,Yogg-Saron,10,True,Shoulder,239,0.2
+46095,Soul-Devouring Cinch,Cordelière dévoratrice d'âme,Yogg-Saron,Yogg-Saron,10,True,Waist,239,0.2
+46096,Signet of Soft Lament,Chevalière des douces lamentations,Yogg-Saron,Yogg-Saron,10,True,Finger,239,0.2
+46097,Caress of Insanity,Caresse de la démence,Yogg-Saron,Yogg-Saron,10,True,Weapon 1H,245,0.2
+45656,Mantle of the Wayward Conqueror,Mantelet du conquérant indiscipliné,Yogg-Saron,Yogg-Saron,25,False,Shoulder,232,0.66
+45657,Mantle of the Wayward Protector,Mantelet du protecteur indiscipliné,Yogg-Saron,Yogg-Saron,25,False,Shoulder,232,0.2
+45658,Mantle of the Wayward Vanquisher,Mantelet du vainqueur indiscipliné,Yogg-Saron,Yogg-Saron,25,False,Shoulder,232,0.2
+45536,Legguards of Cunning Deception,Garde-jambes de la supercherie rusée,Yogg-Saron,Yogg-Saron,25,True,Legs,252,0.2
+45537,Treads of the False Oracle,Bottines du faux oracle,Yogg-Saron,Yogg-Saron,25,True,Feet,252,0.2
+45534,Seal of the Betrayed King,Sceau du roi trahi,Yogg-Saron,Yogg-Saron,25,True,Finger,252,0.2
+45535,Show of Faith,Démonstration de foi,Yogg-Saron,Yogg-Saron,25,True,Trinket,252,0.2
+45533,Dark Edge of Depravity,Sombre tranchante de la dépravation,Yogg-Saron,Yogg-Saron,25,True,Weapon 2H,252,0.2
+46052,Reply-Code Alpha,Code-réponse Alpha,Algalon the Observer,Algalon l'Observateur,10,True,Other,239,1.0
+46040,Strength of the Heavens,Force des cieux,Algalon the Observer,Algalon l'Observateur,10,True,Neck,239,0.2
+46037,Shoulderplates of the Celestial Watch,Plaques d'épaule du guet céleste,Algalon the Observer,Algalon l'Observateur,10,True,Shoulder,239,0.2
+46039,Breastplate of the Timeless,Cuirasse de l'intemporel,Algalon the Observer,Algalon l'Observateur,10,True,Chest,239,0.2
+46043,Gloves of the Endless Dark,Gants de l'obscurité infinie,Algalon the Observer,Algalon l'Observateur,10,True,Hands,239,0.2
+46050,Starlight Treads,Bottines de la lumière stellaire,Algalon the Observer,Algalon l'Observateur,10,True,Feet,239,0.2
+46048,Band of Lights,Bague des lumières,Algalon the Observer,Algalon l'Observateur,10,True,Finger,239,0.2
+46046,Nebula Band,Bague de la nébuleuse,Algalon the Observer,Algalon l'Observateur,10,True,Finger,239,0.2
+46038,Dark Matter,Matière noire,Algalon the Observer,Algalon l'Observateur,10,True,Trinket,239,0.2
+46051,Meteorite Crystal,Cristal de météorite,Algalon the Observer,Algalon l'Observateur,10,True,Trinket,239,0.2
+46053,Reply-Code Alpha,Code-réponse Alpha,Algalon the Observer,Algalon l'Observateur,25,True,Other,252,1.0
+45610,Boundless Gaze,Regard infini,Algalon the Observer,Algalon l'Observateur,25,True,Head,252,0.2
+45611,Solar Bindings,Manchettes solaires,Algalon the Observer,Algalon l'Observateur,25,True,Wrist,252,0.2
+45665,Pharos Gloves,Gants de Pharos,Algalon the Observer,Algalon l'Observateur,25,True,Hands,252,0.2
+45616,Star-beaded Clutch,Etreinte semée d'étoiles,Algalon the Observer,Algalon l'Observateur,25,True,Waist,252,0.2
+45619,Starwatcher's Binding,Lien de veilleur d'étoiles,Algalon the Observer,Algalon l'Observateur,25,True,Waist,252,0.2
+45594,Legplates of the Endless Void,Cuissards du vide infini,Algalon the Observer,Algalon l'Observateur,25,True,Legs,252,0.2
+45615,Planewalker Treads,Bottines de marcheur planaire,Algalon the Observer,Algalon l'Observateur,25,True,Feet,252,0.2
+45599,Sabatons of Lifeless Night,Solerets de la nuit sans vie,Algalon the Observer,Algalon l'Observateur,25,True,Feet,252,0.2
+45609,Comet's Trail,Queue de la comète,Algalon the Observer,Algalon l'Observateur,25,True,Trinket,252,0.2
+45587,Bulwark of Algalon,Rempart d'Algalon,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2
+45612,Constellus,Constellus,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2
+45617,Cosmos,Cosmos,Algalon the Observer,Algalon l'Observateur,25,True,Weapon 1H,252,0.2
+45326,Platinum Band of the Aesir,Bague des Ases en platine,Auriaya,Auriaya,25,False,Finger,232,0.2
+45947,"Serilas, Blood Blade of Invar One-Arm","Serilas, Lame-sang d'Invar le Manchot",Freya,Freya,10,True,Weapon 1H,245,0.2
+45886,Icecore Staff,Bâton au coeur de glace,Hodir,Hodir,10,True,Weapon 2H,245,0.2
+45946,Fire Orchid Signet,Chevalière de l'orchidée de feu,Freya,Freya,10,True,Finger,239,0.2
+45114,Steamcaller's Totem,Totem d'implorateur de la vapeur,Flame Leviathan,Léviathan des flammes,25,False,Ranged,232,0.2
+45146,Shackles of the Odalisque,Menottes de l'odalisque,Razorscale,Tranchécaille,25,False,Wrist,232,0.2
+45119,Embrace of the Leviathan,Etreinte du léviathan,Flame Leviathan,Léviathan des flammes,25,False,Waist,232,0.2
+45511,Scepter of Lost Souls,Sceptre des âmes perdues,General Vezax,Général Vezax,25,False,Ranged,238,0.2
+45454,Frost-bound Chain Bracers,Brassards cerclés de givre en anneaux,Hodir,Hodir,25,False,Wrist,232,0.2
+45498,"Lotrafen, Spear of the Damned","Lotrafen, la lance des damnés",General Vezax,Général Vezax,25,False,Weapon 2H,238,0.2
+46035,"Aesuga, Hand of the Ardent Champion","Aesuga, Main du champion ardent",General Vezax,Général Vezax,10,True,Weapon 1H,245,0.2
+46036,Void Sabre,Sabre du Vide,General Vezax,Général Vezax,10,True,Weapon 1H,245,0.2
+45928,Gauntlets of the Thunder God,Gantelets du dieu du tonnerre,Thorim,Thorim,10,True,Hands,239,0.2
+45474,Pauldrons of the Combatant,Espauliers du combattant,Thorim,Thorim,25,True,Shoulder,252,0.2
+47559,Regalia of the Grand Vanquisher,Tenue de parade du grand vainqueur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0
+47558,Regalia of the Grand Protector,Tenue de parade du grand protecteur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0
+47557,Regalia of the Grand Conqueror,Tenue de parade du grand conquérant,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0
+47060,Charge of the Demon Lord,Devoir du seigneur démoniaque,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Neck,258,0.2
+47545,Vereesa's Dexterity,Dextérité de Vereesa,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2
+47155,Bracers of Dark Determination,Brassards de la sombre détermination,Anub'arak,Anub'arak,25,True,Wrist,258,0.2
+46969,Steel Bladebreaker,Brise-lame en acier,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2
+47112,Belt of the Merciless Killer,Ceinture du tueur impitoyable,Twin Val'kyr,Jumelles Val'kyr,25,True,Waist,258,0.2
+46975,Leggings of the Broken Beast,Jambières de la bête domptée,Northrend Beasts,Bêtes du Norfendre,25,True,Legs,258,0.2
+47077,Treads of the Icewalker,Bottines du marcheglace,Faction Champions,Champions de Faction,25,True,Feet,258,0.2
+47075,Ring of Callous Aggression,Anneau de l'agression cruelle,Faction Champions,Champions de Faction,25,True,Finger,258,0.2
+47131,Death's Verdict,Verdict de la mort,Twin Val'kyr,Jumelles Val'kyr,25,True,Trinket,258,0.2
+47521,BRK-1000,BRK-1000,Tribute Chest 25A,Coffre d'offrange 25T,25,True,Ranged,258,0.142857143
+47110,The Executioner's Malice,La Malveillance de l'exécuteur,Twin Val'kyr,Jumelles Val'kyr,25,True,Neck,258,0.2
+47547,Varian's Furor,Fureur de Varian,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2
+47526,Remorseless,Sans remords,Tribute Chest 25A,Coffre d'offrange 25T,25,True,Weapon 1H,258,0.142857143
+47002,Bloodbath Belt,Ceinture du bain de sang,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Waist,258,0.2
+47132,Legguards of Ascension,Garde-jambes d'ascension,Twin Val'kyr,Jumelles Val'kyr,25,True,Legs,258,0.2
+46966,Band of the Violent Temperment,Bague du tempérament violent,Northrend Beasts,Bêtes du Norfendre,25,True,Finger,258,0.2
+47920,Carnivorous Band,Bague carnivore,Northrend Beasts,Bêtes du Norfendre,10,True,Finger,245,0.2
+47133,The Arbiter's Muse,La muse du médiateur,Twin Val'kyr,Jumelles Val'kyr,25,True,Neck,258,0.2
+47549,Magni's Resolution,Résolution de Magni,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2
+46968,Chestplate of the Towering Monstrosity,Pansière de la monstruosité imposante,Northrend Beasts,Bêtes du Norfendre,25,True,Chest,258,0.2
+47506,Silverwing Defender,Défenseur aile-argent,Tribute Chest 25A,Coffre d'offrange 25T,25,True,Weapon 1H,258,0.142857143
+46964,Crystal Plated Vanguard,Avant-garde à plaques de cristal,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2
+47076,Girdle of Bloodied Scars,Ceinturon des balafres sanglantes,Faction Champions,Champions de Faction,25,True,Waist,258,0.2
+47003,Dawnbreaker Greaves,Grèves brise-aube,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Feet,258,0.2
+47157,Signet of the Traitor King,Chevalière du roi traître,Anub'arak,Anub'arak,25,True,Finger,258,0.2
+47088,Satrina's Impeding Scarab,Scarabée d'obstruction de Satrina,Faction Champions,Champions de Faction,25,True,Trinket,258,0.2
+47156,Stormpike Cleaver,Fendoir foudrepique,Anub'arak,Anub'arak,25,True,Weapon 1H,258,0.2
+47154,Greaves of the 7th Legion,Grèves de la 7e Légion,Anub'arak,Anub'arak,25,True,Feet,258,0.2
+47144,Wail of the Val'kyr,Complainte des val'kyrs,Twin Val'kyr,Jumelles Val'kyr,25,True,Neck,258,0.2
+47552,Jaina's Radiance,Radiance de Jaina,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2
+46980,Blade of Tarasque,Lame de la tarasque,Northrend Beasts,Bêtes du Norfendre,25,True,Weapon 1H,258,0.2
+47085,Bastion of Purity,Bastion de pureté,Faction Champions,Champions de Faction,25,True,Weapon 1H,258,0.2
+47084,Cord of Biting Cold,Corde du froid mordant,Faction Champions,Champions de Faction,25,True,Waist,258,0.2
+47190,Legwraps of the Awakening,Jambards de l'éveil,Anub'arak,Anub'arak,25,True,Legs,258,0.2
+47099,Boots of Tremoring Earth,Bottes du tremblement de terre,Faction Champions,Champions de Faction,25,True,Feet,258,0.2
+47188,Reign of the Unliving,Règne des non-vivants,Anub'arak,Anub'arak,25,True,Trinket,258,0.2
+47074,Bracers of the Untold Massacre,Brassards du massacre inavoué,Faction Champions,Champions de Faction,25,True,Wrist,258,0.2
+47078,Justicebringer,Porte-justice,Faction Champions,Champions de Faction,25,True,Weapon 2H,258,0.2
+47240,Gloves of Bitter Reprisal,Gants des représailles amères,Anub'arak,Anub'arak,25,True,Hands,258,0.2
+46995,Talonstrike,Frappe-serres,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Ranged,258,0.2
+47143,Bindings of Dark Essence,Manchettes de la sombre essence,Twin Val'kyr,Jumelles Val'kyr,25,True,Wrist,258,0.2
+47206,Misery's End,Fin de la détresse,Anub'arak,Anub'arak,25,True,Weapon 1H,258,0.2
+47146,Chalice of Searing Light,Calice de la lumière incendiaire,Twin Val'kyr,Jumelles Val'kyr,25,True,Weapon 1H,258,0.2
+47097,Boots of the Mourning Widow,Bottes de la veuve éplorée,Faction Champions,Champions de Faction,25,True,Feet,258,0.2
+47237,Band of Deplorable Violence,Bague de violence déplorable,Anub'arak,Anub'arak,25,True,Finger,258,0.2
+47224,Ring of the Darkmender,Anneau du sombre réparateur,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Finger,258,0.2
+47147,Breastplate of the Frozen Lake,Cuirasse du lac gelé,Twin Val'kyr,Jumelles Val'kyr,25,True,Chest,258,0.2
+46991,Belt of the Ice Burrower,Ceinture du fouisseur de glace,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2
+47067,Legplates of Failing Light,Cuissards de la lumière déclinante,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2
+46986,Boots of the Courageous,Bottes des courageux,Northrend Beasts,Bêtes du Norfendre,25,True,Feet,258,0.2
+47239,Archon Glaive,Couteau de brèche d'archonte,Anub'arak,Anub'arak,25,True,Weapon 2H,258,0.2
+47945,Gloves of the Silver Assassin,Gants de l'assassin d'argent,Faction Champions,Champions de Faction,10,True,Feet,245,0.2
+46977,Shawl of the Refreshing Winds,Châle des vents rafraîchissants,Northrend Beasts,Bêtes du Norfendre,25,True,Back,258,0.2
+46993,Flowing Vestments of Ascent,Habits flottants de l'ascension,Northrend Beasts,Bêtes du Norfendre,25,True,Chest,258,0.2
+47066,Bracers of the Autumn Willow,Brassards du saule d'automne,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Wrist,258,0.2
+47958,Chalice of Benedictus,Calice de Benedictus,Twin Val'kyr,Jumelles Val'kyr,10,True,Weapon 1H,245,0.2
+47145,Cord of Pale Thorns,Corde des pâles épines,Twin Val'kyr,Jumelles Val'kyr,25,True,Waist,258,0.2
+47059,Solace of the Defeated,Réconfort des vaincus,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Trinket,258,0.2
+47553,Bolvar's Devotion,Dévotion de Bolvar,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2
+47129,Skyweaver Robes,Robe de tisseur céleste,Twin Val'kyr,Jumelles Val'kyr,25,True,Chest,258,0.2
+46973,Cord of the Tenebrous Mist,Corde de la brume ténébreuse,Northrend Beasts,Bêtes du Norfendre,25,True,Waist,258,0.2
+47208,Armbands of the Ashen Saint,Bracières du saint cendreux,Anub'arak,Anub'arak,25,True,Wrist,258,0.2
+47924,Belt of the Frozen Reach,Ceinture des confins Gelés,Northrend Beasts,Bêtes du Norfendre,10,True,Waist,245,0.2
+47001,Lionhead Slasher,Balafreur à tête de lion,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Weapon 1H,258,0.2
+47934,Planestalker Signet,Chevalière du traqueur des plans,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Finger,245,0.2
+46965,Breastplate of Cruel Intent,Plastron de l'intention cruelle,Northrend Beasts,Bêtes du Norfendre,25,True,Chest,258,0.2
+47153,Belt of Deathly Dominion,Ceinture de domination mortelle,Anub'arak,Anub'arak,25,True,Waist,258,0.2
+47109,Sabatons of Ruthless Judgment,Solerets du jugement brutal,Twin Val'kyr,Jumelles Val'kyr,25,True,Feet,258,0.2
+47517,Blade of the Unbroken Covenant,Lame du concordat intact,Tribute Chest 25A,Coffre d'offrande 25T,25,True,Weapon 1H,258,0.142857143
+47191,Legguards of the Lurking Threat,Garde-jambes de la menace tapie,Anub'arak,Anub'arak,25,True,Legs,258,0.2
+47064,Symbol of Transgression,Symbole de transgression,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Weapon 1H,258,0.2
+47922,Rod of Imprisoned Souls,Bâtonnet des âmes emprisonnées,Northrend Beasts,Bêtes du Norfendre,10,True,Ranged,245,0.2
+47918,Dreadscale Armguards,Garde-bras d'Ecaille-d'effroi,Northrend Beasts,Bêtes du Norfendre,10,True,Wrist,245,0.2
+49475,Judgement Heaume,Armet du jugement,Onyxia,Onyxia,25,False,Head,245,0.2
+47916,Armbands of the Northern Stalker,Bracières du traqueur nordique,Northrend Beasts,Bêtes du Norfendre,10,True,Wrist,245,0.2
+47189,Leggings of the Deepening Void,Jambières du vide profond,Anub'arak,Anub'arak,25,True,Legs,258,0.2
+47928,Firestorm Ring,Anneau tempête-de-feu,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Finger,245,0.2
+47930,Amulet of Binding Elements,Amulette du lien des éléments,Lord Jaraxxus,Seigneur Jaraxxus,10,True,Neck,245,0.2
+47238,Maiden's Favor,Faveur de la damoiselle,Anub'arak,Anub'arak,25,True,Back,258,0.2
+47062,Leggings of the Soothing Touch,Jambières de la caresse apaisante,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2
+47236,Gloves of the Lifeless Touch,Gants de la caresse sans vie,Anub'arak,Anub'arak,25,True,Hands,258,0.2
+47519,Catastrophe,Catastrophe,Tribute Chest 25A,Coffre d'offrande 25T,25,True,Weapon 2H,258,0.142857143
+47111,Bracers of the Shieldmaiden,Brassards de la vierge guerrière,Twin Val'kyr,Jumelles Val'kyr,25,True,Wrist,258,0.2
+47061,Legguards of Feverish Dedication,Garde-jambes du dévouement fiévreux,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Legs,258,0.2
+52028,Vanquisher's Mark of Sanctification,Marque de sanctification de vainqueur,ICC,ICC,25,True,Tier,277,3.33
+50609,Bone Sentinel's Amulet,Amulette de la sentinelle d'ossements,Lord Marrowgar,Seigneur Gargamoelle,25,True,Neck,277,0.2
+50668,Greatcloak of the Turned Champion,Grande cape du champion retourné,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Back,277,0.2
+50717,Sanguine Silk Robes,Robe en soie sanguine,Blood Prince Council,Conseil des Princes de Sang,25,True,Chest,277,0.2
+50630,Bracers of Eternal Dreaming,Brassards des rêves éternels,Valithria Dreamwalker,Valithria Marcherêve,25,True,Wrist,277,0.2
+50635,Sundial of Eternal Dusk,Cadran solaire de pénombre éternelle,Sindragosa,Sindragosa,25,True,Weapon 1H,277,0.2
+50705,Professor's Bloodied Smock,Blouse ensanglantée de professeur,Professor Putricide,Professeur Putricide,25,True,Waist,277,0.2
+50636,Memory of Malygos,Mémoire de Malygos,Sindragosa,Sindragosa,25,True,Finger,277,0.2
+50366,Althor's Abacus,Boulier d'Althor,Gunship Armory,Armurerie de la Cannonière,25,True,Trinket,277,0.2
+52030,Conqueror's Mark of Sanctification,Marque de sanctification de conquérant,ICC,ICC,25,True,Tier,277,3.33
+50700,Holiday's Grace,Grâce du jour saint,Festergut,Pulentraille,25,True,Neck,277,0.2
+50628,Frostbinder's Shredded Cape,Cape de lieur-de-givre déchiquetée,Valithria Dreamwalker,Valithria Marcherêve,25,True,Back,277,0.2
+50686,Death Surgeon's Sleeves,Manches de nécrochirurgien,Rotface,Trognepus,25,True,Wrist,277,0.2
+50734,Royal Scepter of Terenas II,Sceptre royal de Terenas II,The Lich King,Le Roi-Liche,25,True,Weapon 1H,284,0.2
+50702,Lingering Illness,Maladie persistante,Festergut,Pulentraille,25,True,Waist,277,0.2
+51882,Kilt of Untreated Wounds,Kilt des blessures non soignées,Festergut,Pulentraille,10,True,Legs,264,0.2
+50699,Plague Scientist's Boots,Bottes de scientifique de la peste,Festergut,Pulentraille,25,True,Feet,277,0.2
+50631,Nightmare Ender,Fin du cauchemar,Valithria Dreamwalker,Valithria Marcherêve,25,True,Ranged,277,0.2
+50664,Ring of Rapid Ascent,Anneau d'ascension rapide,Gunship Armory,Armurerie de la Cannonière,25,True,Finger,277,0.2
+50724,Blood Queen's Crimson Choker,Sautoir cramoisi de la reine de sang,Blood-Queen Lana'thel,Reine de sang Lana'thel,25,True,Neck,277,0.2
+50680,Rot-Resistant Breastplate,Cuirasse résistante à la pourriture,Rotface,Trognepus,25,True,Chest,277,0.2
+50721,Crypt Keeper's Bracers,Brassards de gardien des cryptes,Blood Prince Council,Conseil des Princes de Sang,25,True,Wrist,277,0.2
+50616,Bulwark of Smouldering Steel,Rempart d'acier fumant,Lord Marrowgar,Seigneur Gargamoelle,25,True,Weapon 1H,277,0.2
+50650,Fallen Lord's Handguards,Garde-mains de seigneur déchu,Lady Deathwhisper,Dame Murmemort,25,True,Hands,277,0.2
+50613,Crushing Coldwraith Belt,Ceinture d'âmefroide broyeuse,Lord Marrowgar,Seigneur Gargamoelle,25,True,Waist,277,0.2
+51928,Corrupted Silverplate Leggings,Jambières corrompues en plates d'argent,Lord Marrowgar,Seigneur Gargamoelle,10,True,Legs,264,0.2
+50712,Landsoul's Horned Greathelm,Grand heaume cornu d'Âmeterre,Blood Prince Council,Conseil des Princes de Sang,25,True,Head,277,0.2
+51842,Collar of Haughty Disdain,Collerette du dédain hautain,Blood-Queen Lana'thel,Reine de sang Lana'thel,10,True,Neck,264,0.2
+50674,Raging Behemoth's Shoulderplates,Plaques d'épaule de béhémoth déchaîné,Rotface,Trognepus,25,True,Shoulder,277,0.2
+50677,Winding Sheet,Linceul,Rotface,Trognepus,25,True,Back,277,0.2
+50606,Gendarme's Cuirass,Cuirasse de gendarme,Lord Marrowgar,Seigneur Gargamoelle,25,True,Chest,277,0.2
+51832,Taiga Bindings,Manchettes de la taïga,Valithria Dreamwalker,Valithria Marcherêve,10,True,Wrist,264,0.2
+50737,"Havoc's Call, Blade of Lordaeron Kings","Appel-au-carnage, lame des rois de Lordaeron",The Lich King,Le Roi-Liche,25,True,Weapon 1H,284,0.2
+50690,Fleshrending Gauntlets,Gantelets tranche-chair,Festergut,Pulentraille,25,True,Hands,277,0.2
+50620,Coldwraith Links,Chaînons d'âmefroide,Valithria Dreamwalker,Valithria Marcherêve,25,True,Waist,277,0.2
+50624,Scourge Reaver's Legplates,Cuissards de saccageur du Fléau,Valithria Dreamwalker,Valithria Marcherêve,25,True,Legs,277,0.2
+50639,Blood-Soaked Saronite Stompers,Croquenots imprégnés de sang en saronite,Lady Deathwhisper,Dame Murmemort,25,True,Feet,277,0.2
+50657,Skeleton Lord's Circle,Cercle de seigneur squelette,Gunship Armory,Armurerie de la Cannonière,25,True,Finger,277,0.2
+50363,Deathbringer's Will,Volonté de porte-mort,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Trinket,277,0.2
