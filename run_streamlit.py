@@ -152,7 +152,7 @@ df_priorities['ICC'] = df_priorities.boss.apply(lambda x: any([val in x for val 
 df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
 df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
 df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
-df_priorities.loc[~df_priorities.lootable & ~df_priorities.legendary, 'received'] = -1.
+df_priorities.loc[~df_priorities.lootable, 'received'] = -1.
 df_priorities = df_priorities.sort_values(['boss', 'raid_size', 'hm', 'ilvl', 'item_name']) \
                                                                     .reset_index(drop=True)
 
