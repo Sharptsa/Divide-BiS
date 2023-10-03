@@ -225,21 +225,5 @@ def parse_bis_list(locale="en"):
     df_priorities.loc[
         ~df_priorities.lootable & ~df_priorities.legendary, "received"
     ] = -1.0
-    df_priorities = df_priorities.sort_values(
-        [
-            "ICC",
-            "TOC",
-            "lootable",
-            "legendary",
-            "boss",
-            "raid_size",
-            "hm",
-            "item_name",
-            "ilvl",
-            "player",
-            "received",
-        ],
-        ascending=[False, False, False, False, True, False, False, True, False, True, False],
-    ).reset_index(drop=True)
 
     return df_priorities.T.to_dict().values()
