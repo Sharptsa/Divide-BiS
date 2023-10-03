@@ -149,7 +149,7 @@ df_priorities['TOC'] = df_priorities.boss.apply(lambda x: any([val in x for val 
 df_priorities['ICC'] = df_priorities.apply(lambda row: any([val in row.boss for val in
                                                   ['Marrowgar', 'Deathwhisper', 'Gunship',
                                                   'Saurfang', 'Festergut', 'Rotface',
-                                                  'Putricide', 'Prince Council', "Lana'Thel",
+                                                  'Putricide', 'Prince Council', "Lana'thel",
                                                   'Valithria', 'Sindragosa', 'Lich King', 'ICC']])
                                                 or row.item_id == 49623,
                                                 axis=1)
