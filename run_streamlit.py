@@ -151,7 +151,7 @@ df_priorities['TOC'] = df_priorities.boss.apply(lambda x: any([val in x for val 
                                                  'Anub',
                                                  'Tribute', 'offrande']]))
 df_priorities['ICC'] = df_priorities.apply(lambda row: any([val in row.boss for val in
-                                                  ['Marrowgar', 'Gargamoelle'
+                                                  ['Marrowgar', 'Gargamoelle',
                                                    'Deathwhisper', 'Murmemort',
                                                    'Gunship', 'Cannonière',
                                                    'Saurfang', 'Saurcroc',

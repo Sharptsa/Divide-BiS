@@ -96,7 +96,7 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 45534,Seal of the Betrayed King,Sceau du roi trahi,Yogg-Saron,Yogg-Saron,25,True,Finger,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_76.jpg
 45535,Show of Faith,Démonstration de foi,Yogg-Saron,Yogg-Saron,25,True,Trinket,252,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_holy_improvedresistanceauras.jpg
 45533,Dark Edge of Depravity,Sombre tranchante de la dépravation,Yogg-Saron,Yogg-Saron,25,True,Weapon 2H,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_halberd_30.jpg
-46052,Reply-Code Alpha,Code-réponse Alpha,Algalon the Observer,Algalon l'Observateur,10,True,Other,239,1,https://wow.zamimg.com/images/wow/icons/large/spell_arcane_arcanetorrent.jpg
+46052,Reply-Code Alpha,Code-réponse Alpha,Algalon the Observer,Algalon l'Observateur,10,True,Other,239,1.0,https://wow.zamimg.com/images/wow/icons/large/spell_arcane_arcanetorrent.jpg
 46040,Strength of the Heavens,Force des cieux,Algalon the Observer,Algalon l'Observateur,10,True,Neck,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_47.jpg
 46037,Shoulderplates of the Celestial Watch,Plaques d'épaule du guet céleste,Algalon the Observer,Algalon l'Observateur,10,True,Shoulder,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_49.jpg
 46039,Breastplate of the Timeless,Cuirasse de l'intemporel,Algalon the Observer,Algalon l'Observateur,10,True,Chest,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate20.jpg
@@ -106,7 +106,7 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 46046,Nebula Band,Bague de la nébuleuse,Algalon the Observer,Algalon l'Observateur,10,True,Finger,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_70.jpg
 46038,Dark Matter,Matière noire,Algalon the Observer,Algalon l'Observateur,10,True,Trinket,239,0.2,https://wow.zamimg.com/images/wow/icons/large/spell_shadow_seedofdestruction.jpg
 46051,Meteorite Crystal,Cristal de météorite,Algalon the Observer,Algalon l'Observateur,10,True,Trinket,239,0.2,https://wow.zamimg.com/images/wow/icons/large/achievement_dungeon_ulduarraid_misc_04.jpg
-46053,Reply-Code Alpha,Code-réponse Alpha,Algalon the Observer,Algalon l'Observateur,25,True,Other,252,1,https://wow.zamimg.com/images/wow/icons/large/spell_arcane_arcanetorrent.jpg
+46053,Reply-Code Alpha,Code-réponse Alpha,Algalon the Observer,Algalon l'Observateur,25,True,Other,252,1.0,https://wow.zamimg.com/images/wow/icons/large/spell_arcane_arcanetorrent.jpg
 45610,Boundless Gaze,Regard infini,Algalon the Observer,Algalon l'Observateur,25,True,Head,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_92.jpg
 45611,Solar Bindings,Manchettes solaires,Algalon the Observer,Algalon l'Observateur,25,True,Wrist,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_26.jpg
 45665,Pharos Gloves,Gants de Pharos,Algalon the Observer,Algalon l'Observateur,25,True,Hands,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_61.jpg
@@ -130,12 +130,12 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 45454,Frost-bound Chain Bracers,Brassards cerclés de givre en anneaux,Hodir,Hodir,25,False,Wrist,232,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_25.jpg
 45498,"Lotrafen, Spear of the Damned","Lotrafen, la lance des damnés",General Vezax,Général Vezax,25,False,Weapon 2H,238,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_halberd_30.jpg
 46035,"Aesuga, Hand of the Ardent Champion","Aesuga, Main du champion ardent",General Vezax,Général Vezax,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_92.jpg
-46036,Void Sabre,Sabre du Vide,General Vezax,Général Vezax,10,True,1H Weapon,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_133.jpg
+46036,Void Sabre,Sabre du Vide,General Vezax,Général Vezax,10,True,Weapon 1H,245,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_133.jpg
 45928,Gauntlets of the Thunder God,Gantelets du dieu du tonnerre,Thorim,Thorim,10,True,Hands,239,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_62.jpg
 45474,Pauldrons of the Combatant,Espauliers du combattant,Thorim,Thorim,25,True,Shoulder,252,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_01.jpg
-47559,Regalia of the Grand Vanquisher,Tenue de parade du grand vainqueur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-47558,Regalia of the Grand Protector,Tenue de parade du grand protecteur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
-47557,Regalia of the Grand Conqueror,Tenue de parade du grand conquérant,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
+47559,Regalia of the Grand Vanquisher,Tenue de parade du grand vainqueur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
+47558,Regalia of the Grand Protector,Tenue de parade du grand protecteur,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
+47557,Regalia of the Grand Conqueror,Tenue de parade du grand conquérant,Tribute Chest 1A,Coffre d'offrande 1T,25,True,Other,258,4.0,https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_03.jpg
 47060,Charge of the Demon Lord,Devoir du seigneur démoniaque,Lord Jaraxxus,Seigneur Jaraxxus,25,True,Neck,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_34.jpg
 47545,Vereesa's Dexterity,Dextérité de Vereesa,Tribute Chest 50A,Coffre d'offrande 50T,25,True,Back,272,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg
 47155,Bracers of Dark Determination,Brassards de la sombre détermination,Anub'arak,Anub'arak,25,True,Wrist,258,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_23b.jpg
@@ -227,7 +227,7 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 50630,Bracers of Eternal Dreaming,Brassards des rêves éternels,Valithria Dreamwalker,Valithria Marcherêve,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_40.jpg
 50635,Sundial of Eternal Dusk,Cadran solaire de pénombre éternelle,Sindragosa,Sindragosa,25,True,Weapon 1H,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_offhand_zulaman_d_02.jpg
 50705,Professor's Bloodied Smock,Blouse ensanglantée de professeur,Professor Putricide,Professeur Putricide,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_59.jpg
-50636,Memory of Malygos,Mémoire de Malygos,Sindragosa,Sindragosa,25,True,Ring,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_40.jpg
+50636,Memory of Malygos,Mémoire de Malygos,Sindragosa,Sindragosa,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_40.jpg
 50366,Althor's Abacus,Boulier d'Althor,Gunship Armory,Armurerie de la Cannonière,25,True,Trinket,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_trinket_02.jpg
 52030,Conqueror's Mark of Sanctification,Marque de sanctification de conquérant,ICC,ICC,25,True,Tier,277,3.33,https://wow.zamimg.com/images/wow/icons/large/ability_paladin_judgementsofthejust.jpg
 50700,Holiday's Grace,Grâce du jour saint,Festergut,Pulentraille,25,True,Neck,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_49.jpg
@@ -235,17 +235,17 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 50686,Death Surgeon's Sleeves,Manches de nécrochirurgien,Rotface,Trognepus,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_47.jpg
 50734,Royal Scepter of Terenas II,Sceptre royal de Terenas II,The Lich King,Le Roi-Liche,25,True,Weapon 1H,284,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_115.jpg
 50702,Lingering Illness,Maladie persistante,Festergut,Pulentraille,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_68.jpg
-51882,Kilt of Untreated Wounds,Kilt des blessures non soignées,Festergut,Pulentraille,10,True,Pants,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_kilt_cloth_02.jpg
+51882,Kilt of Untreated Wounds,Kilt des blessures non soignées,Festergut,Pulentraille,10,True,Legs,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_kilt_cloth_02.jpg
 50699,Plague Scientist's Boots,Bottes de scientifique de la peste,Festergut,Pulentraille,25,True,Feet,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_24.jpg
 50631,Nightmare Ender,Fin du cauchemar,Valithria Dreamwalker,Valithria Marcherêve,25,True,Ranged,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_wand_34.jpg
-50664,Ring of Rapid Ascent,Anneau d'ascension rapide,Gunship Armory,Armurerie de la Cannonière,25,True,Ring,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_86.jpg
+50664,Ring of Rapid Ascent,Anneau d'ascension rapide,Gunship Armory,Armurerie de la Cannonière,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_86.jpg
 50724,Blood Queen's Crimson Choker,Sautoir cramoisi de la reine de sang,Blood-Queen Lana'thel,Reine de sang Lana'thel,25,True,Neck,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelcrafting_crimsonspinel_02.jpg
 50680,Rot-Resistant Breastplate,Cuirasse résistante à la pourriture,Rotface,Trognepus,25,True,Chest,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate22.jpg
 50721,Crypt Keeper's Bracers,Brassards de gardien des cryptes,Blood Prince Council,Conseil des Princes de Sang,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_46.jpg
 50616,Bulwark of Smouldering Steel,Rempart d'acier fumant,Lord Marrowgar,Seigneur Gargamoelle,25,True,Weapon 1H,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shield_72.jpg
 50650,Fallen Lord's Handguards,Garde-mains de seigneur déchu,Lady Deathwhisper,Dame Murmemort,25,True,Hands,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_85.jpg
 50613,Crushing Coldwraith Belt,Ceinture d'âmefroide broyeuse,Lord Marrowgar,Seigneur Gargamoelle,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_64.jpg
-51928,Corrupted Silverplate Leggings,Jambières corrompues en plates d'argent,Lord Marrowgar,Seigneur Gargamoelle,10,True,Pants,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_33.jpg
+51928,Corrupted Silverplate Leggings,Jambières corrompues en plates d'argent,Lord Marrowgar,Seigneur Gargamoelle,10,True,Legs,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_33.jpg
 50712,Landsoul's Horned Greathelm,Grand heaume cornu d'Âmeterre,Blood Prince Council,Conseil des Princes de Sang,25,True,Head,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_helmet_151.jpg
 51842,Collar of Haughty Disdain,Collerette du dédain hautain,Blood-Queen Lana'thel,Reine de sang Lana'thel,10,True,Neck,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_48.jpg
 50674,Raging Behemoth's Shoulderplates,Plaques d'épaule de béhémoth déchaîné,Rotface,Trognepus,25,True,Shoulder,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_130.jpg
@@ -255,7 +255,7 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 50737,"Havoc's Call, Blade of Lordaeron Kings","Appel-au-carnage, lame des rois de Lordaeron",The Lich King,Le Roi-Liche,25,True,Weapon 1H,284,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_axe_113.jpg
 50690,Fleshrending Gauntlets,Gantelets tranche-chair,Festergut,Pulentraille,25,True,Hands,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_87.jpg
 50620,Coldwraith Links,Chaînons d'âmefroide,Valithria Dreamwalker,Valithria Marcherêve,25,True,Waist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_belt_63.jpg
-50624,Scourge Reaver's Legplates,Cuissards de saccageur du Fléau,Valithria Dreamwalker,Valithria Marcherêve,25,True,Pants,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_31.jpg
+50624,Scourge Reaver's Legplates,Cuissards de saccageur du Fléau,Valithria Dreamwalker,Valithria Marcherêve,25,True,Legs,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_31.jpg
 50639,Blood-Soaked Saronite Stompers,Croquenots imprégnés de sang en saronite,Lady Deathwhisper,Dame Murmemort,25,True,Feet,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_13.jpg
-50657,Skeleton Lord's Circle,Cercle de seigneur squelette,Gunship Armory,Armurerie de la Cannonière,25,True,Ring,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_83.jpg
+50657,Skeleton Lord's Circle,Cercle de seigneur squelette,Gunship Armory,Armurerie de la Cannonière,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_83.jpg
 50363,Deathbringer's Will,Volonté de porte-mort,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Trinket,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_trinket_04.jpg
