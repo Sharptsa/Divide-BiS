@@ -151,7 +151,8 @@ df_priorities['ICC'] = df_priorities.apply(lambda row: any([val in row.boss for 
                                                   'Saurfang', 'Festergut', 'Rotface',
                                                   'Putricide', 'Prince Council', "Lana'Thel",
                                                   'Valithria', 'Sindragosa', 'Lich King', 'ICC']])
-                                                or row.item_id == 49623)
+                                                or row.item_id == 49623,
+                                                axis=1)
 df_priorities.loc[df_priorities.received == 'X', 'received'] = 1.
 df_priorities.loc[df_priorities.received == 'SOLO', 'received'] = 0.5
 df_priorities.loc[df_priorities.received.isna(), 'received'] = 0.
