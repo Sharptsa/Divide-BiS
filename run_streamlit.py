@@ -41,7 +41,6 @@ df_priorities.raid_size = df_priorities.raid_size.fillna(-1).apply(int)
 df_priorities.boss.fillna('', inplace=True)
 df_priorities.loc[df_priorities.source == 'Craft', 'boss'] = 'ZZZ'
 df_priorities.slot.fillna('', inplace=True)
-col.text_input('A')
 non_lootable_ilvls = {284: [49623],
                       277: [50400, 52572, 50402],
                       264: [49894, 50454],
@@ -53,14 +52,11 @@ non_lootable_ilvls = {284: [49623],
                       213: [40207, 40321, 40342, 40432, 40255, 40267, 39728],
                       200: [40713, 40705, 40709, 42987, 44253, 40708, 44255],
                       187: [37111]}
-col.text_input('B')
 non_lootable_ilvls = {v: k for k in non_lootable_ilvls for v in non_lootable_ilvls[k]}
-col.text_input('C')
 df_priorities.ilvl = df_priorities.apply(lambda row: int(row.ilvl)
                                          if pd.notna(row.ilvl)
                                          else non_lootable_ilvls[row.item_id],
                                          axis=1)
-col.text_input('D')
 non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_misc_orb_03.jpg',
                       40207: 'https://wow.zamimg.com/images/wow/icons/large/inv_shield_56.jpg',
                       40255: 'https://wow.zamimg.com/images/wow/icons/large/inv_trinket_naxxramas03.jpg',
@@ -101,7 +97,6 @@ non_lootable_icons = {37111: 'https://wow.zamimg.com/images/wow/icons/large/inv_
                       52572: 'https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_81.jpg',
                       50402: 'https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_81.jpg',
                       49623: 'https://wow.zamimg.com/images/wow/icons/large/inv_axe_113.jpg'}
-col.text_input('E')
 df_priorities.icon = df_priorities.apply(lambda row: row.icon
                                          if pd.notna(row.icon)
                                          else non_lootable_icons[row.item_id],
