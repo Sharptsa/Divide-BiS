@@ -54,6 +54,8 @@ for iid in df_bis.item_id.unique():
             50400,
             50454,
             52572,
+            50402,
+            49623,
         ]:
             iids.append(iid)
 if iids:
@@ -210,8 +212,8 @@ def optimize_prios(
             44255,
         ],
         "PvP": [42853, 42608],
-        "Reputation": [50400, 52572],
-        "Legendary": [46017],
+        "Reputation": [50400, 52572, 50402],
+        "Legendary": [46017, 49623],
     }
     non_lootable_sources = {
         v: k for k in non_lootable_sources for v in non_lootable_sources[k]

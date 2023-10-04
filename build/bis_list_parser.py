@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import os
 
-LEGENDARIES = [46017]
+LEGENDARIES = [46017, 49623]
 
 
 def parse_bis_list(locale="en"):
@@ -49,7 +49,8 @@ def parse_bis_list(locale="en"):
     df_priorities.loc[df_priorities.source == "Craft", "boss"] = "ZZZ"
     df_priorities.slot.fillna("", inplace=True)
     non_lootable_ilvls = {
-        277: [50400, 52572],
+        284: [49623],
+        277: [50400, 52572, 50402],
         264: [49894, 50454],
         258: [46017],
         245: [47673, 47570, 47664, 47666, 47668, 47661, 47665, 47587, 47733, 47670],
@@ -68,7 +69,7 @@ def parse_bis_list(locale="en"):
         else non_lootable_ilvls[row.item_id],
         axis=1,
     )
-    
+
     if locale == "fr":
         non_lootable_names_fr = {
             37111: "Protecteur d'âme",
@@ -109,6 +110,8 @@ def parse_bis_list(locale="en"):
             50400: "Bague de sagesse sans fin du Verdict des cendres",
             50454: "Idole du saule noir",
             52572: "Bague de puissance sans fin du Verdict des cendres",
+            50402: "Bague de vengeance sans fin du Verdict des cendres",
+            49623: "Deuillelombre",
         }
         df_priorities.item_name = df_priorities.apply(
             lambda row: row.item_name
