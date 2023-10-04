@@ -1,2 +1,6 @@
 openpyxl
 unidecode
+Jinja2
+pandas
+numpy
+matplotlib
