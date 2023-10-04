@@ -259,3 +259,13 @@ item_id,item_name,item_name_fr,boss,boss_fr,raid_size,hm,slot,ilvl,drops_per_id,
 50639,Blood-Soaked Saronite Stompers,Croquenots imprégnés de sang en saronite,Lady Deathwhisper,Dame Murmemort,25,True,Feet,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_13.jpg
 50657,Skeleton Lord's Circle,Cercle de seigneur squelette,Gunship Armory,Armurerie de la Cannonière,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_83.jpg
 50363,Deathbringer's Will,Volonté de porte-mort,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Trinket,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_trinket_04.jpg
+52029,Protector's Mark of Sanctification,Marque de sanctification de protecteur,ICC,ICC,25,True,Tier,277,3.33,https://wow.zamimg.com/images/wow/icons/large/ability_paladin_judgementsofthejust.jpg
+50633,Sindragosa's Cruel Claw,Griffe cruelle de Sindragosa,Sindragosa,Sindragosa,25,True,Neck,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_monsterhorn_03.jpg
+50670,Toskk's Maximized Wristguards,Garde-poignets maximisés de Toskk,Deathbringer Saurfang,Porte-mort Saurcroc,25,True,Wrist,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_bracer_41.jpg
+50730,"Glorenzelg, High-Blade of the Silver Hand","Glorenzelg, haute-lame de la Main d'argent",The Lich King,Le Roi-Liche,25,True,Weapon 2H,284,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_sword_153.jpg
+51946,Warmace of Menethil,Masse de guerre de Menethil,The Lich King,Le Roi-Liche,10,True,Weapon 2H,271,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_mace_116.jpg
+50675,Aldriana's Gloves of Secrecy,Gants du secret d'Aldriana,Rotface,Trognepus,25,True,Hands,277,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_79.jpg
+50618,Frostbrood Sapphire Ring,Anneau en saphir couvegivre,Valithria Dreamwalker,Valithria Marcherêve,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/item_icecrownringa.jpg
+50343,Whispering Fanged Skull,Crâne à crocs murmurant,Lady Deathwhisper,Dame Murmemort,10,True,Trinket,264,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_misc_bone_skull_02.jpg
+50733,"Fal'inrush, Defender of Quel'thalas","Fal'inrush, défenseur de Quel'thalas",The Lich King,Le Roi-Liche,25,True,Ranged,284,0.2,https://wow.zamimg.com/images/wow/icons/large/inv_weapon_crossbow_38.jpg
+50610,Marrowgar's Frigid Eye,Oeil glacial de Gargamoelle,Lord Marrowgar,Seigneur Gargamoelle,25,True,Finger,277,0.2,https://wow.zamimg.com/images/wow/icons/large/item_icecrownringb.jpg

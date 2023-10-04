@@ -10,7 +10,7 @@
 50705 Professor's Bloodied Smock
 52028 Vanquisher's Mark of Sanctification
 50699 Plague Scientist's Boots
-50400 Ashen Band of Endless Wisdom
+50610 Marrowgar's Frigid Eye
 50636 Memory of Malygos
 47059 Solace of the Defeated
 50366 Althor's Abacus
